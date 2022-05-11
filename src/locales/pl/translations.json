@@ -1,0 +1,99 @@
+{
+    "menu": {
+      "home": "Strona głowna",
+      "about": "O mnie",
+      "offer": "Oferta",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "header": {
+      "bigTitle": "Nowoczesne strony i sklepy internetowe",
+      "text": "Nowa jakość w tworzeniu internetowej treści. Zróbmy coś razem!",
+      "portfolio": "Portfolio",
+      "contactMe": "Skontaktuj się ze mną"
+    },
+    "aboutHome": {
+      "bigTitle": "O mnie",
+      "smallTitle": "POSTAW NA DOŚWIADCZENIE",
+      "text": "Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie jedną z największych firm w polskiej branży IT - Sii. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u jednego z liderów branży gamblingowej w Polsce - firmie Promatic...",
+      "more": "Więcej",
+      "imageTitle1": "Wycena",
+      "imageTitle2": "Projekt graficzny",
+      "imageTitle3": "Programowanie",
+      "imageTitle4": "Testowanie"
+    },
+    "offer": {
+      "bigTitle": "Czym się zajumuję?",
+      "smallTitle": "NOWOCZESNOŚĆ I UŻYTKOWOŚĆ",
+      "text": "Moje usługi charakteryzuje nowoczesne podejście do tematu oraz dokładność. Oferuję pomoc w projektowaniu, tworzeniu, testowaniu czy administacji. Pomogę przerodzić twoje pomysły w gotowy produkt.",
+      "experience": "Lat na rynku",
+      "projects": "Projekty",
+      "clients": "Klienci",
+      "websitesTitle": "Strony WWW",
+      "websitesText": "Moją specjalnością są strony internetowe oraz aplikacje webowe. Wszystko dostosowane do urządzeń mobilnych. Przy tworzeniu stron zwracam szczególną uwagę na SEO, czyli pozycjonowanie strony w wyszukiwarkach.",  
+      "storesTitle": "Sklepy internetowe",
+      "storesText": "Tworzę sklepy internetowe oparte o najpopularniejsze na świecie narzędzie Woocomerce (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania sklepem. E-commerce to świetny pomysł na biznes.",
+      "graphicTitle": "Grafika",
+      "graphicText": "Oprócz stron internetowych i sklepów (E-commerce) zajmuję się także grafiką. Tworzę katalogi, wizytówki, loga, banery, reklamy i wiele innych. Wszystko dostosowane do najnowszych trendów.",
+      "administrationTitle": "Administrowanie stron",
+      "administrationText": "Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.",
+      "seoTitle": "Pozycjonowanie SEO",
+      "seoText": "Dbam o widoczność w wyszukiwarce Google. Skutecznie pozycjonuję strony internetowe i sklepy, co skutkuje zwiększeniem zasięgów oraz sprzedaży. Pozycjonowanie to najbardziej efektywny rodzaj marketingu w internecie. "
+    },
+    "site": {
+      "Gatsby Default Starter": "Gatsby Default Starter",
+      "footer": "Zbudowano w Gatsby"
+    },
+    "home": {
+      "test": "hello",
+      "title": "Hi people",
+      "content": "Welcome to your new Gatsby site.\nNow go build something great.",
+      "link": "Go to page 2"
+    },
+    "page2": {
+      "title": "Hi from the second page",
+      "content": "Welcome to page 2",
+      "link": "Go back to the homepage"
+    },
+    "portfolio": {
+      "smallTitle": "OSTATNIE PROJKEKTY",
+      "bigTitle": "Portfolio",
+      "all": "WSZYSTKO",
+      "websites": "STRONY INTERNETOWE",
+      "onlineStores": "SKLEPY INTERNETOWE"
+    },
+    "clients": {
+      "smallTitle": "WSPÓŁPRACA",
+      "bigTitle": "Zadowoleni klienci",
+      "text": "Współpracowałem z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona zadowolonych klientów!"
+    },
+    "contact": {
+      "smallTitle": "KONTAKT",
+      "bigTitle": "Nawiążmy współpracę",
+      "text": "Chciałbyś skorzystać z moich usług? Masz jakieś pytania? Nie czekaj, napisz maila lub zadzwoń! Konsultacje oraz wyceny są zawsze za darmo.",
+      "formTitle": "Skontaktuj się z ",
+      "formName": "Imię",
+      "formTelephone": "Telefon",
+      "formMessage": "Wiadomość...",
+      "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz",
+      "formPrivacy": "politykę prywatności.",
+      "formButton": "Wyślij"
+    },
+    "cookies": {
+      "text1": "Ta strona używa plików Cookies. Jeśli będziesz kontynuować przeglądanie tej witryny, założymy, że akceptujesz ",
+      "text2": "politykę prywatności i cookies.",
+      "button": "Tak, akceptuję"
+    },
+    "aboutMe": {
+      "text1": "Bliska relacja, otwarty dialog i przejrzysty cennik to moje credo. Wzajemne zrozumienie i wspólne określenie celów to gwarancja sukcesu. Stale poszukuję najlepszych rozwiązań i nie boję się nieszablonowych pomysłów. Nie satysfakcjonuje mnie przeciętność, tego samego chcę dla moich Klientów.",
+      "button1": "Oferta",
+      "button2": "Skontaktuj się ze mną",
+      "smallTitle2": "MOJA HISTORIA",
+      "bigTitle2": "O mnie",
+      "text2": "Nazywam się Amadeusz Grzesiak, jestem front-end developerem specjalizującym się z aplikacjach webowych opartych o React JS. Od kwietnia 2020 roku prowadzę firmę o nazwie Amadeo Media, skupiającą się na wytwarzaniu oprogramowania. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u jednego z liderów branży gamblingowej w Polsce — firmie Promatic. Pracowałem wtedy przy platformie do prezentacji gier, stronach reklamujących produkt oraz grach online, których twarzami były osoby takie jak Mariusz Pudzianowski, czy Zenek Martyniuk. Następne lata spędziłem w consultingowej firme Databout tworząc narzędzie do analiz terenu Databout Tools oraz zaawansowaną aplikację do konsultacji społecznych (PPGIS). Obecnie jestem związany z jedną z największych w Polsce firm z branży IT — Sii Polska.",
+      "text3": "Obecnie moja działalność jako Amadeo Media skupia się na dwóch filarach. Pierwszym z nich jest budowa aplikacji webowych (takich, które można odpalić za pomocą przeglądarki internetowej zarówno na komputerach, jak i urządzeniach mobilnych) przy współpracy z dużymi firmami. Drugim filarem mojej firmy jest budowa stron oraz sklepów internetowych. Są to zarówno proste strony internetowe, jak i bardziej zaawansowane serwisy. Sklepy internetowe posiadają prosty panel administracyjny i większość procesów jest w nich zautomatyzowana. Ich utrzymanie wiąże się z niskimi kosztami.",
+      "smallTitle3": "Najnowsze technologie",
+      "bigTitle3": "Umiejętności",
+      "text4": "Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam wachlarz umiejętności poprzez nowe wyzwania oraz kursy."
+    }
+  }

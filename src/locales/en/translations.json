@@ -1,0 +1,99 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About me",
+    "offer": "Offer",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "header": {
+    "bigTitle": "Modern websites and online stores",
+    "text": "A new quality in creating internet content. Let's do something together!",
+    "portfolio": "Portfolio",
+    "contactMe": "Contact me"
+  },
+  "aboutHome": {
+    "bigTitle": "About me",
+    "smallTitle": "BET ON EXPERIENCE",
+    "text": "My name is Amadeusz Grzesiak, I am a front-end developer currently associated with one of the largest companies in the Polish IT industry - Sii. After graduating from the Wrocław University of Science and Technology in 2017, I gained my first experience with one of the leaders in the gambling industry in Poland - Promatic...",
+    "more": "Read more",
+    "imageTitle1": "Research",
+    "imageTitle2": "Graphic design",
+    "imageTitle3": "Programming",
+    "imageTitle4": "Testing"
+  },
+  "offer": {
+    "bigTitle": "What am I doing?",
+    "smallTitle": "MODERNITY AND UTILITY",
+    "text": "My services are characterized by a modern approach to the subject and accuracy. I offer help in designing, testing and administration. I will help you turn your ideas into a finished product.",
+    "experience": "Experience",
+    "projects": "Projects",
+    "clients": "Clients",
+    "websitesTitle": "Websites",
+    "websitesText": "My specialty is websites and web applications. Everything is adapted to mobile devices. When creating websites, I pay special attention to SEO - website positioning in search engines.",  
+    "storesTitle": "Online stores",
+    "storesText": "I create online stores based on the world's most popular Woocomerce (Wordpress) tool. We provide the customer with a very intuitive store management system. E-commerce is a great business idea.",
+    "graphicTitle": "Graphic design",
+    "graphicText": "Apart from websites and shops (E-commerce), I also deal with graphics. I create catalogs, business cards, logos, banners, advertisements and much more. Everything adapted to the latest trends.",
+    "administrationTitle": "Website administration",
+    "administrationText": "My clients can always count on me, I help in managing websites and online stores, I implement sent content or make modifications. In addition, I keep everything up-to-date, run smoothly and create backups.",
+    "seoTitle": "SEO positioning",
+    "seoText": "I care about visibility in the Google search engine. I effectively position websites and stores, which results in increased reach and sales. Positioning is the most effective type of marketing on the Internet."
+  },
+  "site": {
+    "Gatsby Default Starter": "Gatsby Default Starter",
+    "footer": "Built with Gatsby"
+  },
+  "home": {
+    "test": "hello",
+    "title": "Hi people",
+    "content": "Welcome to your new Gatsby site.\nNow go build something great.",
+    "link": "Go to page 2"
+  },
+  "page2": {
+    "title": "Hi from the second page",
+    "content": "Welcome to page 2",
+    "link": "Go back to the homepage"
+  },
+  "portfolio": {
+    "smallTitle": "LATEST PROJECTS",
+    "bigTitle": "Portfolio",
+    "all": "ALL",
+    "websites": "WEBSITES",
+    "onlineStores": "ONLINE STORES"
+  },
+  "clients": {
+    "smallTitle": "COOPERATION",
+    "bigTitle": "Satisfied customers",
+    "text": "I have worked with companies from Poland, Germany, England and Italy. Join the group of satisfied customers!"
+  },
+  "contact": {
+    "smallTitle": "CONTACT",
+    "bigTitle": "Let's cooperate!",
+    "text": "Would you like to use my services? Do you have any questions? Do not wait, write an e-mail or call! Consultations and valuations are always free.",
+    "formTitle": "Contact ",
+    "formName": "Name",
+    "formTelephone": "Telephone",
+    "formMessage": "Message...",
+    "formText": "The administrator of your personal data is Amadeo Media based in Lubań. Your personal data will be processed in order to handle your inquiry as part of the contact form, as well as for statistical and analytical purposes of the administrator. By sending an e-mail you accept",
+    "formPrivacy": "privacy policy.",
+    "formButton": "Send"
+  },
+  "cookies": {
+    "text1": "This website uses cookies. If you continue to browse this site we will assume that you accept ",
+    "text2": "privacy policy and cookies.",
+    "button": "Yes, I accept"
+  },
+  "aboutMe": {
+    "text1": "A close relationship, open dialogue and a transparent price list are my credo. Mutual understanding and joint definition of goals is a guarantee of success. I am constantly looking for the best solutions and I am not afraid of unconventional ideas. I am not satisfied with mediocrity, I want the same for my clients.",
+    "button1": "Offer",
+    "button2": "Contact me",
+    "smallTitle2": "MY STORY",
+    "bigTitle2": "ABOUT ME",
+    "text2": "My name is Amadeusz Grzesiak, I am a front-end developer specializing in web applications based on React JS. Since April 2020, I have been running a company called Amadeo Media, which focuses on software development. After graduating from the Wrocław University of Science and Technology in 2017, I gained my first experience with one of the leaders in the gambling industry in Poland - Promatic. At that time, I was working on a game presentation platform, websites advertising the product and online games with people such as Mariusz Pudzianowski or Zenek Martyniuk. I spent the following years in the consulting company Databout, creating a tool for site analyzes, Databout Tools, and an advanced application for social consultations (PPGIS). Currently, I am associated with one of the largest companies in the IT industry in Poland - Sii Polska.",
+    "text3": "Currently, my activity as Amadeo Media focuses on two pillars. The first is building web applications (those that can be run using a web browser, both on computers and mobile devices) in cooperation with large companies. The second pillar of my company is building websites and online stores. These are both simple websites and more advanced websites. Online stores have a simple administration panel and most of the processes are automated in them. Their maintenance is associated with low costs.",
+    "smallTitle3": "Newest technologies",
+    "bigTitle3": "Skills",
+    "text4": "My projects are based on the latest web technologies. I constantly develop my range of skills through new challenges and courses."
+  }
+}
