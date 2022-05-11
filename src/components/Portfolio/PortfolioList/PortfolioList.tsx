@@ -1,15 +1,15 @@
 import React from 'react';
 import { portfolioItemTypes } from '../PortfolioWrapper';
 import Image from 'next/image';
-import ChiarashopImg from '../../../images/chiarashop-ss.jpg';
+import ChiarashopImg from '../../../images/chiarashop-ss.JPG';
 import MkprestigeImg from '../../../images/mkprestige-ss.jpg';
 import EquilibriumImg from '../../../images/equilibrium-ss.jpg';
 import DataboutImg from '../../../images/databout-ss.jpg';
 import PromaticImg from '../../../images/promatic-online-ss.jpg';
 import DiscoKingImg from '../../../images/disco-king-ss.jpg';
 import Wolnosci14Img from '../../../images/wolnosci14-ss.jpg';
-import InleiImg from '../../../images/inlei-ss.jpg';
-import SecretPleasureImg from '../../../images/secret-pleasure-ss.jpg';
+import InleiImg from '../../../images/inlei-ss.JPG';
+import SecretPleasureImg from '../../../images/secret-pleasure-ss.JPG';
 import { UilLink } from '../../Menu/Menu';
 
 type PortfolioListProps = {
