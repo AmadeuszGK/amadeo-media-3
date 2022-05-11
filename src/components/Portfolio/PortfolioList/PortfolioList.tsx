@@ -1,15 +1,15 @@
 import React from 'react';
 import { portfolioItemTypes } from '../PortfolioWrapper';
 import Image from 'next/image';
-import ChiarashopImg from '../../../images/chiarashop-ss.jpg';
+import ChiaraImg from '../../../images/chiarashop-ss.jpg';
 import MkprestigeImg from '../../../images/mkprestige-ss.jpg';
 import EquilibriumImg from '../../../images/equilibrium-ss.jpg';
 import DataboutImg from '../../../images/databout-ss.jpg';
 import PromaticImg from '../../../images/promatic-online-ss.jpg';
 import DiscoKingImg from '../../../images/disco-king-ss.jpg';
 import Wolnosci14Img from '../../../images/wolnosci14-ss.jpg';
-import InleiImg from '../../../images/inlei-ss.jpg';
-import SecretPleasureImg from '../../../images/secret-pleasure-ss.jpg';
+import InleiItalyImg from '../../../images/inlei-ss.jpg';
+import SecretImg from '../../../images/secret-pleasure-ss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
 type PortfolioListProps = {
@@ -24,11 +24,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://chiarashop.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image
-                  src={ChiarashopImg}
-                  alt="Chiara Shop"
-                  layout="responsive"
-                />
+                <Image src={ChiaraImg} alt="Chiara Shop" layout="responsive" />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -156,7 +152,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://inlei.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={InleiImg} alt="Inlei" layout="responsive" />
+                <Image src={InleiItalyImg} alt="Inlei" layout="responsive" />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -172,7 +168,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
-                  src={SecretPleasureImg}
+                  src={SecretImg}
                   alt="Secret Pleasure"
                   layout="responsive"
                 />
@@ -291,11 +287,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://chiarashop.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image
-                  src={ChiarashopImg}
-                  alt="Chiara Shop"
-                  layout="responsive"
-                />
+                <Image src={ChiaraImg} alt="Chiara Shop" layout="responsive" />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -332,7 +324,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://inlei.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={InleiImg} alt="Inlei" layout="responsive" />
+                <Image src={InleiItalyImg} alt="Inlei" layout="responsive" />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -348,7 +340,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
-                  src={SecretPleasureImg}
+                  src={SecretImg}
                   alt="Secret Pleasure"
                   layout="responsive"
                 />
