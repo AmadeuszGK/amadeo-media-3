@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { withTrans } from '../../i18n/withTrans';
 import Link from 'next/link';
-import CookiesImg from '../../images/Cookies.png';
+import CookiesImg from '../../images/cookies.png';
 
 type CookiesProps = {
   hideCookies: () => void;

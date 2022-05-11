@@ -3,10 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
 import TriangleImg from '../../../images/triangle.png';
-import PricingImg from '../../../images/icon-about1.jpg';
-import GraphicImg from '../../../images/icon-about2.jpg';
-import TestingImg from '../../../images/icon-about3.jpg';
-import ProgrammingImg from '../../../images/icon-about4.jpg';
+import PricingImg from '../../../images/icon-about1.JPG';
+import GraphicImg from '../../../images/icon-about2.JPG';
+import TestingImg from '../../../images/icon-about3.JPG';
+import ProgrammingImg from '../../../images/icon-about4.JPG';
 
 const AboutHome = ({ t }) => (
   <section className="about section" id="o-mnie">
