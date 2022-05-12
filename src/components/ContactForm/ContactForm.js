@@ -4,7 +4,7 @@ import { withTrans } from '../../i18n/withTrans';
 
 const ContactForm = ({ t }) => (
   <form
-    action="/success"
+    action="/wyslano-email"
     className="contact-form"
     name="contact"
     method="POST"

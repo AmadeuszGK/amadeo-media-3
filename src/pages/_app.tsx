@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { AppProps } from 'next/app';
 import '../styles/style.css';
 import '../components/Skills/Skills.scss';
-import '../components/Button/Button.scss';
 import Menu from '../components/Menu/Menu';
 import Footer from '../components/Footer/Footer';
 import Cookies from '../components/Cookies/Cookies';

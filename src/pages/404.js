@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'next/link';
+import { withTrans } from '../i18n/withTrans';
 
-const NotFoundPage = () => (
+const NotFoundPage = ({ t }) => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
@@ -20,15 +21,15 @@ const NotFoundPage = () => (
       <html lang="pl-PL" />
     </Helmet>
     <div className="full-page" bis_skin_checked="1">
-      <h2 className="heading">Błąd 404</h2>
-      <p className="text">Ta strona nie istnieje.</p>
+      <h2 className="heading">{t('404.title')}</h2>
+      <p className="text">{t('404.text')}</p>
       <div className="cta" bis_skin_checked="1">
         <Link href="/">
-          <a className="btn">Powrót</a>
+          <a className="btn">{t('404.back')}</a>
         </Link>
       </div>
     </div>
   </>
 );
 
-export default NotFoundPage;
+export default withTrans(NotFoundPage);

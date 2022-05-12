@@ -23,16 +23,16 @@
       "imageTitle4": "Testowanie"
     },
     "offer": {
-      "bigTitle": "Czym się zajumuję?",
+      "bigTitle": "Czym się zajmuję?",
       "smallTitle": "NOWOCZESNOŚĆ I UŻYTKOWOŚĆ",
-      "text": "Moje usługi charakteryzuje nowoczesne podejście do tematu oraz dokładność. Oferuję pomoc w projektowaniu, tworzeniu, testowaniu czy administacji. Pomogę przerodzić twoje pomysły w gotowy produkt.",
+      "text": "Moje usługi charakteryzuje nowoczesne podejście do tematu oraz dokładność. Oferuję pomoc w projektowaniu, tworzeniu, testowaniu czy administacji. Pomogę przerodzić Twoje pomysły w gotowy produkt.",
       "experience": "Lat na rynku",
       "projects": "Projekty",
       "clients": "Klienci",
       "websitesTitle": "Strony WWW",
       "websitesText": "Moją specjalnością są strony internetowe oraz aplikacje webowe. Wszystko dostosowane do urządzeń mobilnych. Przy tworzeniu stron zwracam szczególną uwagę na SEO, czyli pozycjonowanie strony w wyszukiwarkach.",  
       "storesTitle": "Sklepy internetowe",
-      "storesText": "Tworzę sklepy internetowe oparte o najpopularniejsze na świecie narzędzie Woocomerce (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania sklepem. E-commerce to świetny pomysł na biznes.",
+      "storesText": "Tworzę sklepy internetowe oparte o najpopularniejsze na świecie narzędzie Woocomerce (Wordpress). Do dyspozycji klienta zostawiam bardzo intuicyjny system zarządzania sklepem. E-commerce to świetny pomysł na biznes.",
       "graphicTitle": "Grafika",
       "graphicText": "Oprócz stron internetowych i sklepów (E-commerce) zajmuję się także grafiką. Tworzę katalogi, wizytówki, loga, banery, reklamy i wiele innych. Wszystko dostosowane do najnowszych trendów.",
       "administrationTitle": "Administrowanie stron",
@@ -75,7 +75,7 @@
       "formName": "Imię",
       "formTelephone": "Telefon",
       "formMessage": "Wiadomość...",
-      "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz",
+      "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz ",
       "formPrivacy": "politykę prywatności.",
       "formButton": "Wyślij"
     },
@@ -95,5 +95,15 @@
       "smallTitle3": "Najnowsze technologie",
       "bigTitle3": "Umiejętności",
       "text4": "Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam wachlarz umiejętności poprzez nowe wyzwania oraz kursy."
+    },
+    "email": {
+      "title": "Dziękuję za przesłanie zapytania!",
+      "text": "Skontaktuję się z Tobą najszybciej jak to możliwe. Jeśli zapytanie wymaga bardzo szybkiej odpowiedzi proszę o kontakt telefoniczny na numer: ",
+      "back": "Powrót"
+    },
+    "404": {
+      "title": "Błąd 404",
+      "text": "Ta strona nie istnieje.",
+      "back": "Powrót"
     }
   }

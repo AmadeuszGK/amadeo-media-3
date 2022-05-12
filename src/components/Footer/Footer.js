@@ -26,8 +26,8 @@ const UilLinkedinAlt = dynamic(
 const Footer = () => (
   <footer>
     <div className="container">
-      <Link href="/" className="logo">
-        <a>
+      <Link href="/">
+        <a className="logo">
           Amadeo<span>Media.</span>
         </a>
       </Link>

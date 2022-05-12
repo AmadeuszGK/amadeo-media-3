@@ -41,7 +41,7 @@ const AboutHome = ({ t }) => (
         </div>
       </div>
       <div className="about-info">
-        <h3 className="sub-heading">{t('aboutHome.smallTitle')}</h3>
+        <span className="sub-heading">{t('aboutHome.smallTitle')}</span>
         <h2 className="heading">{t('aboutHome.bigTitle')}</h2>
         <p className="text">{t('aboutHome.text')}</p>
         <div className="cta">

@@ -75,7 +75,7 @@
     "formName": "Name",
     "formTelephone": "Telephone",
     "formMessage": "Message...",
-    "formText": "The administrator of your personal data is Amadeo Media based in Lubań. Your personal data will be processed in order to handle your inquiry as part of the contact form, as well as for statistical and analytical purposes of the administrator. By sending an e-mail you accept",
+    "formText": "The administrator of your personal data is Amadeo Media based in Lubań. Your personal data will be processed in order to handle your inquiry as part of the contact form, as well as for statistical and analytical purposes of the administrator. By sending an e-mail you accept ",
     "formPrivacy": "privacy policy.",
     "formButton": "Send"
   },
@@ -95,5 +95,15 @@
     "smallTitle3": "Newest technologies",
     "bigTitle3": "Skills",
     "text4": "My projects are based on the latest web technologies. I constantly develop my range of skills through new challenges and courses."
+  },
+  "email": {
+    "title": "Thank you for sending an email!",
+    "text": "I will contact you as soon as possible. If your inquiry requires a very quick response, please contact me by phone: ",
+    "back": "Return"
+  },
+  "404": {
+    "title": "Error 404",
+    "text": "This page does not exist.",
+    "back": "Return"
   }
 }

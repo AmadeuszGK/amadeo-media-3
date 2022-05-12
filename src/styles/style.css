@@ -144,6 +144,13 @@ ul {
   width: 80px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* --------------- Reusable CSS Code --------------- */
 
 .container {
@@ -324,7 +331,11 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - (120px + 225px));
+  height: calc(100vh - 225px);
+}
+
+.about-info .heading {
+  margin-top: 1rem;
 }
 
 .full-page .btn {

@@ -78,7 +78,7 @@ const Menu = ({ t }) => {
             <li>
               <Link href="/" activeClassName="active">
                 <a>
-                  <span onClick={() => closeHamburgerMenu} className="nav-link">
+                  <span onClick={closeHamburgerMenu} className="nav-link">
                     {t('menu.home')}
                   </span>
                 </a>
@@ -91,7 +91,7 @@ const Menu = ({ t }) => {
                 activeClassName="active"
               >
                 <a>
-                  <span onClick={() => closeHamburgerMenu} className="nav-link">
+                  <span onClick={closeHamburgerMenu} className="nav-link">
                     {t('menu.about')}
                   </span>
                 </a>
@@ -104,7 +104,7 @@ const Menu = ({ t }) => {
                 activeClassName="active"
               >
                 <a>
-                  <span onClick={() => closeHamburgerMenu} className="nav-link">
+                  <span onClick={closeHamburgerMenu} className="nav-link">
                     {t('menu.offer')}
                   </span>
                 </a>
@@ -117,7 +117,7 @@ const Menu = ({ t }) => {
                 activeClassName="active"
               >
                 <a>
-                  <span onClick={() => closeHamburgerMenu} className="nav-link">
+                  <span onClick={closeHamburgerMenu} className="nav-link">
                     {t('menu.portfolio')}
                   </span>
                 </a>
@@ -130,7 +130,7 @@ const Menu = ({ t }) => {
                 activeClassName="active"
               >
                 <a>
-                  <span onClick={() => closeHamburgerMenu} className="nav-link">
+                  <span onClick={closeHamburgerMenu} className="nav-link">
                     {t('menu.contact')}
                   </span>
                 </a>
