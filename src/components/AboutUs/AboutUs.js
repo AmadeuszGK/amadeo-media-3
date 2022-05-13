@@ -19,6 +19,7 @@ const AboutUs = ({ t }) => (
         height={70}
         className="shape square"
         layout="raw"
+        placeholder="blur"
       />
       <div className="container">
         <div className="showcase-info">
@@ -36,7 +37,12 @@ const AboutUs = ({ t }) => (
         </div>
         <div className="showcase-imagee">
           <div className="shape circle">
-            <Image src={Circle1Img} alt="circle shape" layout="responsive" />
+            <Image
+              src={Circle1Img}
+              alt="circle shape"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
           <div className="shape aboutme">
             <Image
@@ -48,14 +54,24 @@ const AboutUs = ({ t }) => (
             />
           </div>
           <div className="shape dots">
-            <Image src={DotsImg} alt="dots shape" layout="responsive" />
+            <Image
+              src={DotsImg}
+              alt="dots shape"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
         </div>
       </div>
     </section>
     <section className="section about-page" id="o-mnie">
       <div className="shape triangle">
-        <Image src={Triangle1Img} alt="triangle shape" layout="responsive" />
+        <Image
+          src={Triangle1Img}
+          alt="triangle shape"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
       <div className="container">
         <div className="about-me">
@@ -79,10 +95,20 @@ const AboutUs = ({ t }) => (
           <div className="skills-wrap"></div>
           <Skills />
           <div className="shape dots">
-            <Image src={DotsImg} alt="dots shape" layout="responsive" />
+            <Image
+              src={DotsImg}
+              alt="dots shape"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
           <div className="shape square">
-            <Image src={Square1Img} alt="square shape" layout="responsive" />
+            <Image
+              src={Square1Img}
+              alt="square shape"
+              layout="responsive"
+              placeholder="blur"
+            />
           </div>
         </div>
       </div>

@@ -14,7 +14,12 @@ const Cookies: React.FC<CookiesProps> = ({ hideCookies, t }) => {
     <div className="cookies">
       <div className="cookies__text">
         <div className="cookies-img">
-          <Image src={CookiesImg} alt="cookies" layout="responsive" />
+          <Image
+            src={CookiesImg}
+            alt="cookies"
+            layout="responsive"
+            placeholder="blur"
+          />
         </div>
         <p className="text">
           {t(`cookies.text1`)}

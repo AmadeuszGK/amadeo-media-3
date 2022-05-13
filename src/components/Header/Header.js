@@ -14,7 +14,12 @@ if (typeof window !== 'undefined') {
 const Header = ({ t }) => (
   <section className="showcase-area" id="home">
     <div className="shape square">
-      <Image src={Square1Img} alt="square shape" layout="responsive" />
+      <Image
+        src={Square1Img}
+        alt="square shape"
+        layout="responsive"
+        placeholder="blur"
+      />
     </div>
     <div className="container">
       <div className="showcase-info">
@@ -32,13 +37,28 @@ const Header = ({ t }) => (
       </div>
       <div className="showcase-image">
         <div className="person">
-          <Image src={LamptopImg} alt="laptop" layout="responsive" />
+          <Image
+            src={LamptopImg}
+            alt="laptop"
+            layout="responsive"
+            placeholder="blur"
+          />
         </div>
         <div className="shape circle">
-          <Image src={Circle1Img} alt="circle shape" layout="responsive" />
+          <Image
+            src={Circle1Img}
+            alt="circle shape"
+            layout="responsive"
+            placeholder="blur"
+          />
         </div>
         <div className="shape dots">
-          <Image src={Dots1Img} alt="dots shape" layout="responsive" />
+          <Image
+            src={Dots1Img}
+            alt="dots shape"
+            layout="responsive"
+            placeholder="blur"
+          />
         </div>
       </div>
     </div>

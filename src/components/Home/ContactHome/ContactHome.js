@@ -8,11 +8,21 @@ import Square2Img from '../../../images/square2.png';
 const ContactHome = ({ t }) => (
   <section className="contact section" id="kontakt">
     <div className="shape triangle">
-      <Image src={TrialngeImg} alt="triangle shape" layout="responsive" />
+      <Image
+        src={TrialngeImg}
+        alt="triangle shape"
+        layout="responsive"
+        placeholder="blur"
+      />
     </div>
     <div className="container">
       <div className="shape square">
-        <Image src={Square2Img} alt="square shape" layout="responsive" />
+        <Image
+          src={Square2Img}
+          alt="square shape"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
       <div className="contact-info">
         <h3 className="sub-heading">{t('contact.smallTitle')}</h3>

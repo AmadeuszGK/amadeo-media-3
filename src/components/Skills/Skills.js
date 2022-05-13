@@ -17,17 +17,27 @@ const Skills = () => (
   <div className="all-skills">
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={JavascriptImg} alt="javascript" layout="responsive" />
+        <Image
+          src={JavascriptImg}
+          alt="javascript"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={Html5Img} alt="html" layout="responsive" />
+        <Image
+          src={Html5Img}
+          alt="html"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={Css3Img} alt="css" layout="responsive" />
+        <Image src={Css3Img} alt="css" layout="responsive" placeholder="blur" />
       </div>
     </div>
     <div className="skill-container">
@@ -36,47 +46,88 @@ const Skills = () => (
           src={StyledComponentsImg}
           alt="styled components"
           layout="responsive"
+          placeholder="blur"
         />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={ReactjsImg} alt="react js" layout="responsive" />
+        <Image
+          src={ReactjsImg}
+          alt="react js"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={TypescriptImg} alt="typescript" layout="responsive" />
+        <Image
+          src={TypescriptImg}
+          alt="typescript"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={GraphqImg} alt="graphql" layout="responsive" />
+        <Image
+          src={GraphqImg}
+          alt="graphql"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={SassImg} alt="sass" layout="responsive" />
+        <Image
+          src={SassImg}
+          alt="sass"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={GatsbyjsImg} alt="gatsby js" layout="responsive" />
+        <Image
+          src={GatsbyjsImg}
+          alt="gatsby js"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={WordpressImg} alt="wordpress" layout="responsive" />
+        <Image
+          src={WordpressImg}
+          alt="wordpress"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={PhotoshopImg} alt="photoshop" layout="responsive" />
+        <Image
+          src={PhotoshopImg}
+          alt="photoshop"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
     <div className="skill-container">
       <div className="skill-image">
-        <Image src={FigmaImg} alt="figma" layout="responsive" />
+        <Image
+          src={FigmaImg}
+          alt="figma"
+          layout="responsive"
+          placeholder="blur"
+        />
       </div>
     </div>
   </div>

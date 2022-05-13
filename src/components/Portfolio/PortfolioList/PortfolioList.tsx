@@ -24,7 +24,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://chiarashop.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={ChiaraImg} alt="Chiara Shop" layout="responsive" />
+                <Image
+                  src={ChiaraImg}
+                  alt="Chiara Shop"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -43,6 +48,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={MkprestigeImg}
                   alt="MK Prestige - Miłosz Kuriata"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -65,6 +71,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={EquilibriumImg}
                   alt="Equilibrium Premium Cannabiotics"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -80,7 +87,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://databout.com">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={DataboutImg} alt="Databout" layout="responsive" />
+                <Image
+                  src={DataboutImg}
+                  alt="Databout"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -99,6 +111,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={PromaticImg}
                   alt="Promatic Online"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -118,6 +131,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={DiscoKingImg}
                   alt="Disco King"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -137,6 +151,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={Wolnosci14Img}
                   alt="Wolności 14"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -152,7 +167,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://inlei.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={InleiItalyImg} alt="Inlei" layout="responsive" />
+                <Image
+                  src={InleiItalyImg}
+                  alt="Inlei"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -171,6 +191,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={SecretImg}
                   alt="Secret Pleasure"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -195,6 +216,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={MkprestigeImg}
                   alt="MK Prestige - Miłosz Kuriata"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -210,7 +232,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://databout.com">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={DataboutImg} alt="Databout" layout="responsive" />
+                <Image
+                  src={DataboutImg}
+                  alt="Databout"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -229,6 +256,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={PromaticImg}
                   alt="Promatic Online"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -248,6 +276,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={DiscoKingImg}
                   alt="Disco King"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -267,6 +296,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={Wolnosci14Img}
                   alt="Wolności 14"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -287,7 +317,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://chiarashop.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={ChiaraImg} alt="Chiara Shop" layout="responsive" />
+                <Image
+                  src={ChiaraImg}
+                  alt="Chiara Shop"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -309,6 +344,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={EquilibriumImg}
                   alt="Equilibrium Premium Cannabiotics"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">
@@ -324,7 +360,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           <a className="mix prt-card inter" href="https://inlei.pl">
             <div className="prt-image">
               <div className="portfolio-img">
-                <Image src={InleiItalyImg} alt="Inlei" layout="responsive" />
+                <Image
+                  src={InleiItalyImg}
+                  alt="Inlei"
+                  layout="responsive"
+                  placeholder="blur"
+                />
               </div>
               <div className="prt-overlay">
                 <div className="prt-icon">
@@ -343,6 +384,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
                   src={SecretImg}
                   alt="Secret Pleasure"
                   layout="responsive"
+                  placeholder="blur"
                 />
               </div>
               <div className="prt-overlay">

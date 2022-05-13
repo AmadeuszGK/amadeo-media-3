@@ -13,7 +13,12 @@ import OfferItem5Img from '../../../images/offer-item-img-5.png';
 const OfferHome = ({ t }) => (
   <section className="services section" id="oferta">
     <div className="shape triangle">
-      <Image src={TriangleImg} alt="triangle shape" layout="responsive" />
+      <Image
+        src={TriangleImg}
+        alt="triangle shape"
+        layout="responsive"
+        placeholder="blur"
+      />
     </div>
     <div className="container">
       <div className="services-info">
@@ -52,7 +57,12 @@ const OfferHome = ({ t }) => (
           <div className="card-desc">
             <h2>{t('offer.websitesTitle')}</h2>
             <div className="card-img">
-              <Image src={OfferItem1Img} layout="responsive" alt="websites" />
+              <Image
+                src={OfferItem1Img}
+                layout="responsive"
+                alt="websites"
+                placeholder="blur"
+              />
             </div>
             <p className="text">{t('offer.websitesText')}</p>
           </div>
@@ -64,7 +74,12 @@ const OfferHome = ({ t }) => (
           <div className="card-desc">
             <h2>{t('offer.storesTitle')}</h2>{' '}
             <div className="card-img">
-              <Image src={OfferItem2Img} layout="responsive" alt="e-commerce" />
+              <Image
+                src={OfferItem2Img}
+                layout="responsive"
+                alt="e-commerce"
+                placeholder="blur"
+              />
             </div>
             <p className="text">{t('offer.storesText')}</p>
           </div>
@@ -80,6 +95,7 @@ const OfferHome = ({ t }) => (
                 src={OfferItem3Img}
                 layout="responsive"
                 alt="graphic design"
+                placeholder="blur"
               />
             </div>
             <p className="text">{t('offer.graphicText')}</p>
@@ -96,6 +112,7 @@ const OfferHome = ({ t }) => (
                 src={OfferItem5Img}
                 layout="responsive"
                 alt="website administration"
+                placeholder="blur"
               />
             </div>
             <p className="text">{t('offer.administrationText')}</p>
@@ -108,7 +125,12 @@ const OfferHome = ({ t }) => (
           <div className="card-desc">
             <h2>{t('offer.seoTitle')}</h2>{' '}
             <div className="card-img">
-              <Image src={OfferItem4Img} layout="responsive" alt="seo" />
+              <Image
+                src={OfferItem4Img}
+                layout="responsive"
+                alt="seo"
+                placeholder="blur"
+              />
             </div>
             <p className="text">{t('offer.seoText')}</p>
           </div>
@@ -117,7 +139,12 @@ const OfferHome = ({ t }) => (
           </a>*/}
         </div>
         <div className="shape square">
-          <Image src={Square1Img} alt="square shape" layout="responsive" />
+          <Image
+            src={Square1Img}
+            alt="square shape"
+            layout="responsive"
+            placeholder="blur"
+          />
         </div>
       </div>
     </div>
