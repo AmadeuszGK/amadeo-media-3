@@ -207,7 +207,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Secret Pleasure</h3>
             </div>
           </a>
-          <a className="mix prt-card inter" href="https://ericfolly.pl/">
+          <a className="mix prt-card inter" href="http://ericfolly.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
@@ -372,7 +372,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Wolności 14 (Promatic)</h3>
             </div>
           </a>
-          <a className="mix prt-card inter" href="https://ericfolly.pl/">
+          <a className="mix prt-card inter" href="http://ericfolly.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
