@@ -24,7 +24,10 @@ const Header = ({ t }) => (
     <div className="container">
       <div className="showcase-info">
         <h3 className="sub-heading">Amadeusz Grzesiak</h3>
-        <h1 className="heading">{t('header.bigTitle')}</h1>
+        <h1 className="heading">
+          {t('header.bigTitle')}
+          <span className="noshow"> Lubań</span>
+        </h1>
         <p className="text">{t('header.text')}</p>
         <div className="cta">
           <Link className="btn" href="/#portfolio" activeClassName="active">

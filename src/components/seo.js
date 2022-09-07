@@ -43,7 +43,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           property: 'og:title',
           content:
-            'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika',
+            'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika - Lubań',
         },
         {
           property: 'og:description',
@@ -65,7 +65,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: 'twitter:title',
           content:
-            'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika',
+            'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika - Lubań',
         },
         {
           name: 'twitter:description',
@@ -101,7 +101,8 @@ SEO.defaultProps = {
   ],
   description:
     'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
-  title: 'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika',
+  title:
+    'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika - Lubań',
 };
 
 SEO.propTypes = {

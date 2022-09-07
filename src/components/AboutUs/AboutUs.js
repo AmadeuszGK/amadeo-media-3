@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Square1Img from '../../images/square1.png';
 import Circle1Img from '../../images/circle1.png';
 import AmadeuszGrzesiakImg from '../../images/amadeusz-grzesiak.jpg';
-import Triangle1Img from '../../images/triangle.png';
+// import Triangle1Img from '../../images/triangle.png';
 import DotsImg from '../../images/dots.png';
 
 const AboutUs = ({ t }) => (
@@ -65,14 +65,14 @@ const AboutUs = ({ t }) => (
       </div>
     </section>
     <section className="section about-page" id="o-mnie">
-      <div className="shape triangle">
+      {/* <div className="shape triangle">
         <Image
           src={Triangle1Img}
           alt="triangle shape"
           layout="responsive"
           placeholder="blur"
         />
-      </div>
+      </div> */}
       <div className="container">
         <div className="about-me">
           <h3 className="sub-heading">{t('aboutMe.smallTitle2')}</h3>

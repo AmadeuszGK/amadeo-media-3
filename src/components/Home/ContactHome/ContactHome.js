@@ -2,19 +2,19 @@ import React from 'react';
 import ContactForm from '../../ContactForm/ContactForm';
 import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
-import TrialngeImg from '../../../images/triangle.png';
+// import TrialngeImg from '../../../images/triangle.png';
 import Square2Img from '../../../images/square2.png';
 
 const ContactHome = ({ t }) => (
   <section className="contact section" id="kontakt">
-    <div className="shape triangle">
+    {/* <div className="shape triangle">
       <Image
         src={TrialngeImg}
         alt="triangle shape"
         layout="responsive"
         placeholder="blur"
       />
-    </div>
+    </div> */}
     <div className="container">
       <div className="shape square">
         <Image

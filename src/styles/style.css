@@ -2119,3 +2119,8 @@ footer .social-media {
     margin-top: 1rem;
   }
 }
+
+.noshow {
+  color: transparent;
+  position: absolute;
+}

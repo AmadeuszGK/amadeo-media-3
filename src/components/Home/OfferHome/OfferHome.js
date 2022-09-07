@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
 // import Link from 'next/link';;
 import Square1Img from '../../../images/square1.png';
-import TriangleImg from '../../../images/triangle.png';
+// import TriangleImg from '../../../images/triangle.png';
 import OfferItem1Img from '../../../images/offer-item-img-1.png';
 import OfferItem2Img from '../../../images/offer-item-img-2.png';
 import OfferItem3Img from '../../../images/offer-item-img-3.png';
@@ -12,14 +12,14 @@ import OfferItem5Img from '../../../images/offer-item-img-5.png';
 
 const OfferHome = ({ t }) => (
   <section className="services section" id="oferta">
-    <div className="shape triangle">
+    {/* <div className="shape triangle">
       <Image
         src={TriangleImg}
         alt="triangle shape"
         layout="responsive"
         placeholder="blur"
       />
-    </div>
+    </div> */}
     <div className="container">
       <div className="services-info">
         <h3 className="sub-heading">{t('offer.smallTitle')}</h3>

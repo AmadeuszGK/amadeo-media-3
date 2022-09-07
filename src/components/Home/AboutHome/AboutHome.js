@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
-import TriangleImg from '../../../images/triangle.png';
+// import TriangleImg from '../../../images/triangle.png';
 import PricingImg from '../../../images/icon-about1.JPG';
 import GraphicImg from '../../../images/icon-about2.JPG';
 import TestingImg from '../../../images/icon-about3.JPG';
@@ -10,9 +10,9 @@ import ProgrammingImg from '../../../images/icon-about4.JPG';
 
 const AboutHome = ({ t }) => (
   <section className="about section" id="o-mnie">
-    <div className="shape triangle">
+    {/* <div className="shape triangle">
       <Image src={TriangleImg} alt="triangle shape" layout="responsive" />
-    </div>
+    </div> */}
     <div className="container">
       <div className="about-grid">
         <div className="about-card">

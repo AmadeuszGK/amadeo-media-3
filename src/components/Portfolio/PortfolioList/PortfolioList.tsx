@@ -10,6 +10,9 @@ import DiscoKingImg from '../../../images/disco-king-ss.jpg';
 import Wolnosci14Img from '../../../images/wolnosci14-ss.jpg';
 import InleiItalyImg from '../../../images/inlei-ss.jpg';
 import SecretImg from '../../../images/secret-pleasure-ss.jpg';
+import EricFollyImg from '../../../images/eric-folly-ss.jpg';
+import TerraImg from '../../../images/terra-ss.jpg';
+import AnBestImg from '../../../images/an-best-ss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
 type PortfolioListProps = {
@@ -204,6 +207,66 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Secret Pleasure</h3>
             </div>
           </a>
+          <a className="mix prt-card inter" href="https://ericfolly.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={EricFollyImg}
+                  alt="Eric Folly"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Eric Folly</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://terraboutique.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={TerraImg}
+                  alt="Terra Boutique"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Terra Boutique</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://an-best.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={AnBestImg}
+                  alt="Best Nieruchomosci"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Best Nieruchomości - Beata Stołecka</h3>
+            </div>
+          </a>
         </>
       )}
 
@@ -309,6 +372,46 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Wolności 14 (Promatic)</h3>
             </div>
           </a>
+          <a className="mix prt-card inter" href="https://ericfolly.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={EricFollyImg}
+                  alt="Eric Folly"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Eric Folly</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://an-best.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={AnBestImg}
+                  alt="Best Nieruchomosci"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Best Nieruchomości - Beata Stołecka</h3>
+            </div>
+          </a>
         </>
       )}
 
@@ -395,6 +498,26 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             </div>
             <div className="prt-desc">
               <h3>Secret Pleasure</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://terraboutique.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={TerraImg}
+                  alt="Terra Boutique"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Terra Boutique</h3>
             </div>
           </a>
         </>

@@ -15,7 +15,7 @@ const NotFoundPage = ({ t }) => (
       <meta name="author" content="Amadeusz Grzesiak" />
       <meta
         name="description"
-        content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
+        content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
             sprawdź moją ofertę! Stwórzmy coś razem."
       />
       <html lang="pl-PL" />
