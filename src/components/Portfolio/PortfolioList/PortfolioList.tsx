@@ -10,9 +10,9 @@ import DiscoKingImg from '../../../images/disco-king-ss.jpg';
 import Wolnosci14Img from '../../../images/wolnosci14-ss.jpg';
 import InleiItalyImg from '../../../images/inlei-ss.jpg';
 import SecretImg from '../../../images/secret-pleasure-ss.jpg';
-import EricFollyImg from '../../../images/eric-folly-ss.JPG';
-import TerraImg from '../../../images/terra-ss.JPG';
-import AnBestImg from '../../../images/an-best-ss.JPG';
+import EricFollyImg from '../../../images/eric-folly-sss.jpg';
+import TerraImg from '../../../images/terra-sss.jpg';
+import AnBestImg from '../../../images/an-best-sss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
 type PortfolioListProps = {
