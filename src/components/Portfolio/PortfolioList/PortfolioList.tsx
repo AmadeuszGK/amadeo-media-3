@@ -12,6 +12,8 @@ import InleiItalyImg from '../../../images/inlei-ss.jpg';
 import SecretImg from '../../../images/secret-pleasure-ss.jpg';
 import EricFollyImg from '../../../images/eric-folly-sss.jpg';
 import TerraImg from '../../../images/terra-sss.jpg';
+import OkularyZoomImg from '../../../images/okulary-zoom-sss.jpg';
+import FiltryWodarImg from '../../../images/filtry-wodar-sss.jpg';
 import AnBestImg from '../../../images/an-best-sss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
@@ -24,12 +26,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
     <>
       {filter === `default` && (
         <>
-          <a className="mix prt-card inter" href="https://chiarashop.pl">
+          <a className="mix prt-card inter" href="https://terraboutique.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
-                  src={ChiaraImg}
-                  alt="Chiara Shop"
+                  src={TerraImg}
+                  alt="Terra Boutique"
                   layout="responsive"
                   placeholder="blur"
                 />
@@ -41,7 +43,47 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               </div>
             </div>
             <div className="prt-desc">
-              <h3>Chiara Shop</h3>
+              <h3>Terra Boutique</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://okularyzoom.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={OkularyZoomImg}
+                  alt="Okulary Zoom"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Okulary Zoom</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://filtry-wodar.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={FiltryWodarImg}
+                  alt="Filtry Wodar"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Filtry Wodar</h3>
             </div>
           </a>
           <a className="mix prt-card inter" href="https://mk-prestige.pl/">
@@ -64,7 +106,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>MK Prestige - Miłosz Kuriata</h3>
             </div>
           </a>
-          <a
+          {/* <a
             className="mix prt-card inter"
             href="https://www.equilibrium-canna.biz/"
           >
@@ -86,8 +128,8 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-desc">
               <h3>Equilibrium Premium Cannabiotics</h3>
             </div>
-          </a>
-          <a className="mix prt-card inter" href="https://databout.com">
+          </a> */}
+          <a className="mix prt-card inter" href="https://databout.pl">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
@@ -187,7 +229,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Inlei</h3>
             </div>
           </a>
-          <a className="mix prt-card inter" href="https://secretpleasure.pl/">
+          {/* <a className="mix prt-card inter" href="https://secretpleasure.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
@@ -206,7 +248,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-desc">
               <h3>Secret Pleasure</h3>
             </div>
-          </a>
+          </a> */}
           <a className="mix prt-card inter" href="http://ericfolly.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
@@ -225,26 +267,6 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             </div>
             <div className="prt-desc">
               <h3>Eric Folly</h3>
-            </div>
-          </a>
-          <a className="mix prt-card inter" href="https://terraboutique.pl/">
-            <div className="prt-image">
-              <div className="portfolio-img">
-                <Image
-                  src={TerraImg}
-                  alt="Terra Boutique"
-                  layout="responsive"
-                  placeholder="blur"
-                />
-              </div>
-              <div className="prt-overlay">
-                <div className="prt-icon">
-                  <UilLink />
-                </div>
-              </div>
-            </div>
-            <div className="prt-desc">
-              <h3>Terra Boutique</h3>
             </div>
           </a>
           <a className="mix prt-card inter" href="https://an-best.pl/">
@@ -292,7 +314,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>MK Prestige - Miłosz Kuriata</h3>
             </div>
           </a>
-          <a className="mix prt-card inter" href="https://databout.com">
+          <a className="mix prt-card inter" href="https://databout.pl">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
@@ -330,6 +352,26 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             </div>
             <div className="prt-desc">
               <h3>Promatic Online</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://filtry-wodar.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={FiltryWodarImg}
+                  alt="Filtry Wodar"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Filtry Wodar</h3>
             </div>
           </a>
           <a className="mix prt-card inter" href="http://discoking.pl">
@@ -417,12 +459,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
 
       {filter === `store` && (
         <>
-          <a className="mix prt-card inter" href="https://chiarashop.pl">
+          <a className="mix prt-card inter" href="https://terraboutique.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
-                  src={ChiaraImg}
-                  alt="Chiara Shop"
+                  src={TerraImg}
+                  alt="Terra Boutique"
                   layout="responsive"
                   placeholder="blur"
                 />
@@ -434,10 +476,30 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               </div>
             </div>
             <div className="prt-desc">
-              <h3>Chiara Shop</h3>
+              <h3>Terra Boutique</h3>
             </div>
           </a>
-          <a
+          <a className="mix prt-card inter" href="https://okularyzoom.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={OkularyZoomImg}
+                  alt="Okulary Zoom"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Okulary Zoom</h3>
+            </div>
+          </a>
+          {/* <a
             className="mix prt-card inter"
             href="https://www.equilibrium-canna.biz/"
           >
@@ -459,7 +521,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-desc">
               <h3>Equilibrium Premium Cannabiotics</h3>
             </div>
-          </a>
+          </a> */}
           <a className="mix prt-card inter" href="https://inlei.pl">
             <div className="prt-image">
               <div className="portfolio-img">
@@ -480,7 +542,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Inlei</h3>
             </div>
           </a>
-          <a className="mix prt-card inter" href="https://secretpleasure.pl/">
+          {/* <a className="mix prt-card inter" href="https://secretpleasure.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
                 <Image
@@ -499,27 +561,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             <div className="prt-desc">
               <h3>Secret Pleasure</h3>
             </div>
-          </a>
-          <a className="mix prt-card inter" href="https://terraboutique.pl/">
-            <div className="prt-image">
-              <div className="portfolio-img">
-                <Image
-                  src={TerraImg}
-                  alt="Terra Boutique"
-                  layout="responsive"
-                  placeholder="blur"
-                />
-              </div>
-              <div className="prt-overlay">
-                <div className="prt-icon">
-                  <UilLink />
-                </div>
-              </div>
-            </div>
-            <div className="prt-desc">
-              <h3>Terra Boutique</h3>
-            </div>
-          </a>
+          </a> */}
         </>
       )}
     </>
