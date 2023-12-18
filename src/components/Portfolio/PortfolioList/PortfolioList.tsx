@@ -8,6 +8,8 @@ import InleiItalyImg from '../../../images/inlei-ss.jpg';
 import EricFollyImg from '../../../images/eric-folly-sss.jpg';
 import OkularyZoomImg from '../../../images/okulary-zoom-sss.jpg';
 import FiltryWodarImg from '../../../images/filtry-wodar-sss.jpg';
+import BaniakImg from '../../../images/uslugibaniak-ss.jpg';
+import AgataGajosImg from '../../../images/agatagajos-ss.jpg';
 // import AnBestImg from '../../../images/an-best-sss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
@@ -58,6 +60,46 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             </div>
             <div className="prt-desc">
               <h3>Filtry Wodar</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://uslugibaniak.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={BaniakImg}
+                  alt="Usługi budowalne Baniak"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Usługi budowalne Baniak</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://agatagajos.com/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={AgataGajosImg}
+                  alt="Agata Gajos Psychoterapia"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Agata Gajos Psychoterapia</h3>
             </div>
           </a>
           <a className="mix prt-card inter" href="https://mk-prestige.pl/">
@@ -225,6 +267,26 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               <h3>Databout</h3>
             </div>
           </a>
+          <a className="mix prt-card inter" href="https://uslugibaniak.pl/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={BaniakImg}
+                  alt="Usługi budowalne Baniak"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Usługi budowalne Baniak</h3>
+            </div>
+          </a>
           <a className="mix prt-card inter" href="https://filtry-wodar.pl/">
             <div className="prt-image">
               <div className="portfolio-img">
@@ -243,6 +305,26 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
             </div>
             <div className="prt-desc">
               <h3>Filtry Wodar</h3>
+            </div>
+          </a>
+          <a className="mix prt-card inter" href="https://agatagajos.com/">
+            <div className="prt-image">
+              <div className="portfolio-img">
+                <Image
+                  src={AgataGajosImg}
+                  alt="Agata Gajos Psychoterapia"
+                  layout="intrinsic"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="prt-overlay">
+                <div className="prt-icon">
+                  <UilLink />
+                </div>
+              </div>
+            </div>
+            <div className="prt-desc">
+              <h3>Agata Gajos Psychoterapia</h3>
             </div>
           </a>
           <a className="mix prt-card inter" href="http://wolnosci14.pl">
