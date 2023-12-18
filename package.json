@@ -20,6 +20,9 @@
     "postinstall": "husky install",
     "commit": "cz"
   },
+  "engines": {
+    "node": ">=14.15.0"
+  },
   "dependencies": {
     "@iconscout/react-unicons": "1.1.6",
     "animate.css": "4.1.1",
