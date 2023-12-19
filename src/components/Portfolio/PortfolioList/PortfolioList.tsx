@@ -8,8 +8,8 @@ import InleiItalyImg from '../../../images/inlei-ss.jpg';
 import EricFollyImg from '../../../images/eric-folly-sss.jpg';
 import OkularyZoomImg from '../../../images/okulary-zoom-sss.jpg';
 import FiltryWodarImg from '../../../images/filtry-wodar-sss.jpg';
-import BaniakImg from '../../../images/uslugibaniak-ss.jpg';
-import AgataGajosImg from '../../../images/agatagajos-ss.jpg';
+import BaniakImg from '../../../images/uslugibaniak-sss.jpg';
+import AgataGajosImg from '../../../images/agatagajos-sss.jpg';
 // import AnBestImg from '../../../images/an-best-sss.jpg';
 import { UilLink } from '../../Menu/Menu';
 
