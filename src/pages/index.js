@@ -18,7 +18,8 @@ const Home = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Amadeo Media - strony internetowe, sklepy e-commerce, grafika - Lubań
+          Amadeo Media - strony internetowe, sklepy e-commerce, pozycjonowanie
+          SEO
         </title>
         <meta
           name="keywords"
@@ -33,9 +34,9 @@ const Home = () => {
         <html lang="pl-PL" />
       </Helmet>
       <Header />
-      <AboutHome />
       <OfferHome />
       <PortfolioWrapper />
+      <AboutHome />
       <ClientsHome />
       <ContactHome />
     </div>
