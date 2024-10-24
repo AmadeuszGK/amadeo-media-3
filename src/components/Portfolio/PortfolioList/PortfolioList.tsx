@@ -10,7 +10,7 @@ type PortfolioListProps = {
 
 const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
   const filteredProjects = projects.filter(
-    (project) => project.type === filter || filter === 'default',
+    (project) => project.type === filter || filter === `default`,
   );
 
   return (
