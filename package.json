@@ -21,7 +21,8 @@
     "commit": "cz"
   },
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=14.15.0",
+    "npm": ">=7.0.0"
   },
   "dependencies": {
     "@iconscout/react-unicons": "1.1.6",
