@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import PortfolioList from './PortfolioList/PortfolioList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 import { withTrans } from '../../i18n/withTrans';
-export type portfolioItemTypes = 'default' | 'website' | 'store';
+export type portfolioItemTypes = 'default' | 'website' | 'ecommerce';
 
 type PortfolioWrapperProps = {
   t: any;
 };
 
 const PortfolioWrapper: React.FC<PortfolioWrapperProps> = ({ t }) => {
-  const [filter, setFilter] = useState<portfolioItemTypes>(`default`);
+  const [filter, setFilter] = useState<portfolioItemTypes>(`website`);
 
   return (
     <section className="portfolio section" id="portfolio">

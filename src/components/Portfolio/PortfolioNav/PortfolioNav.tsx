@@ -17,16 +17,6 @@ const PortfolioNav: React.FC<PortfolioNavProps> = ({
     <div className="filter-btns">
       <button
         className={
-          filter === `default`
-            ? `filter-btn mixitup-control-active`
-            : `filter-btn`
-        }
-        onClick={() => setFilter(`default`)}
-      >
-        {t(`portfolio.all`)}
-      </button>
-      <button
-        className={
           filter === `website`
             ? `filter-btn mixitup-control-active`
             : `filter-btn`
@@ -37,11 +27,11 @@ const PortfolioNav: React.FC<PortfolioNavProps> = ({
       </button>
       <button
         className={
-          filter === `store`
+          filter === `ecommerce`
             ? `filter-btn mixitup-control-active`
             : `filter-btn`
         }
-        onClick={() => setFilter(`store`)}
+        onClick={() => setFilter(`ecommerce`)}
       >
         {t(`portfolio.onlineStores`)}
       </button>

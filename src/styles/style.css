@@ -28,8 +28,8 @@ body.dark {
   --bg-color-2: hsl(var(--hue-1), 23%, 19%);
   --bg-color-3: hsl(var(--hue-1), 23%, 24%);
   --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
-  --heading-color: hsl(var(--hue-1), 100%, 95%);
-  --text-color: hsl(var(--hue-1), 14%, 51%);
+  --heading-color: #fff;
+  --text-color: rgb(180 177 186);
 }
 
 body.dark .st1 {
