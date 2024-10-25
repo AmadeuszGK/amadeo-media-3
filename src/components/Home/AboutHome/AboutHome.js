@@ -44,11 +44,7 @@ const AboutHome = ({ t }) => (
         <span className="sub-heading">{t('aboutHome.smallTitle')}</span>
         <h2 className="heading">{t('aboutHome.bigTitle')}</h2>
         <p className="text">{t('aboutHome.text')}</p>
-        <div className="cta">
-          <Link href="/o-mnie">
-            <a className="btn">{t('aboutHome.more')}</a>
-          </Link>
-        </div>
+        <p className="text">{t('aboutHome.text2')}</p>
       </div>
     </div>
   </section>

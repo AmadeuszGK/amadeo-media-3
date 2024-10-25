@@ -38,7 +38,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: 'description',
           content:
-            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
+            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
         },
         {
           property: 'og:title',
@@ -48,7 +48,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           property: 'og:description',
           content:
-            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
+            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
         },
         {
           property: 'og:type',
@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: 'twitter:description',
           content:
-            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
+            'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
         },
         {
           name: 'google-site-verification',
@@ -100,7 +100,7 @@ SEO.defaultProps = {
     'wrocław',
   ],
   description:
-    'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
+    'Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem.',
   title:
     'Amadeo Media - Strony internetowe, sklepy e-commerce, grafika - Lubań',
 };

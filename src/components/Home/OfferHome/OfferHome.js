@@ -35,7 +35,7 @@ const OfferHome = ({ t }) => (
           <div className="ml">
             <div className="number">
               <span data-target="79">
-                {(new Date().getFullYear() - 2018) * 5}
+                {(new Date().getFullYear() - 2018) * 9}
               </span>
               +
             </div>
@@ -44,7 +44,7 @@ const OfferHome = ({ t }) => (
           <div className="ml">
             <div className="number">
               <span data-target="95">
-                {(new Date().getFullYear() - 2018) * 4}
+                {(new Date().getFullYear() - 2018) * 5}
               </span>
               +
             </div>

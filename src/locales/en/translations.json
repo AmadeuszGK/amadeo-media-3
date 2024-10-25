@@ -13,32 +13,33 @@
     "contactMe": "Contact me"
   },
   "aboutHome": {
-    "bigTitle": "About me",
-    "smallTitle": "BET ON EXPERIENCE",
-    "text": "My name is Amadeusz Grzesiak, I am a front-end developer currently associated with one of the largest companies in the Polish IT industry - Sii. After graduating from the Wrocław University of Science and Technology in 2017, I gained my first experience with one of the leaders in the gambling industry in Poland - Promatic...",
-    "more": "Read more",
-    "imageTitle1": "Research",
-    "imageTitle2": "Graphic design",
-    "imageTitle3": "Programming",
-    "imageTitle4": "Testing"
+    "bigTitle": "Stages of Cooperation",
+    "smallTitle": "FROM IDEA TO REALIZATION",
+    "text": "We start by discussing the details of your website. I will ask questions about its theme, industry, and the sections you would like to include. It’s helpful if you send me examples of websites you like. For an online store, it's important to provide information about the types of products you will be selling and their quantities. Based on this information, I will prepare a project estimate.",
+    "text2": "I will need texts, images, and any notes from you. A domain and hosting are also necessary. If you don't have them, I can assist with the purchase. I begin by designing the homepage. After your approval, I will proceed to build the rest of the website. Finally, I will send you the login details for WordPress along with an instruction manual, and I will issue an invoice.",
+    "more": "More",
+    "imageTitle1": "1. Quotation",
+    "imageTitle2": "2. Design",
+    "imageTitle3": "3. Execution",
+    "imageTitle4": "4. Testing"
   },
   "offer": {
-    "bigTitle": "What am I doing?",
-    "smallTitle": "MODERNITY AND UTILITY",
-    "text": "My services are characterized by a modern approach to the subject and accuracy. I offer help in designing, testing and administration. I will help you turn your ideas into a finished product.",
-    "experience": "Experience",
+    "bigTitle": "How Can I Help You?",
+    "smallTitle": "MODERNITY AND USABILITY",
+    "text": "My services are characterized by a modern approach and precision. I offer assistance in design, development, testing, and administration. I will help turn your ideas into a finished product.",
+    "experience": "Years in the Market",
     "projects": "Projects",
     "clients": "Clients",
     "websitesTitle": "Websites",
-    "websitesText": "My specialty is websites and web applications. Everything is adapted to mobile devices. When creating websites, I pay special attention to SEO - website positioning in search engines.",  
-    "storesTitle": "Online stores",
-    "storesText": "I create online stores based on the world's most popular Woocomerce (Wordpress) tool. We provide the customer with a very intuitive store management system. E-commerce is a great business idea.",
+    "websitesText": "My specialty is websites and web applications, all optimized for mobile devices. When creating websites, I pay special attention to SEO, which helps improve search engine rankings.",
+    "storesTitle": "E-commerce Stores",
+    "storesText": "I create online stores based on the world's most popular tool, WooCommerce (WordPress). I provide clients with a very intuitive store management system. E-commerce is a great business idea.",
     "graphicTitle": "Marketing",
-    "graphicText": "In addition to websites and e-commerce stores, I also handle marketing. I help set up Google and Facebook ads, manage social media, and create Google My Business profiles.",
-    "administrationTitle": "Website administration",
-    "administrationText": "My clients can always count on me, I help in managing websites and online stores, I implement sent content or make modifications. In addition, I keep everything up-to-date, run smoothly and create backups.",
-    "seoTitle": "SEO positioning",
-    "seoText": "I care about visibility in the Google search engine. I effectively position websites and stores, which results in increased reach and sales. Positioning is the most effective type of marketing on the Internet."
+    "graphicText": "In addition to websites and stores (E-commerce), I also focus on marketing. I help set up Google and Facebook ads, manage social media, create content, and set up Google My Business listings.",
+    "administrationTitle": "Website Administration",
+    "administrationText": "My clients can always count on me; I assist with the management of websites and online stores, implementing provided content or making modifications. Additionally, I ensure everything is updated, runs smoothly, and create backups.",
+    "seoTitle": "SEO Positioning",
+    "seoText": "I take care of visibility in Google search. I effectively position websites and stores, resulting in increased reach and sales. SEO is the most effective form of online marketing."
   },
   "site": {
     "Gatsby Default Starter": "Gatsby Default Starter",
@@ -85,16 +86,16 @@
     "button": "Yes, I accept"
   },
   "aboutMe": {
-    "text1": "A close relationship, open dialogue and a transparent price list are my credo. Mutual understanding and joint definition of goals is a guarantee of success. I am constantly looking for the best solutions and I am not afraid of unconventional ideas. I am not satisfied with mediocrity, I want the same for my clients.",
+    "text1": "Mutual understanding and a shared definition of goals are the keys to success. I constantly seek the best solutions and am not afraid of unconventional ideas. Mediocrity does not satisfy me, and I strive for the same for my clients.",
     "button1": "Offer",
-    "button2": "Contact me",
+    "button2": "Contact Me",
     "smallTitle2": "MY STORY",
-    "bigTitle2": "ABOUT ME",
-    "text2": "My name is Amadeusz Grzesiak, I am a front-end developer specializing in web applications based on React JS. Since April 2020, I have been running a company called Amadeo Media, which focuses on software development. After graduating from the Wrocław University of Science and Technology in 2017, I gained my first experience with one of the leaders in the gambling industry in Poland - Promatic. At that time, I was working on a game presentation platform, websites advertising the product and online games with people such as Mariusz Pudzianowski or Zenek Martyniuk. I spent the following years in the consulting company Databout, creating a tool for site analyzes, Databout Tools, and an advanced application for social consultations (PPGIS). Currently, I am associated with one of the largest companies in the IT industry in Poland - Sii Polska. Currently, I am affiliated with one of the largest IT companies in Poland — Sii Polska. Through Sii, I have had the opportunity to work with the Norwegian company TU Media, specializing in delivering content from the technology industry to a large audience.",
-    "text3": "Currently, my activity as Amadeo Media focuses on two pillars. The first is building web applications (those that can be run using a web browser, both on computers and mobile devices) in cooperation with large companies. The second pillar of my company is building websites and online stores. These are both simple websites and more advanced websites. Online stores have a simple administration panel and most of the processes are automated in them. Their maintenance is associated with low costs.",
-    "smallTitle3": "Newest technologies",
+    "bigTitle2": "About Me",
+    "text2": "My name is Amadeusz Grzesiak, and I am a front-end developer specializing in web applications based on React JS. After graduating from Wrocław University of Technology in 2017, I gained my first experience at one of the leading companies in the Polish gambling industry—Promatic. There, I worked on a platform for game presentation, promotional websites, and online games featuring personalities such as Mariusz Pudzianowski and Zenek Martyniuk. From 2020 to 2022, I was associated with Databout, where I developed the Databout Tools land analysis tool and an advanced application for public consultations (PPGIS). From 2022 to 2023, I worked at the largest IT company in Poland—Sii. During my time with Sii, I had the pleasure of working for the Norwegian company TU Media, a leader in providing technological content for a wide audience. Currently, I provide services for FedEx, an American company specializing in parcel shipping and logistics, where I am part of a team responsible for services such as the returns page, tracking page, and notifications.",
+    "text3": "In addition to my work in the IT industry, I run **Amadeo Media**, where I create modern websites and web applications. As a freelancer, I undertake various projects, including **praca.info**, a job advertisement portal that supports users in their job searches. I also offer SEO positioning, online marketing, and e-commerce store creation services, allowing businesses to sell effectively online. With my experience and technical knowledge, I deliver solutions that yield real business results while paying attention to every detail and quality of execution.",
+    "smallTitle3": "Latest Technologies",
     "bigTitle3": "Skills",
-    "text4": "All of my projects are created based on the latest web technologies. This allows me to provide my clients with solutions at the highest level that are compliant with the latest standards and market requirements. I am constantly developing my skills by taking on new challenges and participating in various courses and trainings. This keeps me up to date with the latest trends in the industry and enables me to offer my clients the best and most innovative solutions."
+    "text4": "All my projects are built using the latest web technologies. This enables me to provide my clients with top-tier solutions that meet the latest standards and market requirements. I continuously develop my skills by taking on new challenges and participating in various courses and training. As a result, I stay updated on the latest industry trends and can offer my clients the best and most modern solutions."
   },
   "email": {
     "title": "Thank you for sending an email!",

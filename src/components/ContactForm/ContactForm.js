@@ -12,8 +12,7 @@ const ContactForm = ({ t }) => (
     data-netlify-honeypot="bot-field"
   >
     <h3>
-      {t('contact.formTitle')}
-      <b className="bold">Amadeo Media</b>
+      <b className="bold">{t('contact.formTitle')}</b>
     </h3>
     <input type="hidden" name="form-name" value="contact" />
     <p hidden>
