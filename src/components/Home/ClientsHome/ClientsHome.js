@@ -3,15 +3,9 @@ import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
 import Square1Img from '../../../images/square1.png';
 import CircleImg from '../../../images/circle2.png';
-import DataboutImg from '../../../images/databout-logo.png';
-import Wolnosci14Img from '../../../images/wolnosci14-logo.png';
-import ChiarashopImg from '../../../images/chiarashop-logo.png';
-import InleiImg from '../../../images/inlei-logo.png';
-import GoodsideImg from '../../../images/goodside-logo.png';
-import QuadrigaImg from '../../../images/quadriga-logo.png';
-import MkprestigeImg from '../../../images/mkprestige-logo.svg';
-import PromaticImg from '../../../images/promatic-logo.png';
-import SecretpleasureImg from '../../../images/secretpleasure-logo.svg';
+import GoogleLogoImg from '../../../images/google-logo.webp';
+import MobileReviewImg from '../../../images/review-mobile.jpg';
+import StarsImg from '../../../images/5-stars.png';
 
 const ClientsHome = ({ t }) => {
   return (
@@ -21,69 +15,43 @@ const ClientsHome = ({ t }) => {
           <div className="testimonials-title">
             <h3 className="sub-heading">{t('clients.smallTitle')}</h3>
             <h2 className="heading">{t('clients.bigTitle')}</h2>
+            <Image
+              src={GoogleLogoImg}
+              alt="google logo"
+              width={150}
+              height={40}
+              layout="raw"
+              placeholder="blur"
+              className="google-logo"
+            />
+            <div className="review">
+              <p className="text">5.0</p>
+              <Image
+                src={StarsImg}
+                alt="5 stars"
+                width={110}
+                height={22}
+                layout="raw"
+                placeholder="blur"
+              />
+              <p className="text">13 Opinii</p>
+            </div>
+            <p className="text">{t('clients.text')}</p>
+            <Image
+              src={MobileReviewImg}
+              alt="Mobile review"
+              width={523}
+              height={1216}
+              layout="raw"
+              placeholder="blur"
+              className="review-mobile-image"
+            />
           </div>
           <div className="circle">
             <Image src={CircleImg} alt="circle shape" layout="responsive" />
           </div>
           <div className="shape square">
             <Image src={Square1Img} alt="square shape" layout="responsive" />
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image
-                src={DataboutImg}
-                alt="databout logo"
-                layout="responsive"
-              />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image
-                src={Wolnosci14Img}
-                alt="wolnosci 14"
-                layout="responsive"
-              />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={ChiarashopImg} alt="chiarashop" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={InleiImg} alt="inlei" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={GoodsideImg} alt="goodside" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={QuadrigaImg} alt="quadriga" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={MkprestigeImg} alt="mkprestige" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image src={PromaticImg} alt="promatic" layout="responsive" />
-            </div>
-          </div>
-          <div className="clients__item">
-            <div className="clients-img">
-              <Image
-                src={SecretpleasureImg}
-                alt="secret pleasure"
-                layout="responsive"
-              />
-            </div>
           </div>
         </div>
         <div className="swiper">
@@ -92,6 +60,27 @@ const ClientsHome = ({ t }) => {
               <div className="testimonials-title">
                 <h3 className="sub-heading">{t('clients.smallTitle')}</h3>
                 <h2 className="heading">{t('clients.bigTitle')}</h2>
+              </div>
+              <Image
+                src={GoogleLogoImg}
+                alt="google logo"
+                width={150}
+                height={40}
+                layout="raw"
+                placeholder="blur"
+                className="google-logo"
+              />
+              <div className="review">
+                <p className="text">5.0</p>
+                <Image
+                  src={StarsImg}
+                  alt="5 stars"
+                  width={110}
+                  height={22}
+                  layout="raw"
+                  placeholder="blur"
+                />
+                <p className="text">13 Opinii</p>
               </div>
               <p className="text">{t('clients.text')}</p>
             </div>

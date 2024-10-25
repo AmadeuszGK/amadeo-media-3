@@ -63,7 +63,7 @@ export const projects = [
   },
   {
     id: 223,
-    name: 'ABA - Dezynsekcja — Dezynfekcja — Deratyzacja',
+    name: 'ABA - Dezynfekcja',
     url: 'https://abaddd.pl/',
     imgSrc: AbadddImg,
     type: 'website',

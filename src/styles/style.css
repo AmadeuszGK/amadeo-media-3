@@ -1124,6 +1124,12 @@ body.open .hamburger .bar:last-child {
 
 /* --------------- Testimonials Section Styling --------------- */
 
+.mobile-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .testimonials {
   padding: var(--section-padding) 0 calc(var(--section-padding) + 120px);
 }
@@ -1206,13 +1212,16 @@ body.open .hamburger .bar:last-child {
   max-width: 47rem;
   height: calc(100% + 120px);
   top: 15px;
-  left: 63%;
+  left: 67%;
   transform: translateX(calc(-50% + 120px));
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     55deg,
     var(--main-color-dark-1) 20%,
     var(--main-color-1) 20%
-  );
+  ); */
+  background-image: url('../images/google-reviews.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom-left-radius: 60px;
   z-index: -1;
   padding: 2.5rem 2.5rem;
@@ -1246,6 +1255,25 @@ body.open .hamburger .bar:last-child {
 
 .section-background .testimonials-title {
   display: none;
+}
+
+.google-logo {
+  margin-top: 16px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review p {
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.review img {
+  margin-bottom: 2px;
 }
 
 /* --------------- Contact Section Styling --------------- */
@@ -1438,6 +1466,11 @@ footer .social-media {
 
 .social-link:hover {
   color: var(--main-color-1);
+}
+
+.review-mobile-image {
+  max-width: 100%;
+  height: auto;
 }
 
 /* --------------- 1000px Screens --------------- */
@@ -1821,7 +1854,6 @@ footer .social-media {
   .testimonials .container {
     position: revert;
     grid-template-columns: 1fr;
-    max-width: 620px;
   }
 
   .section-background {
@@ -1832,8 +1864,8 @@ footer .social-media {
     height: 100%;
     background-image: linear-gradient(
       45deg,
-      var(--main-color-dark-1) 17%,
-      var(--main-color-1) 17%
+      var(--bg-color) 17%,
+      var(--bg-color) 17%
     );
   }
 
@@ -1846,7 +1878,7 @@ footer .social-media {
   }
 
   .testimonials .container {
-    height: 450px;
+    height: 1450px;
   }
 
   .section-background .person {
@@ -1864,11 +1896,6 @@ footer .social-media {
     text-align: center;
     padding: 0 0 1rem 0;
     width: 100%;
-  }
-
-  .testimonials-title h2,
-  .testimonials-title h3 {
-    color: #fff;
   }
 
   .testimonials {
@@ -2004,7 +2031,7 @@ footer .social-media {
   }
 
   .testimonials .container {
-    height: 500px;
+    height: 1020px;
   }
 
   .portfolio-header {
