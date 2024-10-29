@@ -17,10 +17,7 @@ const Home = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          Amadeo Media - strony internetowe, sklepy e-commerce, pozycjonowanie
-          SEO
-        </title>
+        <title>Amadeo Media - strony internetowe, sklepy e-commerce, SEO</title>
         <meta
           name="keywords"
           content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
