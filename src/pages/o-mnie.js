@@ -18,9 +18,8 @@ class AboutUsView extends React.Component {
   render() {
     return (
       <>
-        <Helmet>
+        <Helmet title="O mnie - Amadeo Media">
           <meta charSet="utf-8" />
-          <title>O mnie - Amadeo Media</title>
           <meta
             name="keywords"
             content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
@@ -28,8 +27,7 @@ class AboutUsView extends React.Component {
           <meta name="author" content="Amadeusz Grzesiak" />
           <meta
             name="description"
-            content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
-            sprawdź moją ofertę! Stwórzmy coś razem."
+            content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem."
           />
           <html lang="pl-PL" />
         </Helmet>
