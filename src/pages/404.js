@@ -23,8 +23,8 @@ const NotFoundPage = ({ t }) => (
       <h2 className="heading">{t('404.title')}</h2>
       <p className="text">{t('404.text')}</p>
       <div className="cta" bis_skin_checked="1">
-        <Link href="/">
-          <a className="btn">{t('404.back')}</a>
+        <Link href="/" className="btn">
+          {t('404.back')}
         </Link>
       </div>
     </div>

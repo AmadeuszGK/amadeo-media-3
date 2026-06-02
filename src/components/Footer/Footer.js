@@ -26,10 +26,8 @@ const UilLinkedinAlt = dynamic(
 const Footer = () => (
   <footer>
     <div className="container">
-      <Link href="/">
-        <a className="logo">
-          Amadeo<span>Media.</span>
-        </a>
+      <Link href="/" className="logo">
+        Amadeo<span>Media.</span>
       </Link>
       <p className="text">
         © {new Date().getFullYear()} Amadeo Media. All rights reserved

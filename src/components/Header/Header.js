@@ -27,11 +27,15 @@ const Header = ({ t }) => (
         <h1 className="heading">{t('header.bigTitle')}</h1>
         <p className="text text-heading">{t('header.text')}</p>
         <div className="cta">
-          <Link className="btn" href="/#portfolio" activeClassName="active">
-            <a className="btn">{t('header.portfolio')}</a>
+          <Link href="/#portfolio" className="btn" activeClassName="active">
+            {t('header.portfolio')}
           </Link>
-          <Link href="/#kontakt" className="btn secondary-btn">
-            <a className="btn secondary-btn">{t('header.contactMe')}</a>
+          <Link
+            href="/#kontakt"
+            className="btn secondary-btn"
+            activeClassName="active"
+          >
+            {t('header.contactMe')}
           </Link>
         </div>
       </div>

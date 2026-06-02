@@ -27,11 +27,11 @@ const AboutUs = ({ t }) => (
           <h1 className="heading">Amadeusz Grzesiak</h1>
           <p className="text">{t('aboutMe.text1')}</p>
           <div className="cta">
-            <Link href="/#oferta" activeClassName="active">
-              <a className="btn">{t('aboutMe.button1')}</a>
+            <Link href="/#oferta" className="btn">
+              {t('aboutMe.button1')}
             </Link>
-            <Link href="/#kontakt">
-              <a className="btn secondary-btn">{t('aboutMe.button2')}</a>
+            <Link href="/#kontakt" className="btn secondary-btn">
+              {t('aboutMe.button2')}
             </Link>
           </div>
         </div>

@@ -30,8 +30,8 @@ const EmailSent = ({ t }) => (
           </a>
         </p>
         <div className="cta" bis_skin_checked="1">
-          <Link href="/">
-            <a className="btn">{t('email.back')}</a>
+          <Link href="/" className="btn">
+            {t('email.back')}
           </Link>
         </div>
       </div>

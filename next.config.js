@@ -1,4 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  experimental: { images: { layoutRaw: true } },
+  transpilePackages: ['@iconscout/react-unicons'],
+  turbopack: {
+    root: __dirname,
+  },
 };

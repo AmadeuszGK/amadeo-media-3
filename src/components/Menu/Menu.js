@@ -4,16 +4,19 @@ import LanguageMenu from '../LanguageMenu';
 import { withTrans } from '../../i18n/withTrans';
 import dynamic from 'next/dynamic';
 
-const UilMoon = dynamic(import('@iconscout/react-unicons/icons/uil-moon'), {
-  ssr: false,
-});
+const UilMoon = dynamic(
+  () => import('@iconscout/react-unicons/icons/uil-moon'),
+  {
+    ssr: false,
+  },
+);
 
-const UilSun = dynamic(import('@iconscout/react-unicons/icons/uil-sun'), {
+const UilSun = dynamic(() => import('@iconscout/react-unicons/icons/uil-sun'), {
   ssr: false,
 });
 
 export const UilLink = dynamic(
-  import('@iconscout/react-unicons/icons/uil-link'),
+  () => import('@iconscout/react-unicons/icons/uil-link'),
   {
     ssr: false,
   },
@@ -68,72 +71,50 @@ const Menu = ({ t }) => {
   return (
     <header className={headerClassName}>
       <nav className="container">
-        <Link href="/">
-          <a className="logo">
-            Amadeo<span>Media.</span>
-          </a>
+        <Link href="/" className="logo">
+          Amadeo<span>Media.</span>
         </Link>
         <div className="links">
           <ul>
             <li>
-              <Link href="/" activeClassName="active">
-                <a>
-                  <span onClick={closeHamburgerMenu} className="nav-link">
-                    {t('menu.home')}
-                  </span>
-                </a>
+              <Link href="/" className="nav-link" onClick={closeHamburgerMenu}>
+                {t('menu.home')}
               </Link>
             </li>
             <li>
               <Link
-                className="nav-link"
                 href="/o-mnie"
-                activeClassName="active"
+                className="nav-link"
+                onClick={closeHamburgerMenu}
               >
-                <a>
-                  <span onClick={closeHamburgerMenu} className="nav-link">
-                    {t('menu.about')}
-                  </span>
-                </a>
+                {t('menu.about')}
               </Link>
             </li>
             <li>
               <Link
-                className="nav-link"
                 href="/#oferta"
-                activeClassName="active"
+                className="nav-link"
+                onClick={closeHamburgerMenu}
               >
-                <a>
-                  <span onClick={closeHamburgerMenu} className="nav-link">
-                    {t('menu.offer')}
-                  </span>
-                </a>
+                {t('menu.offer')}
               </Link>
             </li>
             <li>
               <Link
-                className="nav-link"
                 href="/#portfolio"
-                activeClassName="active"
+                className="nav-link"
+                onClick={closeHamburgerMenu}
               >
-                <a>
-                  <span onClick={closeHamburgerMenu} className="nav-link">
-                    {t('menu.portfolio')}
-                  </span>
-                </a>
+                {t('menu.portfolio')}
               </Link>
             </li>
             <li>
               <Link
-                className="nav-link"
                 href="/#kontakt"
-                activeClassName="active"
+                className="nav-link"
+                onClick={closeHamburgerMenu}
               >
-                <a>
-                  <span onClick={closeHamburgerMenu} className="nav-link">
-                    {t('menu.contact')}
-                  </span>
-                </a>
+                {t('menu.contact')}
               </Link>
             </li>
           </ul>
