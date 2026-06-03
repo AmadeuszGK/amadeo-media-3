@@ -6,7 +6,6 @@ import Link from 'next/link';
 import Square1Img from '../../images/square1.png';
 import Circle1Img from '../../images/circle1.png';
 import AmadeuszGrzesiakImg from '../../images/amadeusz-grzesiak.jpg';
-// import Triangle1Img from '../../images/triangle.png';
 import DotsImg from '../../images/dots.png';
 
 const AboutUs = ({ t }) => (

@@ -29,9 +29,15 @@ const Footer = () => (
       <Link href="/" className="logo">
         Amadeo<span>Media.</span>
       </Link>
-      <p className="text">
-        © {new Date().getFullYear()} Amadeo Media. All rights reserved
-      </p>
+      <nav className="footer-nav">
+        <ul style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', listStyle: 'none', padding: 0 }}>
+          <li>
+            <Link href="/tworzenie-stron-luban" style={{ color: 'inherit', textDecoration: 'none', fontSize: '0.9rem' }}>
+              Strony Internetowe Lubań
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <ul className="social-media">
         <li>
           <a
@@ -57,6 +63,11 @@ const Footer = () => (
           </a>
         </li>
       </ul>
+    </div>
+    <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
+      <p className="text">
+          © {new Date().getFullYear()} Amadeo Media. All rights reserved
+      </p>
     </div>
   </footer>
 );
