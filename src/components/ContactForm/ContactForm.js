@@ -14,47 +14,56 @@ const ContactForm = ({ t }) => (
     <h3>
       <b className="bold">{t('contact.formTitle')}</b>
     </h3>
+
+    {/* WYMÓG DOKUMENTACJI NETLIFY DLA JS: Informuje system, do którego formularza przypisać dane */}
     <input type="hidden" name="form-name" value="contact" />
+
+    {/* Zabezpieczenie przed botami (Spam) */}
     <p hidden>
       <label>
         Don’t fill this out: <input name="bot-field" />
       </label>
     </p>
+
     <input
       name="name"
       type="text"
       className="form-input"
       placeholder={t('contact.formName')}
     />
+
     <input
       name="telefon"
       type="text"
       className="form-input"
       placeholder={t('contact.formTelephone')}
     />
+
     <input
       type="email"
       name="email"
       className="form-input"
       placeholder="E-mail"
     />
+
     <textarea
       className="form-input"
       placeholder={t('contact.formMessage')}
-      type="text"
       name="message"
     />
+
     <div className="checbox--wrapper">
       <p className="privacy-policy">
         {t('contact.formText')}
         <Link href="/polityka-prywatnosci">{t('contact.formPrivacy')}</Link>
       </p>
     </div>
+
     <input
       type="submit"
       value={t('contact.formButton')}
       className="btn send-btn"
-    ></input>
+    />
   </form>
 );
 
