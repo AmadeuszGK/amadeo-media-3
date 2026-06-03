@@ -20,7 +20,7 @@
     "postinstall": "husky install"
   },
   "engines": {
-    "node": ">=14.15.0",
+    "node": ">=20.14.0",
     "npm": ">=7.0.0"
   },
   "dependencies": {
