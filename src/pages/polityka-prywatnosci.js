@@ -311,4 +311,3 @@ class PrivacyPolicy extends React.Component {
 }
 
 export default PrivacyPolicy;
-fault PrivacyPolicy;
