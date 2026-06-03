@@ -30,10 +30,15 @@ const Footer = () => (
         Amadeo<span>Media.</span>
       </Link>
       <nav className="footer-nav">
-        <ul style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', listStyle: 'none', padding: 0 }}>
+        <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flexWrap: 'wrap', listStyle: 'none', padding: 0 }}>
           <li>
             <Link href="/tworzenie-stron-luban" style={{ color: 'inherit', textDecoration: 'none', fontSize: '0.9rem' }}>
               Strony Internetowe Lubań
+            </Link>
+          </li>
+          <li>
+            <Link href="/pozycjonowanie-luban" style={{ color: 'inherit', textDecoration: 'none', fontSize: '0.9rem' }}>
+              Pozycjonowanie Lubań
             </Link>
           </li>
         </ul>
