@@ -1,111 +1,110 @@
 {
-    "menu": {
-      "home": "Strona głowna",
-      "about": "O mnie",
-      "offer": "Oferta",
-      "portfolio": "Portfolio",
-      "contact": "Kontakt"
-    },
-    "header": {
-      "bigTitle": "Strony internetowe, ecommerce, marketing",
-      "text": "Cześć, nazywam się Amadeusz Grzesiak. Jestem programistą z wieloletnim doświadczeniem. Pomagam przedsiębiorcom wykorzystać potęgę internetu. Zróbmy coś razem!",
-      "portfolio": "Portfolio",
-      "contactMe": "Skontaktuj się ze mną"
-    },
-    "aboutHome": {
-      "bigTitle": "Etapy współpracy",
-      "smallTitle": "OD POMYSŁU DO REALIZACJI",
-      "text": "Zaczynam od ustalenia szczegółów Twojej witryny. Zadaję pytania dotyczące jej tematyki, branży oraz zakładek, które chciałbyś uwzględnić. Warto, abyś przesłał mi przykłady stron, które Ci się podobają. W przypadku sklepu internetowego ważne będą informacje o typie sprzedawanych produktów oraz ich ilości. Na podstawie tych informacji sporządzę wycenę projektu.",
-      "text2": "Potrzebuję od Ciebie tekstów, zdjęć, uwag. Potrzebna jest także domena i hosting. Jeśli ich nie masz pomogę w zakupie. Zaczynam od projektowania strony głównej. Po akceptacji przechodzę do budowy reszty witryny. Na koniec przesyłam dane do logowania do WordPressa oraz instrukcję obsługi, a także wystawiam fakturę.",
-      "more": "Więcej",
-      "imageTitle1": "1. Wycena",
-      "imageTitle2": "2. Projekt",
-      "imageTitle3": "3. Realizacja",
-      "imageTitle4": "4. Testowanie"
-    },
-    "offer": {
-      "bigTitle": "Jak mogę Ci pomóc?",
-      "smallTitle": "OFERTA",
-      "text": "Potrzebujesz strony internetowej, a może rozbudowanego sklepu internetowego? Dobrze trafiłeś! Od 2018 tworzę strony i sklepy na WordPress, które zarabiają na swoich właścicieli.",
-      "experience": "Lat na rynku",
-      "projects": "Projekty",
-      "clients": "Klienci",
-      "websitesTitle": "Strony internetowe",
-      "websitesText": "Małe strony wizytówkowe i duże portale – tworzę projekty szybkie, estetyczne i łatwe w zarządzaniu, które pracują na sukces Twojej firmy. Dzięki pozycjonowaniu Twoja strona zyska przewagę nad konkurencją i dotrze do szerszego grona klientów.",  
-      "storesTitle": "Sklepy e-commerce",
-      "storesText": "Sklepy internetowe, które są szybkie, funkcjonalne i przejrzyste, sprzedające produkty 24/7. Tworzę rozwiązania oparte na WordPressie i WooCommerce, zapewniając prostotę zarządzania i doskonałą obsługę klienta.",
-      "graphicTitle": "Marketing",
-      "graphicText": "Oprócz stron internetowych i sklepów (E-commerce) zajmuję się także marketingiem. Pomagam ustawiać reklamy Google i Facebook, prowadzę media społecznościowe, kreuję treści i tworzę wizytówki Google Moja Firma.",
-      "administrationTitle": "Administrowanie stron",
-      "administrationText": "Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.",
-      "seoTitle": "Pozycjonowanie SEO",
-      "seoText": "Dbam o widoczność w wyszukiwarce Google. Skutecznie pozycjonuję strony internetowe i sklepy, co skutkuje zwiększeniem zasięgów oraz sprzedaży. Pozycjonowanie to najbardziej efektywny rodzaj marketingu w internecie. "
-    },
-    "site": {
-      "Gatsby Default Starter": "Gatsby Default Starter",
-      "footer": "Zbudowano w Gatsby"
-    },
-    "home": {
-      "test": "hello",
-      "title": "Hi people",
-      "content": "Welcome to your new Gatsby site.\nNow go build something great.",
-      "link": "Go to page 2"
-    },
-    "page2": {
-      "title": "Hi from the second page",
-      "content": "Welcome to page 2",
-      "link": "Go back to the homepage"
-    },
-    "portfolio": {
-      "smallTitle": "OSTATNIE PROJKEKTY",
-      "bigTitle": "Portfolio",
-      "all": "WSZYSTKO",
-      "websites": "STRONY INTERNETOWE",
-      "onlineStores": "SKLEPY INTERNETOWE"
-    },
-    "clients": {
-      "smallTitle": "OPINIE",
-      "bigTitle": "Zadowoleni klienci",
-      "text": "Zaufaj doświadczeniu i dołącz do grona moich zadowolonych klientów! Dbam o każdy detal, by dostarczać projekty, które naprawdę działają i robią wrażenie. Dzięki pozytywnym opiniom i świetnym wynikom wiem, że mogę pomóc Twojemu biznesowi rozwinąć skrzydła w sieci."
-    },
-    "contact": {
-      "smallTitle": "KONTAKT",
-      "bigTitle": "Nawiążmy współpracę",
-      "text": "Zapraszam do skorzystania z moich usług. Konsultacje i wyceny są darmowe, więc nie wahaj się napisać maila lub zadzwonić. Odpowiem na Twoje pytania i pomogę wybrać najlepsze rozwiązanie dla Ciebie.",
-      "formTitle": "Skontaktuj się ze mną",
-      "formName": "Imię",
-      "formTelephone": "Telefon",
-      "formMessage": "Wiadomość...",
-      "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz ",
-      "formPrivacy": "politykę prywatności.",
-      "formButton": "Wyślij"
-    },
-    "cookies": {
-      "text1": "Ta strona używa plików Cookies. Jeśli będziesz kontynuować przeglądanie tej witryny, założymy, że akceptujesz ",
-      "text2": "politykę prywatności i cookies.",
-      "button": "Tak, akceptuję"
-    },
-    "aboutMe": {
-      "text1": "Wzajemne zrozumienie i wspólne określenie celów to gwarancja sukcesu. Stale poszukuję najlepszych rozwiązań i nie boję się nieszablonowych pomysłów. Nie satysfakcjonuje mnie przeciętność, tego samego chcę dla moich Klientów.",
-      "button1": "Oferta",
-      "button2": "Skontaktuj się ze mną",
-      "smallTitle2": "MOJA HISTORIA",
-      "bigTitle2": "O mnie",
-      "text2": "Nazywam się Amadeusz Grzesiak, jestem front-end developerem specjalizującym się w aplikacjach webowych opartych na React JS. Po ukończeniu studiów na Politechnice Wrocławskiej w 2017 roku zdobyłem pierwsze doświadczenie w jednej z wiodących firm w polskiej branży gamblingowej — Promatic. Pracowałem tam nad platformą do prezentacji gier, stronami promującymi produkty oraz grami online, w których występowały takie osobistości jak Mariusz Pudzianowski czy Zenek Martyniuk. W latach 2020-2022 byłem związany z firmą Databout, gdzie rozwijałem narzędzie do analizy terenu Databout Tools oraz zaawansowaną aplikację do konsultacji społecznych (PPGIS). Od 2022 do 2023 roku pracowałem w największej firmie z branży IT w Polsce — Sii. W ramach współpracy z Sii miałem przyjemność pracować dla norweskiej firmy TU Media, lidera w dostarczaniu treści technologicznych dla szerokiej grupy odbiorców. Obecnie świadczę usługi dla FedEx - amerykańskiego przedsiębiorstwa zajmującego się przewozem przesyłek i logistyką, będąc częścią zespołu odpowiedzialnego za usługi takie jak strona do zwrotów, strona śledzenia przesyłek oraz powiadomienia.",
-      "text3": "Oprócz pracy w branży IT prowadzę firmę Amadeo Media, w której tworzę nowoczesne strony internetowe i aplikacje webowe. Jako freelancer realizuję różnorodne projekty, w tym praca.info - portal z ogłoszeniami o pracę, który wspiera użytkowników w poszukiwaniach zatrudnienia. Oferuję również usługi pozycjonowania SEO, marketingu internetowego oraz tworzenia sklepów e-commerce, co pozwala firmom skutecznie sprzedawać online. Dzięki doświadczeniu i wiedzy technicznej, dostarczam rozwiązania, które przynoszą realne rezultaty biznesowe, dbając o każdy detal i jakość wykonania.",
-      "smallTitle3": "Najnowsze technologie",
-      "bigTitle3": "Umiejętności",
-      "text4": "Wszystkie moje projekty są tworzone w oparciu o najnowsze technologie webowe. Dzięki temu jestem w stanie zapewnić moim klientom rozwiązania na najwyższym poziomie, które są zgodne z najnowszymi standardami i wymaganiami rynku. Stale rozwijam swoje umiejętności, podejmując nowe wyzwania i uczestnicząc w różnego rodzaju kursach i szkoleniach. Dzięki temu jestem na bieżąco z najnowszymi trendami w branży oraz mogę oferować swoim klientom najlepsze i najnowocześniejsze rozwiązania."
-    },
-    "email": {
-      "title": "Dziękuję za przesłanie zapytania!",
-      "text": "Skontaktuję się z Tobą najszybciej jak to możliwe. Jeśli zapytanie wymaga bardzo szybkiej odpowiedzi proszę o kontakt telefoniczny na numer: ",
-      "back": "Powrót"
-    },
-    "404": {
-      "title": "Błąd 404",
-      "text": "Ta strona nie istnieje.",
-      "back": "Powrót"
-    }
-  }   }
+  "menu": {
+    "home": "Strona głowna",
+    "about": "O mnie",
+    "offer": "Oferta",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "bigTitle": "Strony internetowe, ecommerce, marketing",
+    "text": "Cześć, nazywam się Amadeusz Grzesiak. Jestem programistą z wieloletnim doświadczeniem. Pomagam przedsiębiorcom wykorzystać potęgę internetu. Zróbmy coś razem!",
+    "portfolio": "Portfolio",
+    "contactMe": "Skontaktuj się ze mną"
+  },
+  "aboutHome": {
+    "bigTitle": "Etapy współpracy",
+    "smallTitle": "OD POMYSŁU DO REALIZACJI",
+    "text": "Zaczynam od ustalenia szczegółów Twojej witryny. Zadaję pytania dotyczące jej tematyki, branży oraz zakładek, które chciałbyś uwzględnić. Warto, abyś przesłał mi przykłady stron, które Ci się podobają. W przypadku sklepu internetowego ważne będą informacje o typie sprzedawanych produktów oraz ich ilości. Na podstawie tych informacji sporządzę wycenę projektu.",
+    "text2": "Potrzebuję od Ciebie tekstów, zdjęć, uwag. Potrzebna jest także domena i hosting. Jeśli ich nie masz pomogę w zakupie. Zaczynam od projektowania strony głównej. Po akceptacji przechodzę do budowy reszty witryny. Na koniec przesyłam dane do logowania do WordPressa oraz instrukcję obsługi, a także wystawiam fakturę.",
+    "more": "Więcej",
+    "imageTitle1": "1. Wycena",
+    "imageTitle2": "2. Projekt",
+    "imageTitle3": "3. Realizacja",
+    "imageTitle4": "4. Testowanie"
+  },
+  "offer": {
+    "bigTitle": "Jak mogę Ci pomóc?",
+    "smallTitle": "OFERTA",
+    "text": "Potrzebujesz strony internetowej, a może rozbudowanego sklepu internetowego? Dobrze trafiłeś! Od 2018 tworzę strony i sklepy na WordPress, które zarabiają na swoich właścicieli.",
+    "experience": "Lat na rynku",
+    "projects": "Projekty",
+    "clients": "Klienci",
+    "websitesTitle": "Strony internetowe",
+    "websitesText": "Małe strony wizytówkowe i duże portale – tworzę projekty szybkie, estetyczne i łatwe w zarządzaniu, które pracują na sukces Twojej firmy. Dzięki pozycjonowaniu Twoja strona zyska przewagę nad konkurencją i dotrze do szerszego grona klientów.",
+    "storesTitle": "Sklepy e-commerce",
+    "storesText": "Sklepy internetowe, które są szybkie, funkcjonalne i przejrzyste, sprzedające produkty 24/7. Tworzę rozwiązania oparte na WordPressie i WooCommerce, zapewniając prostotę zarządzania i doskonałą obsługę klienta.",
+    "graphicTitle": "Marketing",
+    "graphicText": "Oprócz stron internetowych i sklepów (E-commerce) zajmuję się także marketingiem. Pomagam ustawiać reklamy Google i Facebook, prowadzę media społecznościowe, kreuję treści i tworzę wizytówki Google Moja Firma.",
+    "administrationTitle": "Administrowanie stron",
+    "administrationText": "Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.",
+    "seoTitle": "Pozycjonowanie SEO",
+    "seoText": "Dbam o widoczność w wyszukiwarce Google. Skutecznie pozycjonuję strony internetowe i sklepy, co skutkuje zwiększeniem zasięgów oraz sprzedaży. Pozycjonowanie to najbardziej efektywny rodzaj marketingu w internecie. "
+  },
+  "site": {
+    "Gatsby Default Starter": "Gatsby Default Starter",
+    "footer": "Zbudowano w Gatsby"
+  },
+  "home": {
+    "test": "hello",
+    "title": "Hi people",
+    "content": "Welcome to your new Gatsby site.\nNow go build something great.",
+    "link": "Go to page 2"
+  },
+  "page2": {
+    "title": "Hi from the second page",
+    "content": "Welcome to page 2",
+    "link": "Go back to the homepage"
+  },
+  "portfolio": {
+    "smallTitle": "OSTATNIE PROJKEKTY",
+    "bigTitle": "Portfolio",
+    "all": "WSZYSTKO",
+    "websites": "STRONY INTERNETOWE",
+    "onlineStores": "SKLEPY INTERNETOWE"
+  },
+  "clients": {
+    "smallTitle": "OPINIE",
+    "bigTitle": "Zadowoleni klienci",
+    "text": "Zaufaj doświadczeniu i dołącz do grona moich zadowolonych klientów! Dbam o każdy detal, by dostarczać projekty, które naprawdę działają i robią wrażenie. Dzięki pozytywnym opiniom i świetnym wynikom wiem, że mogę pomóc Twojemu biznesowi rozwinąć skrzydła w sieci."
+  },
+  "contact": {
+    "smallTitle": "KONTAKT",
+    "bigTitle": "Nawiążmy współpracę",
+    "text": "Zapraszam do skorzystania z moich usług. Konsultacje i wyceny są darmowe, więc nie wahaj się napisać maila lub zadzwonić. Odpowiem na Twoje pytania i pomogę wybrać najlepsze rozwiązanie dla Ciebie.",
+    "formTitle": "Skontaktuj się ze mną",
+    "formName": "Imię",
+    "formTelephone": "Telefon",
+    "formMessage": "Wiadomość...",
+    "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz ",
+    "formPrivacy": "politykę prywatności.",
+    "formButton": "Wyślij"
+  },
+  "cookies": {
+    "text1": "Ta strona używa plików Cookies. Jeśli będziesz kontynuować przeglądanie tej witryny, założymy, że akceptujesz ",
+    "text2": "politykę prywatności i cookies.",
+    "button": "Tak, akceptuję"
+  },
+  "aboutMe": {
+    "text1": "Wzajemne zrozumienie i wspólne określenie celów to gwarancja sukcesu. Stale poszukuję najlepszych rozwiązań i nie boję się nieszablonowych pomysłów. Nie satysfakcjonuje mnie przeciętność, tego samego chcę dla moich Klientów.",
+    "button1": "Oferta",
+    "button2": "Skontaktuj się ze mną",
+    "smallTitle2": "MOJA HISTORIA",
+    "bigTitle2": "O mnie",
+    "text2": "Nazywam się Amadeusz Grzesiak, jestem front-end developerem specjalizującym się w aplikacjach webowych opartych na React JS. Po ukończeniu studiów na Politechnice Wrocławskiej w 2017 roku zdobyłem pierwsze doświadczenie w jednej z wiodących firm w polskiej branży gamblingowej — Promatic. Pracowałem tam nad platformą do prezentacji gier, stronami promującymi produkty oraz grami online, w których występowały takie osobistości jak Mariusz Pudzianowski czy Zenek Martyniuk. W latach 2020-2022 byłem związany z firmą Databout, gdzie rozwijałem narzędzie do analizy terenu Databout Tools oraz zaawansowaną aplikację do konsultacji społecznych (PPGIS). Od 2022 do 2023 roku pracowałem w największej firmie z branży IT w Polsce — Sii. W ramach współpracy z Sii miałem przyjemność pracować dla norweskiej firmy TU Media, lidera w dostarczaniu treści technologicznych dla szerokiej grupy odbiorców. Obecnie świadczę usługi dla FedEx - amerykańskiego przedsiębiorstwa zajmującego się przewozem przesyłek i logistyką, będąc częścią zespołu odpowiedzialnego za usługi takie jak strona do zwrotów, strona śledzenia przesyłek oraz powiadomienia.",
+    "text3": "Oprócz pracy w branży IT prowadzę firmę Amadeo Media, w której tworzę nowoczesne strony internetowe i aplikacje webowe. Jako freelancer realizuję różnorodne projekty, w tym praca.info - portal z ogłoszeniami o pracę, który wspiera użytkowników w poszukiwaniach zatrudnienia. Oferuję również usługi pozycjonowania SEO, marketingu internetowego oraz tworzenia sklepów e-commerce, co pozwala firmom skutecznie sprzedawać online. Dzięki doświadczeniu i wiedzy technicznej, dostarczam rozwiązania, które przynoszą realne rezultaty biznesowe, dbając o każdy detal i jakość wykonania.",
+    "smallTitle3": "Najnowsze technologie",
+    "bigTitle3": "Umiejętności",
+    "text4": "Wszystkie moje projekty są tworzone w oparciu o najnowsze technologie webowe. Dzięki temu jestem w stanie zapewnić moim klientom rozwiązania na najwyższym poziomie, które są zgodne z najnowszymi standardami i wymaganiami rynku. Stale rozwijam swoje umiejętności, podejmując nowe wyzwania i uczestnicząc w różnego rodzaju kursach i szkoleniach. Dzięki temu jestem na bieżąco z najnowszymi trendami w branży oraz mogę oferować swoim klientom najlepsze i najnowocześniejsze rozwiązania."
+  },
+  "email": {
+    "title": "Dziękuję za przesłanie zapytania!",
+    "text": "Skontaktuję się z Tobą najszybciej jak to możliwe. Jeśli zapytanie wymaga bardzo szybkiej odpowiedzi proszę o kontakt telefoniczny na numer: ",
+    "back": "Powrót"
+  },
+  "404": {
+    "title": "Błąd 404",
+    "text": "Ta strona nie istnieje.",
+    "back": "Powrót"
   }
+}
