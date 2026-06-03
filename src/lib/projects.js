@@ -5,9 +5,9 @@ import HarasimowiczImg from '../images/hls-sss.jpg';
 import MkprestigeImg from '../images/mkprestige-ss.jpg';
 import DataboutImg from '../images/databout-ss.jpg';
 import Wolnosci14Img from '../images/wolnosci14-ss.jpg';
-import EricFollyImg from '../images/eric-folly-sss.jpg';
+import IntymnyImg from '../images/intymny-sss.jpg';
 import InleiItalyImg from '../images/inlei-ss.jpg';
-import MebleImg from '../images/meble-sss.jpg';
+import NieruchomosciImg from '../images/nieruchmosci-sss.jpg';
 import PracaInfoImg from '../images/pracainfo-sss.jpg';
 import AbadddImg from '../images/abaddd-sss.jpg';
 
@@ -17,6 +17,13 @@ export const projects = [
     name: 'Okulary Zoom',
     url: 'https://okularyzoom.pl/',
     imgSrc: OkularyZoomImg,
+    type: 'ecommerce',
+  },
+  {
+    id: 111,
+    name: 'Intymny Świat',
+    url: 'https://intymnyswiat.pl/',
+    imgSrc: IntymnyImg,
     type: 'ecommerce',
   },
   {
@@ -49,10 +56,10 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'Meble tapicerowane Alex & Kasia',
-    url: 'https://mebletapicerowanealexkasia.pl/',
-    imgSrc: MebleImg,
-    type: 'ecommerce',
+    name: 'Sprzedaż nieruchomości - Bartłomiej Stanuch',
+    url: 'https://sprzedaz-nieruchomosci.pl/',
+    imgSrc: NieruchomosciImg,
+    type: 'website',
   },
   {
     id: 5,
@@ -80,13 +87,6 @@ export const projects = [
     name: 'Wolności 14 (Promatic)',
     url: 'http://wolnosci14.pl',
     imgSrc: Wolnosci14Img,
-    type: 'website',
-  },
-  {
-    id: 8,
-    name: 'Eric Folly',
-    url: 'http://ericfolly.pl/',
-    imgSrc: EricFollyImg,
     type: 'website',
   },
   {
