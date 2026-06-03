@@ -27,7 +27,7 @@ class AboutUsView extends React.Component {
           <meta name="author" content="Amadeusz Grzesiak" />
           <meta
             name="description"
-            content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie! Stwórzmy coś razem."
+            content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie!"
           />
           <html lang="pl-PL" />
         </Helmet>

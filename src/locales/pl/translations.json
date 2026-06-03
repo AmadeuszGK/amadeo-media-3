@@ -15,7 +15,7 @@
     "aboutHome": {
       "bigTitle": "Etapy współpracy",
       "smallTitle": "OD POMYSŁU DO REALIZACJI",
-      "text": "Zaczynamy od ustalenia szczegółów Twojej witryny. Zadaję pytania dotyczące jej tematyki, branży oraz zakładek, które chciałbyś uwzględnić. Warto, abyś przesłał mi przykłady stron, które Ci się podobają. W przypadku sklepu internetowego ważne będą informacje o typie sprzedawanych produktów oraz ich ilości. Na podstawie tych informacji sporządzę wycenę projektu.",
+      "text": "Zaczynam od ustalenia szczegółów Twojej witryny. Zadaję pytania dotyczące jej tematyki, branży oraz zakładek, które chciałbyś uwzględnić. Warto, abyś przesłał mi przykłady stron, które Ci się podobają. W przypadku sklepu internetowego ważne będą informacje o typie sprzedawanych produktów oraz ich ilości. Na podstawie tych informacji sporządzę wycenę projektu.",
       "text2": "Potrzebuję od Ciebie tekstów, zdjęć, uwag. Potrzebna jest także domena i hosting. Jeśli ich nie masz pomogę w zakupie. Zaczynam od projektowania strony głównej. Po akceptacji przechodzę do budowy reszty witryny. Na koniec przesyłam dane do logowania do WordPressa oraz instrukcję obsługi, a także wystawiam fakturę.",
       "more": "Więcej",
       "imageTitle1": "1. Wycena",
@@ -107,4 +107,5 @@
       "text": "Ta strona nie istnieje.",
       "back": "Powrót"
     }
+  }   }
   }

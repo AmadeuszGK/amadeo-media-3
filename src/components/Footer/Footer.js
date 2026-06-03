@@ -37,7 +37,7 @@ const Footer = () => (
             </Link>
           </li>
           <li>
-            <Link href="/pozycjonowanie-luban" style={{ color: 'inherit', textDecoration: 'none', fontSize: '0.9rem' }}>
+            <Link href="/pozycjonowanie-stron-luban" style={{ color: 'inherit', textDecoration: 'none', fontSize: '0.9rem' }}>
               Pozycjonowanie Lubań
             </Link>
           </li>

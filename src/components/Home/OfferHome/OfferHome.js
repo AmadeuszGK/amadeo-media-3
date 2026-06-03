@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { withTrans } from '../../../i18n/withTrans';
-// import Link from 'next/link';;
+import Link from 'next/link';
 import Square1Img from '../../../images/square1.png';
 // import TriangleImg from '../../../images/triangle.png';
 import OfferItem1Img from '../../../images/offer-item-img-1.png';
@@ -55,7 +55,11 @@ const OfferHome = ({ t }) => (
       <div className="services-grid">
         <div className="srv-card">
           <div className="card-desc">
-            <h2>{t('offer.websitesTitle')}</h2>
+            <h2>
+              <Link href="/tworzenie-stron-luban" style={{ color: 'inherit', textDecoration: 'none' }}>
+                {t('offer.websitesTitle')}
+              </Link>
+            </h2>
             <div className="card-img">
               <Image
                 src={OfferItem1Img}
@@ -123,7 +127,11 @@ const OfferHome = ({ t }) => (
         </div>
         <div className="srv-card">
           <div className="card-desc">
-            <h2>{t('offer.seoTitle')}</h2>{' '}
+            <h2>
+              <Link href="/pozycjonowanie-stron-luban" style={{ color: 'inherit', textDecoration: 'none' }}>
+                {t('offer.seoTitle')}
+              </Link>
+            </h2>{' '}
             <div className="card-img">
               <Image
                 src={OfferItem4Img}

@@ -7,29 +7,20 @@ import { withTrans } from '../i18n/withTrans';
 import Square1Img from '../images/square1.png';
 import Circle1Img from '../images/circle1.png';
 import Dots1Img from '../images/dots.png';
-import OfferItem1Img from '../images/offer-item-img-1.png';
+import OfferItem2Img from '../images/offer-item-img-2.png';
 
-const UilLink = dynamic(
-  () => import('@iconscout/react-unicons/icons/uil-link'),
-  { ssr: false },
-);
-const UilPhoneAlt = dynamic(
-  () => import('@iconscout/react-unicons/icons/uil-phone-alt'),
-  { ssr: false },
-);
-
-const TworzenieStronLuban = ({ t }) => (
+const PozycjonowanieLuban = ({ t }) => (
   <>
-    <Helmet title="Tworzenie Stron Lubań | Projektowanie Stron WWW | Amadeo Media">
+    <Helmet title="Pozycjonowanie Stron Lubań (SEO) | Profesjonalne Usługi Google">
       <meta charSet="utf-8" />
       <meta
         name="keywords"
-        content="tworzenie stron lubań, tworzenie stron internetowych lubań, projektowanie stron lubań, strony www lubań, web design lubań, strony internetowe lubań, agencja interaktywna lubań"
+        content="pozycjonowanie stron lubań, pozycjonowanie lubań, seo lubań, pozycjonowanie stron internetowych lubań, agencja seo lubań, optymalizacja stron lubań, audyt seo lubań"
       />
       <meta name="author" content="Amadeusz Grzesiak" />
       <meta
         name="description"
-        content="Oferuję profesjonalne tworzenie stron internetowych w Lubaniu. Nowoczesny design, pełna responsywność i optymalizacja SEO pod Google. Zamów bezpłatną konsultację!"
+        content="Interesuje Cię skuteczne pozycjonowanie stron w Lubaniu? Zwiększ widoczność w Google, wyprzedź konkurencję i zdobądź klientów. Zamów darmowy audyt SEO!"
       />
     </Helmet>
 
@@ -45,20 +36,21 @@ const TworzenieStronLuban = ({ t }) => (
       />
       <div className="container">
         <div className="showcase-info">
-          <h3 className="sub-heading">Nowoczesne usługi dla biznesu</h3>
-          {/* POPRAWKA SEO: Krótki, uderzający H1 z precyzyjną frazą */}
-          <h1 className="heading">Tworzenie stron Lubań</h1>
+          <h3 className="sub-heading">Marketing w wyszukiwarce Google</h3>
+          <h1 className="heading">Pozycjonowanie stron Lubań</h1>
           <p className="text">
-            Tworzę nowoczesne, szybkie i responsywne strony internetowe dla firm
-            z Lubania i okolic. Zadbaj o profesjonalny wizerunek w sieci, który
-            realnie przekłada się na zdobywanie nowych klientów.
+            Chcesz, aby Twoja firma była widoczna na pierwszej stronie w
+            wynikach wyszukiwania? Oferuję profesjonalne
+            <b>pozycjonowanie stron w Lubaniu</b> i okolicach. Pomagam lokalnym
+            biznesom zdobywać wysokie pozycje, zwiększać ruch i pozyskiwać
+            wartościowe zapytania od klientów.
           </p>
           <div className="cta">
             <Link href="/#oferta" className="btn">
               Sprawdź ofertę
             </Link>
             <Link href="/#kontakt" className="btn secondary-btn">
-              Umów bezpłatną konsultację
+              Zamów darmowy audyt SEO
             </Link>
           </div>
         </div>
@@ -79,8 +71,8 @@ const TworzenieStronLuban = ({ t }) => (
             />
           </div>
           <Image
-            src={OfferItem1Img}
-            alt="Projektowanie i tworzenie stron internetowych Lubań"
+            src={OfferItem2Img}
+            alt="Skuteczne pozycjonowanie stron Lubań i audyt SEO"
             placeholder="blur"
             layout="responsive"
             priority
@@ -101,23 +93,24 @@ const TworzenieStronLuban = ({ t }) => (
     <section className="section about-page" id="uslugi">
       <div className="container">
         <div className="about-me">
-          {/* POPRAWKA SEO: Rozszerzenie o drugą kluczową frazę w H2 */}
+          {/* POPRAWKA SEO: Naturalne wplecenie frazy w H2 */}
           <h2 className="heading">
-            Projektowanie i tworzenie stron internetowych w Lubaniu
+            Kompleksowe pozycjonowanie stron internetowych w Lubaniu
           </h2>
           <p className="text">
-            Szukasz profesjonalnego programisty i projektanta, który stworzy
-            unikalną wizytówkę dla Twojego biznesu? Dobrze trafiłeś. Oferuję
-            kompleksowe <b>tworzenie stron internetowych w Lubaniu</b>,
-            dopasowanych do potrzeb zarówno małych, lokalnych firm, jak i
-            większych przedsiębiorstw.
+            Sama nowoczesna strona internetowa nie przyniesie zysków, jeśli nikt
+            na nią nie trafia. Aby Twój biznes mógł się rozwijać, niezbędne jest
+            <b>skuteczne pozycjonowanie stron. Lubań</b> to rynek, na którym
+            lokalne firmy coraz mocniej walczą o pozycję lidera w Google. Moim
+            zadaniem jest sprawić, aby to Twoja oferta wyświetlała się najwyżej,
+            gdy potencjalny klient szuka oferowanych przez Ciebie usług.
           </p>
           <p className="text">
-            Każdy projekt realizuję z zachowaniem najwyższych standardów: dbam o
-            pełną optymalizację SEO, błyskawiczne ładowanie strony oraz
-            intuicyjną nawigację. Dzięki temu Twoja nowa strona www nie tylko
-            świetnie wygląda, ale też skutecznie pozycjonuje się w wyszukiwarce
-            Google, przyciągając odbiorców z Lubania i całego regionu.
+            W ramach współpracy wdrażam dedykowane strategie SEO, dopasowane do
+            specyfiki lokalnego rynku na Dolnym Śląsku. Dobieram frazy o wysokim
+            potencjale sprzedażowym (np. *„mechanik Lubań”*, *„fryzjer Lubań”*
+            czy *„usługi budowlane Lubań”*), optymalizuję kod techniczny i
+            buduję silny profil linków.
           </p>
         </div>
       </div>
@@ -141,7 +134,9 @@ const TworzenieStronLuban = ({ t }) => (
       />
       <div className="container">
         <div className="about-me">
-          <h2 className="heading">W czym mogę pomóc Twojej firmie?</h2>
+          <h2 className="heading">
+            Co wchodzi w skład pozycjonowania strony w Google?
+          </h2>
 
           <div
             style={{
@@ -169,7 +164,7 @@ const TworzenieStronLuban = ({ t }) => (
                 e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
               }}
             >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🌍</div>
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔎</div>
               <h3
                 style={{
                   fontSize: '1.2rem',
@@ -177,7 +172,7 @@ const TworzenieStronLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Responsywne strony WWW
+                Darmowy Audyt SEO na start
               </h3>
               <p
                 style={{
@@ -186,9 +181,9 @@ const TworzenieStronLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Projektuję witryny, które dopasowują się do ekranu każdego
-                urządzenia. Twoja oferta będzie czytelna i atrakcyjna na
-                smartfonach, tabletach i laptopach.
+                Dokładnie analizuję błędy techniczne i strukturę kodu Twojej
+                witryny. Sprawdzam, co blokuje Twoją stronę przed wejściem do
+                TOP 10.
               </p>
             </div>
 
@@ -209,7 +204,7 @@ const TworzenieStronLuban = ({ t }) => (
                 e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
               }}
             >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✏️</div>
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔑</div>
               <h3
                 style={{
                   fontSize: '1.2rem',
@@ -217,7 +212,7 @@ const TworzenieStronLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Projektowanie UX/UI
+                Analiza i dobór fraz kluczowych
               </h3>
               <p
                 style={{
@@ -226,9 +221,9 @@ const TworzenieStronLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Tworzę intuicyjne, nowoczesne interfejsy. Układ elementów
-                planuję tak, aby ułatwić użytkownikowi kontakt z Tobą i podnieść
-                konwersję.
+                Wybieram słowa kluczowe, które Twoi potencjalni klienci z
+                Lubania wpisują w wyszukiwarkę. Stawiam na frazy, które generują
+                realne zyski.
               </p>
             </div>
 
@@ -249,7 +244,7 @@ const TworzenieStronLuban = ({ t }) => (
                 e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
               }}
             >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔍</div>
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚙️</div>
               <h3
                 style={{
                   fontSize: '1.2rem',
@@ -257,7 +252,7 @@ const TworzenieStronLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Optymalizacja SEO pod Google
+                Optymalizacja techniczna (On-Page SEO)
               </h3>
               <p
                 style={{
@@ -266,9 +261,8 @@ const TworzenieStronLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Struktura kodu jest w pełni przygotowana do pozycjonowania, co
-                ułatwi Ci start po najwyższe pozycje na frazy związane z rynkiem
-                w Lubaniu.
+                Przyspieszam ładowanie strony, dbam o pełną responsywność,
+                poprawiam meta tagi oraz optymalizuję wskaźniki Core Web Vitals.
               </p>
             </div>
 
@@ -289,7 +283,7 @@ const TworzenieStronLuban = ({ t }) => (
                 e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
               }}
             >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🛒</div>
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📝</div>
               <h3
                 style={{
                   fontSize: '1.2rem',
@@ -297,7 +291,7 @@ const TworzenieStronLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Dedykowane sklepy internetowe
+                Seo Copywriting i Content Marketing
               </h3>
               <p
                 style={{
@@ -306,9 +300,9 @@ const TworzenieStronLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Wdrażam bezpieczne i stabilne platformy e-commerce. Integruję
-                systemy szybkich płatności, moduły kurierskie i panele
-                zarządzania produktami.
+                Tworzę unikalne, wartościowe teksty, które angażują
+                użytkowników, a robotom Google dostarczają idealnie
+                zoptymalizowane treści.
               </p>
             </div>
 
@@ -329,7 +323,7 @@ const TworzenieStronLuban = ({ t }) => (
                 e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
               }}
             >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚡</div>
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📍</div>
               <h3
                 style={{
                   fontSize: '1.2rem',
@@ -337,7 +331,7 @@ const TworzenieStronLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Optymalizacja wydajności (Performance)
+                Pozycjonowanie lokalne Lubań
               </h3>
               <p
                 style={{
@@ -346,9 +340,9 @@ const TworzenieStronLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Szybkość ma znaczenie. Projektuję z myślą o zielonych
-                wskaźnikach w Core Web Vitals, co doceniają zarówno użytkownicy,
-                jak i algorytmy wyszukiwarki.
+                Zwiększam widoczność firmy w regionie. Optymalizuję profil firmy
+                w Mapach Google (Google My Business), ściągając ruch prosto z
+                Twojej okolicy.
               </p>
             </div>
           </div>
@@ -363,7 +357,7 @@ const TworzenieStronLuban = ({ t }) => (
       <div className="container">
         <div className="about-me">
           <h2 className="heading">
-            Dlaczego warto podjąć współpracę właśnie ze mną?
+            Dlaczego lokalne SEO to najlepsza inwestycja dla firm z Lubania?
           </h2>
 
           <div
@@ -408,7 +402,7 @@ const TworzenieStronLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Lokalne wsparcie na miejscu
+                  Klienci gotowi na zakup
                 </h3>
                 <p
                   style={{
@@ -417,9 +411,8 @@ const TworzenieStronLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Doskonale rozumiem specyfikę rynku w powiecie lubańskim.
-                  Mogę bez problemu omówić Twój projekt na spotkaniu osobistym
-                  lub wygodnie online.
+                  Osoby wpisujące w Google frazy lokalne szukają usług „na już”.
+                  Dobrze pozycjonowana strona przejmuje te wartościowe leady.
                 </p>
               </div>
             </div>
@@ -458,7 +451,7 @@ const TworzenieStronLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Doświadczenie poparte wiedzą
+                  Dominacja nad konkurencją
                 </h3>
                 <p
                   style={{
@@ -467,9 +460,9 @@ const TworzenieStronLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Posiadam bogate doświadczenie w obszarze web designu oraz
-                  developmentu. Każdemu zleceniu poświęcam maksimum uwagi,
-                  dbając o unikalne detale.
+                  Większość lokalnych firm zaniedbuje SEO. Inwestując w
+                  pozycjonowanie witryny, zyskujesz ogromną przewagę w regionie
+                  Lubań.
                 </p>
               </div>
             </div>
@@ -508,7 +501,7 @@ const TworzenieStronLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Stała opieka i doradztwo SEO
+                  Długofalowe, stabilne wyniki
                 </h3>
                 <p
                   style={{
@@ -517,9 +510,9 @@ const TworzenieStronLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Współpraca nie kończy się na wdrożeniu. Jestem dostępny
-                  również po premierze strony, pomagając w jej rozwoju,
-                  aktualizacjach oraz marketingu.
+                  W przeciwieństwie do płatnych reklam Ads, organiczne
+                  pozycjonowanie przynosi stabilny ruch nawet po zakończeniu
+                  głównych prac optymalizacyjnych.
                 </p>
               </div>
             </div>
@@ -558,7 +551,7 @@ const TworzenieStronLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Nowoczesne technologie
+                  Raporty i transparentność
                 </h3>
                 <p
                   style={{
@@ -567,9 +560,8 @@ const TworzenieStronLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Pracuję na sprawdzonych środowiskach (WordPress,
-                  React/Next.js). Wykorzystuję rozwiązania gwarantujące
-                  bezpieczeństwo, szybkość oraz pełną skalowalność.
+                  Działam transparentnie. Każdego miesiąca sprawdzisz precyzyjne
+                  wzrosty widoczności oraz pozycje kluczowych fraz.
                 </p>
               </div>
             </div>
@@ -596,9 +588,7 @@ const TworzenieStronLuban = ({ t }) => (
       />
       <div className="container">
         <div className="about-me">
-          <h2 className="heading">
-            Jak wygląda proces powstawania strony internetowej?
-          </h2>
+          <h2 className="heading">Jak krok po kroku pozycjonuję strony www?</h2>
 
           <div
             style={{
@@ -611,28 +601,28 @@ const TworzenieStronLuban = ({ t }) => (
             {[
               {
                 step: 1,
-                title: 'Darmowa konsultacja',
-                desc: 'Analizujemy Twoje cele biznesowe, potrzeby użytkowników oraz budżet.',
+                title: 'Darmowy Audyt SEO',
+                desc: 'Analizuję obecny stan techniczny witryny oraz lokalną konkurencję.',
               },
               {
                 step: 2,
-                title: 'Projekt makiety (UI/UX)',
-                desc: 'Tworzę wireframy oraz dopracowany wizualnie mockup, zbierając Twoje uwagi.',
+                title: 'Dobór słów kluczowych',
+                desc: 'Wybieram precyzyjne frazy z potencjałem na konwersję i sprzedaż.',
               },
               {
                 step: 3,
-                title: 'Kodowanie i optymalizacja',
-                desc: 'Buduję gotową strukturę serwisu, dbając o czysty kod oraz szybkość ładowania.',
+                title: 'Optymalizacja kodu i treści',
+                desc: 'Wdrażam poprawki techniczne, przyspieszam stronę i rozbudowuję teksty.',
               },
               {
                 step: 4,
-                title: 'Testy przedwdrożeniowe',
-                desc: 'Przeprowadzam pełne testy responsywności na urządzeniach mobilnych oraz w różnych przeglądarkach.',
+                title: 'Skuteczny Link Building',
+                desc: 'Pozyskuję wartościowe odnośniki podnoszące autorytet domeny w oczach Google.',
               },
               {
                 step: 5,
-                title: 'Uruchomienie i wsparcie',
-                desc: 'Przenoszę stronę na Twój serwer, konfiguruję analitykę i pomagam w dalszym rozwoju.',
+                title: 'Analityka i monitoring',
+                desc: 'Stale badam zachowania użytkowników i optymalizuję pozycje w rankingu.',
               },
             ].map((item) => (
               <div
@@ -720,8 +710,10 @@ const TworzenieStronLuban = ({ t }) => (
       />
       <div className="container">
         <div className="about-me" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '4rem', marginBottom: '1.5rem' }}>📞</div>
-          <h2 className="heading">Zbudujmy Twoją pozycję w sieci</h2>
+          <div style={{ fontSize: '4rem', marginBottom: '1.5rem' }}>📈</div>
+          <h2 className="heading">
+            Chcesz zwiększyć zyski i zamówić pozycjonowanie stron w Lubaniu?
+          </h2>
           <p
             className="text"
             style={{
@@ -730,13 +722,14 @@ const TworzenieStronLuban = ({ t }) => (
               margin: '1.5rem auto 2rem',
             }}
           >
-            Szukasz profesjonalisty, który bierze pełną odpowiedzialność za kod
-            i wygląd Twojej strony WWW? Skontaktuj się ze mną – omówimy projekt,
-            a ja przygotuję dla Ciebie darmową, niezobowiązującą wycenę.
+            Nie pozwól, aby konkurencyjne firmy przejmowały Twoich klientów w
+            wyszukiwarce. Skontaktuj się ze mną, a przygotuję dla Ciebie
+            bezpłatną analizę i podpowiem, jak skutecznie wybić Twoją witrynę na
+            najwyższe pozycje.
           </p>
           <div className="container">
             <Link href="/#kontakt" className="btn">
-              Umów bezpłatną konsultację
+              Zleć darmowy audyt SEO
             </Link>
           </div>
         </div>
@@ -745,4 +738,4 @@ const TworzenieStronLuban = ({ t }) => (
   </>
 );
 
-export default withTrans(TworzenieStronLuban);
+export default withTrans(PozycjonowanieLuban);
