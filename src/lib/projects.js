@@ -21,8 +21,8 @@ export const projects = [
   },
   {
     id: 111,
-    name: 'Intymny Świat',
-    url: 'https://intymnyswiat.pl/',
+    name: 'SexShopOnline',
+    url: 'https://sexshoponline.pl/',
     imgSrc: IntymnyImg,
     type: 'ecommerce',
   },

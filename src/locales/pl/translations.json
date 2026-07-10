@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Błąd 404",
+    "text": "Ta strona nie istnieje.",
+    "back": "Powrót"
+  },
   "menu": {
     "home": "Strona głowna",
     "about": "O mnie",
@@ -102,9 +107,50 @@
     "text": "Skontaktuję się z Tobą najszybciej jak to możliwe. Jeśli zapytanie wymaga bardzo szybkiej odpowiedzi proszę o kontakt telefoniczny na numer: ",
     "back": "Powrót"
   },
-  "404": {
-    "title": "Błąd 404",
-    "text": "Ta strona nie istnieje.",
-    "back": "Powrót"
+  "seoLuban": {
+    "metaTitle": "Pozycjonowanie Stron Lubań (SEO) | Profesjonalne Usługi Google",
+    "metaDescription": "Interesuje Cię skuteczne pozycjonowanie stron w Lubaniu? Zwiększ widoczność w Google, wyprzedź konkurencję i zdobądź klientów. Zamów darmowy audyt SEO!",
+    "heroSubHeading": "Marketing w wyszukiwarce Google",
+    "heroHeading": "Pozycjonowanie stron Lubań",
+    "heroText": "Chcesz, aby Twoja firma była widoczna na pierwszej stronie w wynikach wyszukiwania? Oferuję profesjonalne <b>pozycjonowanie stron w Lubaniu</b> i okolicach. Pomagam lokalnym biznesom zdobywać wysokie pozycje, zwiększać ruch i pozyskiwać wartościowe zapytania od klientów.",
+    "heroBtn1": "Sprawdź ofertę",
+    "heroBtn2": "Zamów darmowy audyt SEO",
+    "aboutHeading": "Kompleksowe pozycjonowanie stron internetowych w Lubaniu",
+    "aboutText1": "Sama nowoczesna strona internetowa nie przyniesie zysków, jeśli nikt na nią nie trafia. Aby Twój biznes mógł się rozwijać, niezbędne jest <b>skuteczne pozycjonowanie stron. Lubań</b> to rynek, na którym lokalne firmy coraz mocniej walczą o pozycję lidera w Google. Moim zadaniem jest sprawić, aby to Twoja oferta wyświetlała się najwyżej, gdy potencjalny klient szuka oferowanych przez Ciebie usług.",
+    "aboutText2": "W ramach współpracy wdrażam dedykowane strategie SEO, dopasowane do specyfiki lokalnego rynku na Dolnym Śląsku. Dobieram frazy o wysokim potencjale sprzedażowym (np. *„mechanik Lubań”*, *„fryzjer Lubań”* czy *„usługi budowlane Lubań”*), optymalizuję kod techniczny i buduję silny profil linków.",
+    "featuresHeading": "Co wchodzi w skład pozycjonowania strony w Google?",
+    "feature1Title": "Darmowy Audyt SEO na start",
+    "feature1Text": "Dokładnie analizuję błędy techniczne i strukturę kodu Twojej witryny. Sprawdzam, co blokuje Twoją stronę przed wejściem do TOP 10.",
+    "feature2Title": "Analiza i dobór fraz kluczowych",
+    "feature2Text": "Wybieram słowa kluczowe, które Twoi potencjalni klienci z Lubania wpisują w wyszukiwarkę. Stawiam na frazy, które generują realne zyski.",
+    "feature3Title": "Optymalizacja techniczna (On-Page SEO)",
+    "feature3Text": "Przyspieszam ładowanie strony, dbam o pełną responsywność, poprawiam meta tagi oraz optymalizuję wskaźniki Core Web Vitals.",
+    "feature4Title": "Seo Copywriting i Content Marketing",
+    "feature4Text": "Tworzę unikalne, wartościowe teksty, które angażują użytkowników, a robotom Google dostarczają idealnie zoptymalizowane treści.",
+    "feature5Title": "Pozycjonowanie lokalne Lubań",
+    "feature5Text": "Zwiększam widoczność firmy w regionie. Optymalizuję profil firmy w Mapach Google (Google My Business), ściągając ruch prosto z Twojej okolicy.",
+    "whyHeading": "Dlaczego lokalne SEO to najlepsza inwestycja dla firm z Lubania?",
+    "why1Title": "Klienci gotowi na zakup",
+    "why1Text": "Osoby wpisujące w Google frazy lokalne szukają usług „na już”. Dobrze pozycjonowana strona przejmuje te wartościowe leady.",
+    "why2Title": "Dominacja nad konkurencją",
+    "why2Text": "Większość lokalnych firm zaniedbuje SEO. Inwestując w pozycjonowanie witryny, zyskujesz ogromną przewagę w regionie Lubań.",
+    "why3Title": "Długofalowe, stabilne wyniki",
+    "why3Text": "W przeciwieństwie do płatnych reklam Ads, organiczne pozycjonowanie przynosi stabilny ruch nawet po zakończeniu głównych prac optymalizacyjnych.",
+    "why4Title": "Raporty i transparentność",
+    "why4Text": "Działam transparentnie. Każdego miesiąca sprawdzisz precyzyjne wzrosty widoczności oraz pozycje kluczowych fraz.",
+    "stepsHeading": "Jak krok po kroku pozycjonuję strony www?",
+    "step1Title": "Darmowy Audyt SEO",
+    "step1Text": "Analizuję obecny stan techniczny witryny oraz lokalną konkurencję.",
+    "step2Title": "Dobór słów kluczowych",
+    "step2Text": "Wybieram precyzyjne frazy z potencjałem na konwersję i sprzedaż.",
+    "step3Title": "Optymalizacja kodu i treści",
+    "step3Text": "Wdrażam poprawki techniczne, przyspieszam stronę i rozbudowuję teksty.",
+    "step4Title": "Skuteczny Link Building",
+    "step4Text": "Pozyskuję wartościowe odnośniki podnoszące autorytet domeny w oczach Google.",
+    "step5Title": "Analityka i monitoring",
+    "step5Text": "Stale badam zachowania użytkowników i optymalizuję pozycje w rankingu.",
+    "ctaHeading": "Chcesz zwiększyć zyski i zamówić pozycjonowanie stron w Lubaniu?",
+    "ctaText": "Nie pozwól, aby konkurencyjne firmy przejmowały Twoich klientów w wyszukiwarce. Skontaktuj się ze mną, a przygotuję dla Ciebie bezpłatną analizę i podpowiem, jak skutecznie wybić Twoją witrynę na najwyższe pozycje.",
+    "ctaBtn": "Zleć darmowy audyt SEO"
   }
 }

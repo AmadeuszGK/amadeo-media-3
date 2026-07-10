@@ -11,7 +11,7 @@ import OfferItem2Img from '../images/offer-item-img-2.png';
 
 const PozycjonowanieLuban = ({ t }) => (
   <>
-    <Helmet title="Pozycjonowanie Stron Lubań (SEO) | Profesjonalne Usługi Google">
+    <Helmet title={t('seoLuban.metaTitle')}>
       <meta charSet="utf-8" />
       <meta
         name="keywords"
@@ -20,7 +20,7 @@ const PozycjonowanieLuban = ({ t }) => (
       <meta name="author" content="Amadeusz Grzesiak" />
       <meta
         name="description"
-        content="Interesuje Cię skuteczne pozycjonowanie stron w Lubaniu? Zwiększ widoczność w Google, wyprzedź konkurencję i zdobądź klientów. Zamów darmowy audyt SEO!"
+        content={t('seoLuban.metaDescription')}
       />
     </Helmet>
 
@@ -36,21 +36,15 @@ const PozycjonowanieLuban = ({ t }) => (
       />
       <div className="container">
         <div className="showcase-info">
-          <h3 className="sub-heading">Marketing w wyszukiwarce Google</h3>
-          <h1 className="heading">Pozycjonowanie stron Lubań</h1>
-          <p className="text">
-            Chcesz, aby Twoja firma była widoczna na pierwszej stronie w
-            wynikach wyszukiwania? Oferuję profesjonalne
-            <b>pozycjonowanie stron w Lubaniu</b> i okolicach. Pomagam lokalnym
-            biznesom zdobywać wysokie pozycje, zwiększać ruch i pozyskiwać
-            wartościowe zapytania od klientów.
-          </p>
+          <h3 className="sub-heading">{t('seoLuban.heroSubHeading')}</h3>
+          <h1 className="heading">{t('seoLuban.heroHeading')}</h1>
+          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.heroText') }} />
           <div className="cta">
             <Link href="/#oferta" className="btn">
-              Sprawdź ofertę
+              {t('seoLuban.heroBtn1')}
             </Link>
             <Link href="/#kontakt" className="btn secondary-btn">
-              Zamów darmowy audyt SEO
+              {t('seoLuban.heroBtn2')}
             </Link>
           </div>
         </div>
@@ -95,23 +89,10 @@ const PozycjonowanieLuban = ({ t }) => (
         <div className="about-me">
           {/* POPRAWKA SEO: Naturalne wplecenie frazy w H2 */}
           <h2 className="heading">
-            Kompleksowe pozycjonowanie stron internetowych w Lubaniu
+            {t('seoLuban.aboutHeading')}
           </h2>
-          <p className="text">
-            Sama nowoczesna strona internetowa nie przyniesie zysków, jeśli nikt
-            na nią nie trafia. Aby Twój biznes mógł się rozwijać, niezbędne jest
-            <b>skuteczne pozycjonowanie stron. Lubań</b> to rynek, na którym
-            lokalne firmy coraz mocniej walczą o pozycję lidera w Google. Moim
-            zadaniem jest sprawić, aby to Twoja oferta wyświetlała się najwyżej,
-            gdy potencjalny klient szuka oferowanych przez Ciebie usług.
-          </p>
-          <p className="text">
-            W ramach współpracy wdrażam dedykowane strategie SEO, dopasowane do
-            specyfiki lokalnego rynku na Dolnym Śląsku. Dobieram frazy o wysokim
-            potencjale sprzedażowym (np. *„mechanik Lubań”*, *„fryzjer Lubań”*
-            czy *„usługi budowlane Lubań”*), optymalizuję kod techniczny i
-            buduję silny profil linków.
-          </p>
+          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.aboutText1') }} />
+          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.aboutText2') }} />
         </div>
       </div>
     </section>
@@ -135,7 +116,7 @@ const PozycjonowanieLuban = ({ t }) => (
       <div className="container">
         <div className="about-me">
           <h2 className="heading">
-            Co wchodzi w skład pozycjonowania strony w Google?
+            {t('seoLuban.featuresHeading')}
           </h2>
 
           <div
@@ -172,7 +153,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Darmowy Audyt SEO na start
+                {t('seoLuban.feature1Title')}
               </h3>
               <p
                 style={{
@@ -181,9 +162,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Dokładnie analizuję błędy techniczne i strukturę kodu Twojej
-                witryny. Sprawdzam, co blokuje Twoją stronę przed wejściem do
-                TOP 10.
+                {t('seoLuban.feature1Text')}
               </p>
             </div>
 
@@ -212,7 +191,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Analiza i dobór fraz kluczowych
+                {t('seoLuban.feature2Title')}
               </h3>
               <p
                 style={{
@@ -221,9 +200,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Wybieram słowa kluczowe, które Twoi potencjalni klienci z
-                Lubania wpisują w wyszukiwarkę. Stawiam na frazy, które generują
-                realne zyski.
+                {t('seoLuban.feature2Text')}
               </p>
             </div>
 
@@ -252,7 +229,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Optymalizacja techniczna (On-Page SEO)
+                {t('seoLuban.feature3Title')}
               </h3>
               <p
                 style={{
@@ -261,8 +238,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Przyspieszam ładowanie strony, dbam o pełną responsywność,
-                poprawiam meta tagi oraz optymalizuję wskaźniki Core Web Vitals.
+                {t('seoLuban.feature3Text')}
               </p>
             </div>
 
@@ -291,7 +267,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Seo Copywriting i Content Marketing
+                {t('seoLuban.feature4Title')}
               </h3>
               <p
                 style={{
@@ -300,9 +276,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Tworzę unikalne, wartościowe teksty, które angażują
-                użytkowników, a robotom Google dostarczają idealnie
-                zoptymalizowane treści.
+                {t('seoLuban.feature4Text')}
               </p>
             </div>
 
@@ -331,7 +305,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   color: '#1a202c',
                 }}
               >
-                Pozycjonowanie lokalne Lubań
+                {t('seoLuban.feature5Title')}
               </h3>
               <p
                 style={{
@@ -340,9 +314,7 @@ const PozycjonowanieLuban = ({ t }) => (
                   fontSize: '0.95rem',
                 }}
               >
-                Zwiększam widoczność firmy w regionie. Optymalizuję profil firmy
-                w Mapach Google (Google My Business), ściągając ruch prosto z
-                Twojej okolicy.
+                {t('seoLuban.feature5Text')}
               </p>
             </div>
           </div>
@@ -357,7 +329,7 @@ const PozycjonowanieLuban = ({ t }) => (
       <div className="container">
         <div className="about-me">
           <h2 className="heading">
-            Dlaczego lokalne SEO to najlepsza inwestycja dla firm z Lubania?
+            {t('seoLuban.whyHeading')}
           </h2>
 
           <div
@@ -402,7 +374,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Klienci gotowi na zakup
+                  {t('seoLuban.why1Title')}
                 </h3>
                 <p
                   style={{
@@ -411,8 +383,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Osoby wpisujące w Google frazy lokalne szukają usług „na już”.
-                  Dobrze pozycjonowana strona przejmuje te wartościowe leady.
+                  {t('seoLuban.why1Text')}
                 </p>
               </div>
             </div>
@@ -451,7 +422,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Dominacja nad konkurencją
+                  {t('seoLuban.why2Title')}
                 </h3>
                 <p
                   style={{
@@ -460,9 +431,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Większość lokalnych firm zaniedbuje SEO. Inwestując w
-                  pozycjonowanie witryny, zyskujesz ogromną przewagę w regionie
-                  Lubań.
+                  {t('seoLuban.why2Text')}
                 </p>
               </div>
             </div>
@@ -501,7 +470,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Długofalowe, stabilne wyniki
+                  {t('seoLuban.why3Title')}
                 </h3>
                 <p
                   style={{
@@ -510,9 +479,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  W przeciwieństwie do płatnych reklam Ads, organiczne
-                  pozycjonowanie przynosi stabilny ruch nawet po zakończeniu
-                  głównych prac optymalizacyjnych.
+                  {t('seoLuban.why3Text')}
                 </p>
               </div>
             </div>
@@ -551,7 +518,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     color: '#1a202c',
                   }}
                 >
-                  Raporty i transparentność
+                  {t('seoLuban.why4Title')}
                 </h3>
                 <p
                   style={{
@@ -560,8 +527,7 @@ const PozycjonowanieLuban = ({ t }) => (
                     lineHeight: '1.6',
                   }}
                 >
-                  Działam transparentnie. Każdego miesiąca sprawdzisz precyzyjne
-                  wzrosty widoczności oraz pozycje kluczowych fraz.
+                  {t('seoLuban.why4Text')}
                 </p>
               </div>
             </div>
@@ -588,7 +554,7 @@ const PozycjonowanieLuban = ({ t }) => (
       />
       <div className="container">
         <div className="about-me">
-          <h2 className="heading">Jak krok po kroku pozycjonuję strony www?</h2>
+          <h2 className="heading">{t('seoLuban.stepsHeading')}</h2>
 
           <div
             style={{
@@ -601,28 +567,28 @@ const PozycjonowanieLuban = ({ t }) => (
             {[
               {
                 step: 1,
-                title: 'Darmowy Audyt SEO',
-                desc: 'Analizuję obecny stan techniczny witryny oraz lokalną konkurencję.',
+                title: t('seoLuban.step1Title'),
+                desc: t('seoLuban.step1Text'),
               },
               {
                 step: 2,
-                title: 'Dobór słów kluczowych',
-                desc: 'Wybieram precyzyjne frazy z potencjałem na konwersję i sprzedaż.',
+                title: t('seoLuban.step2Title'),
+                desc: t('seoLuban.step2Text'),
               },
               {
                 step: 3,
-                title: 'Optymalizacja kodu i treści',
-                desc: 'Wdrażam poprawki techniczne, przyspieszam stronę i rozbudowuję teksty.',
+                title: t('seoLuban.step3Title'),
+                desc: t('seoLuban.step3Text'),
               },
               {
                 step: 4,
-                title: 'Skuteczny Link Building',
-                desc: 'Pozyskuję wartościowe odnośniki podnoszące autorytet domeny w oczach Google.',
+                title: t('seoLuban.step4Title'),
+                desc: t('seoLuban.step4Text'),
               },
               {
                 step: 5,
-                title: 'Analityka i monitoring',
-                desc: 'Stale badam zachowania użytkowników i optymalizuję pozycje w rankingu.',
+                title: t('seoLuban.step5Title'),
+                desc: t('seoLuban.step5Text'),
               },
             ].map((item) => (
               <div
@@ -712,7 +678,7 @@ const PozycjonowanieLuban = ({ t }) => (
         <div className="about-me" style={{ textAlign: 'center' }}>
           <div style={{ fontSize: '4rem', marginBottom: '1.5rem' }}>📈</div>
           <h2 className="heading">
-            Chcesz zwiększyć zyski i zamówić pozycjonowanie stron w Lubaniu?
+            {t('seoLuban.ctaHeading')}
           </h2>
           <p
             className="text"
@@ -722,14 +688,11 @@ const PozycjonowanieLuban = ({ t }) => (
               margin: '1.5rem auto 2rem',
             }}
           >
-            Nie pozwól, aby konkurencyjne firmy przejmowały Twoich klientów w
-            wyszukiwarce. Skontaktuj się ze mną, a przygotuję dla Ciebie
-            bezpłatną analizę i podpowiem, jak skutecznie wybić Twoją witrynę na
-            najwyższe pozycje.
+            {t('seoLuban.ctaText')}
           </p>
           <div className="container">
             <Link href="/#kontakt" className="btn">
-              Zleć darmowy audyt SEO
+              {t('seoLuban.ctaBtn')}
             </Link>
           </div>
         </div>

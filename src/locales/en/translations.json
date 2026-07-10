@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Error 404",
+    "text": "This page does not exist.",
+    "back": "Return"
+  },
   "menu": {
     "home": "Home",
     "about": "About me",
@@ -64,9 +69,9 @@
     "onlineStores": "ONLINE STORES"
   },
   "clients": {
-      "smallTitle": "REVIEWS",
-      "bigTitle": "Happy Clients",
-      "text": "Trust my experience and join the ranks of my satisfied clients! I pay attention to every detail to deliver projects that truly work and make an impact. With positive reviews and great results, I know I can help your business soar online."
+    "smallTitle": "REVIEWS",
+    "bigTitle": "Happy Clients",
+    "text": "Trust my experience and join the ranks of my satisfied clients! I pay attention to every detail to deliver projects that truly work and make an impact. With positive reviews and great results, I know I can help your business soar online."
   },
   "contact": {
     "smallTitle": "CONTACT",
@@ -102,9 +107,50 @@
     "text": "I will contact you as soon as possible. If your inquiry requires a very quick response, please contact me by phone: ",
     "back": "Return"
   },
-  "404": {
-    "title": "Error 404",
-    "text": "This page does not exist.",
-    "back": "Return"
+  "seoLuban": {
+    "metaTitle": "SEO Positioning Lubań | Professional Google Services",
+    "metaDescription": "Are you interested in effective website positioning in Lubań? Increase your visibility on Google, outpace the competition, and gain new clients. Order a free SEO audit!",
+    "heroSubHeading": "Marketing in Google Search",
+    "heroHeading": "Website Positioning Lubań",
+    "heroText": "Do you want your business to be visible on the first page of search results? I offer professional <b>website positioning in Lubań</b> and the surrounding areas. I help local businesses achieve high rankings, increase traffic, and acquire valuable inquiries from clients.",
+    "heroBtn1": "Check the offer",
+    "heroBtn2": "Order a free SEO audit",
+    "aboutHeading": "Comprehensive website positioning in Lubań",
+    "aboutText1": "A modern website alone won't bring profits if no one visits it. For your business to grow, <b>effective website positioning</b> is essential. Lubań is a market where local companies increasingly fight for a leading position on Google. My job is to make your offer appear highest when a potential client searches for the services you provide.",
+    "aboutText2": "As part of our cooperation, I implement dedicated SEO strategies tailored to the specifics of the local market in Lower Silesia. I select high-potential sales keywords (e.g., *\"mechanic Lubań\"*, *\"hairdresser Lubań\"* or *\"construction services Lubań\"*), optimize technical code, and build a strong link profile.",
+    "featuresHeading": "What is included in Google website positioning?",
+    "feature1Title": "Free SEO Audit to start",
+    "feature1Text": "I thoroughly analyze technical errors and the code structure of your website. I check what blocks your site from entering the TOP 10.",
+    "feature2Title": "Keyword analysis and selection",
+    "feature2Text": "I choose keywords that your potential clients from Lubań enter into the search engine. I focus on phrases that generate real profits.",
+    "feature3Title": "Technical optimization (On-Page SEO)",
+    "feature3Text": "I speed up page loading, ensure full responsiveness, improve meta tags, and optimize Core Web Vitals.",
+    "feature4Title": "SEO Copywriting and Content Marketing",
+    "feature4Text": "I create unique, valuable texts that engage users while providing perfectly optimized content for Google bots.",
+    "feature5Title": "Local positioning Lubań",
+    "feature5Text": "I increase company visibility in the region. I optimize the company profile in Google Maps (Google My Business), drawing traffic right from your neighborhood.",
+    "whyHeading": "Why is local SEO the best investment for businesses from Lubań?",
+    "why1Title": "Clients ready to buy",
+    "why1Text": "People typing local phrases into Google are looking for services \"right now\". A well-positioned website captures these valuable leads.",
+    "why2Title": "Dominating the competition",
+    "why2Text": "Most local companies neglect SEO. By investing in website positioning, you gain a massive advantage in the Lubań region.",
+    "why3Title": "Long-term, stable results",
+    "why3Text": "Unlike paid Ads, organic positioning brings stable traffic even after the main optimization work is completed.",
+    "why4Title": "Reports and transparency",
+    "why4Text": "I act transparently. Every month you will check precise visibility increases and the positions of key phrases.",
+    "stepsHeading": "How do I position websites step by step?",
+    "step1Title": "Free SEO Audit",
+    "step1Text": "I analyze the current technical state of the website and local competition.",
+    "step2Title": "Keyword selection",
+    "step2Text": "I select precise phrases with conversion and sales potential.",
+    "step3Title": "Code and content optimization",
+    "step3Text": "I implement technical fixes, speed up the website, and expand the texts.",
+    "step4Title": "Effective Link Building",
+    "step4Text": "I acquire valuable links that increase domain authority in the eyes of Google.",
+    "step5Title": "Analytics and monitoring",
+    "step5Text": "I constantly research user behavior and optimize ranking positions.",
+    "ctaHeading": "Do you want to increase profits and order website positioning in Lubań?",
+    "ctaText": "Don't let competing companies take over your clients in the search engine. Contact me, and I will prepare a free analysis for you and suggest how to effectively push your site to the top positions.",
+    "ctaBtn": "Order a free SEO audit"
   }
 }
