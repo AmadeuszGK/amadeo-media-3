@@ -16,7 +16,12 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
   return (
     <>
       {filteredProjects.map((project) => (
-        <a key={project.id} className="mix prt-card inter" href={project.url}>
+        <a
+          key={project.id}
+          className="mix prt-card inter"
+          href={project.url}
+          rel={project.rel}
+        >
           <div className="prt-image">
             <div className="portfolio-img">
               <Image

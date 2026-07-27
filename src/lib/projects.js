@@ -18,6 +18,7 @@ export const projects = [
     url: 'https://okularyzoom.pl/',
     imgSrc: OkularyZoomImg,
     type: 'ecommerce',
+    rel: 'nofollow',
   },
   {
     id: 111,
@@ -25,6 +26,7 @@ export const projects = [
     url: 'https://sexshoponline.pl/',
     imgSrc: IntymnyImg,
     type: 'ecommerce',
+    rel: 'follow',
   },
   {
     id: 11,
@@ -32,6 +34,7 @@ export const projects = [
     url: 'https://praca.info/',
     imgSrc: PracaInfoImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 13,
@@ -39,6 +42,7 @@ export const projects = [
     url: 'https://inlei.pl',
     imgSrc: InleiItalyImg,
     type: 'ecommerce',
+    rel: 'nofollow',
   },
   {
     id: 4,
@@ -46,6 +50,7 @@ export const projects = [
     url: 'https://hlskancelaria.pl/',
     imgSrc: HarasimowiczImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 2,
@@ -53,6 +58,7 @@ export const projects = [
     url: 'https://filtry-wodar.pl/',
     imgSrc: FiltryWodarImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 3,
@@ -60,6 +66,7 @@ export const projects = [
     url: 'https://sprzedaz-nieruchomosci.pl/',
     imgSrc: NieruchomosciImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 5,
@@ -67,6 +74,7 @@ export const projects = [
     url: 'https://mk-prestige.pl/',
     imgSrc: MkprestigeImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 223,
@@ -74,6 +82,7 @@ export const projects = [
     url: 'https://abaddd.pl/',
     imgSrc: AbadddImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 6,
@@ -81,6 +90,7 @@ export const projects = [
     url: 'https://databout.pl',
     imgSrc: DataboutImg,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 7,
@@ -88,6 +98,7 @@ export const projects = [
     url: 'http://wolnosci14.pl',
     imgSrc: Wolnosci14Img,
     type: 'website',
+    rel: 'nofollow',
   },
   {
     id: 9,
@@ -95,5 +106,6 @@ export const projects = [
     url: 'https://uslugibaniak.pl/',
     imgSrc: BaniakImg,
     type: 'website',
+    rel: 'nofollow',
   },
 ];
