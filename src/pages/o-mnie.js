@@ -1,5 +1,6 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import Head from 'next/head';
+import { seoTags } from '../lib/seo';
 import AboutUs from '../components/AboutUs/AboutUs';
 
 class AboutUsView extends React.Component {
@@ -18,19 +19,25 @@ class AboutUsView extends React.Component {
   render() {
     return (
       <>
-        <Helmet title="O mnie - Amadeo Media">
+        <Head>
+          <title>O mnie - Amadeo Media</title>
           <meta charSet="utf-8" />
           <meta
             name="keywords"
-            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+            content="front end developer,strony internetowe,sklepy internetowe,react,next.js,lubań,wrocław,e-commerce"
           />
           <meta name="author" content="Amadeusz Grzesiak" />
           <meta
             name="description"
-            content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie!"
+            content="Amadeusz Grzesiak, front-end developer od React JS i właściciel Amadeo Media. Tworzę strony internetowe, sklepy i aplikacje webowe dla firm."
           />
-          <html lang="pl-PL" />
-        </Helmet>
+          {seoTags({
+            title: 'O mnie - Amadeo Media',
+            description:
+              'Amadeusz Grzesiak, front-end developer od React JS i właściciel Amadeo Media. Tworzę strony internetowe, sklepy i aplikacje webowe dla firm.',
+            path: '/o-mnie',
+          })}
+        </Head>
         <AboutUs />
       </>
     );

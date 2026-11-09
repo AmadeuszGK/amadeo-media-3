@@ -12,43 +12,51 @@
     "contact": "Kontakt"
   },
   "header": {
-    "bigTitle": "Strony internetowe, ecommerce, marketing",
-    "text": "Cześć, nazywam się Amadeusz Grzesiak. Jestem programistą z wieloletnim doświadczeniem. Pomagam przedsiębiorcom wykorzystać potęgę internetu. Zróbmy coś razem!",
-    "portfolio": "Portfolio",
-    "contactMe": "Skontaktuj się ze mną"
+    "bigTitle": "Strona dla Twojej firmy w 5–14 dni",
+    "text": "Nowoczesne strony i sklepy internetowe, dzięki którym klienci znajdą Cię w Google i łatwo się z Tobą skontaktują. Wycena jest bezpłatna i dopasowana do Twojej firmy. Zadzwoń, a ustalimy, czego potrzebujesz.",
+    "portfolio": "Zobacz realizacje",
+    "contactMe": "Skontaktuj się ze mną",
+    "call": "Zadzwoń: 796 536 228",
+    "trust1": "Realizacja w 5–14 dni",
+    "trust2": "Bezpłatna wycena",
+    "trust3": "Opieka po wdrożeniu",
+    "rating": "w Google",
+    "reviews": "opinii"
   },
   "aboutHome": {
     "bigTitle": "Etapy współpracy",
-    "smallTitle": "OD POMYSŁU DO REALIZACJI",
-    "text": "Zaczynam od ustalenia szczegółów Twojej witryny. Zadaję pytania dotyczące jej tematyki, branży oraz zakładek, które chciałbyś uwzględnić. Warto, abyś przesłał mi przykłady stron, które Ci się podobają. W przypadku sklepu internetowego ważne będą informacje o typie sprzedawanych produktów oraz ich ilości. Na podstawie tych informacji sporządzę wycenę projektu.",
-    "text2": "Potrzebuję od Ciebie tekstów, zdjęć, uwag. Potrzebna jest także domena i hosting. Jeśli ich nie masz pomogę w zakupie. Zaczynam od projektowania strony głównej. Po akceptacji przechodzę do budowy reszty witryny. Na koniec przesyłam dane do logowania do WordPressa oraz instrukcję obsługi, a także wystawiam fakturę.",
+    "smallTitle": "OD TELEFONU DO GOTOWEJ STRONY",
+    "text": "Zaczynamy od krótkiej rozmowy o Twojej firmie: czym się zajmujesz, kim są Twoi klienci i jakiej strony potrzebujesz. Na tej podstawie przygotowuję bezpłatną wycenę. Jej wysokość zależy od wielkości strony i potrzebnych funkcji, dlatego każda jest dopasowana do konkretnej firmy.",
+    "text2": "Całość zajmuje zwykle od 5 do 14 dni. Potrzebuję od Ciebie tekstów, zdjęć i uwag, a jeśli ich nie masz, podpowiem, jak je przygotować. Domena i hosting są płatne osobno, ale pomogę je wybrać i skonfigurować. Na końcu otrzymujesz stronę gotową do działania, instrukcję obsługi i fakturę.",
     "more": "Więcej",
-    "imageTitle1": "1. Wycena",
+    "imageTitle1": "1. Rozmowa i wycena",
     "imageTitle2": "2. Projekt",
     "imageTitle3": "3. Realizacja",
-    "imageTitle4": "4. Testowanie"
+    "imageTitle4": "4. Testy i wdrożenie"
   },
   "offer": {
     "bigTitle": "Jak mogę Ci pomóc?",
     "smallTitle": "OFERTA",
-    "text": "Potrzebujesz strony internetowej, a może rozbudowanego sklepu internetowego? Dobrze trafiłeś! Od 2018 tworzę strony i sklepy na WordPress, które zarabiają na swoich właścicieli.",
+    "text": "Potrzebujesz strony internetowej, a może sklepu? Od 2018 roku tworzę strony i sklepy dla firm, które mają przynosić zapytania i sprzedaż. Wycena zawsze jest bezpłatna, a jej wysokość zależy od wielkości projektu i potrzebnych funkcji.",
     "experience": "Lat na rynku",
     "projects": "Projekty",
     "clients": "Klienci",
     "websitesTitle": "Strony internetowe",
-    "websitesText": "Małe strony wizytówkowe i duże portale – tworzę projekty szybkie, estetyczne i łatwe w zarządzaniu, które pracują na sukces Twojej firmy. Dzięki pozycjonowaniu Twoja strona zyska przewagę nad konkurencją i dotrze do szerszego grona klientów.",
+    "websitesText": "Od prostej wizytówki po rozbudowany portal. Szybkie, estetyczne i dobrze wyglądające na telefonie strony, które łatwo samemu edytować. Optymalizacja pod Google jest w cenie od pierwszego dnia.",
     "storesTitle": "Sklepy e-commerce",
-    "storesText": "Sklepy internetowe, które są szybkie, funkcjonalne i przejrzyste, sprzedające produkty 24/7. Tworzę rozwiązania oparte na WordPressie i WooCommerce, zapewniając prostotę zarządzania i doskonałą obsługę klienta.",
+    "storesText": "Sklepy internetowe, które są szybkie, przejrzyste i sprzedają 24/7. Wdrażam płatności, dostawy i integracje, a zarządzanie sklepem jest proste także dla osoby bez doświadczenia. Pracuję m.in. na WooCommerce.",
     "graphicTitle": "Marketing",
-    "graphicText": "Oprócz stron internetowych i sklepów (E-commerce) zajmuję się także marketingiem. Pomagam ustawiać reklamy Google i Facebook, prowadzę media społecznościowe, kreuję treści i tworzę wizytówki Google Moja Firma.",
+    "graphicText": "Pomagam być widocznym tam, gdzie szukają Cię klienci: konfiguruję Profil Firmy w Google, reklamy Google Ads i Meta Ads, prowadzę media społecznościowe i tworzę treści.",
     "administrationTitle": "Administrowanie stron",
-    "administrationText": "Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.",
+    "administrationText": "Po wdrożeniu nie zostajesz sam. Dbam o aktualizacje, kopie zapasowe, poprawki i nowe treści, a w razie problemu wystarczy zadzwonić.",
     "seoTitle": "Pozycjonowanie SEO",
-    "seoText": "Dbam o widoczność w wyszukiwarce Google. Skutecznie pozycjonuję strony internetowe i sklepy, co skutkuje zwiększeniem zasięgów oraz sprzedaży. Pozycjonowanie to najbardziej efektywny rodzaj marketingu w internecie. "
+    "seoText": "Dbam o widoczność Twojej firmy w Google. Pozycjonuję strony i sklepy, także lokalnie, żeby klienci z Twojej okolicy znajdowali Cię jako pierwszego. Efekty są długofalowe, a nie tylko na czas trwania reklamy.",
+    "aiTitle": "Integracje i automatyzacja AI",
+    "aiText": "Wdrażam AI tam, gdzie oszczędza czas i pieniądze: asystenci i czatboty na stronie, automatyczne odpowiedzi na zapytania, integracje sklepu i strony z pocztą, kalendarzem, CRM i bazami danych oraz generowanie opisów i treści. Konkretne rozwiązania, nie gadżety.",
+    "more": "Zobacz więcej"
   },
   "site": {
-    "Gatsby Default Starter": "Gatsby Default Starter",
-    "footer": "Zbudowano w Gatsby"
+    "rights": "Wszelkie prawa zastrzeżone"
   },
   "home": {
     "test": "hello",
@@ -62,7 +70,7 @@
     "link": "Go back to the homepage"
   },
   "portfolio": {
-    "smallTitle": "OSTATNIE PROJKEKTY",
+    "smallTitle": "OSTATNIE PROJEKTY",
     "bigTitle": "Portfolio",
     "all": "WSZYSTKO",
     "websites": "STRONY INTERNETOWE",
@@ -71,24 +79,40 @@
   "clients": {
     "smallTitle": "OPINIE",
     "bigTitle": "Zadowoleni klienci",
-    "text": "Zaufaj doświadczeniu i dołącz do grona moich zadowolonych klientów! Dbam o każdy detal, by dostarczać projekty, które naprawdę działają i robią wrażenie. Dzięki pozytywnym opiniom i świetnym wynikom wiem, że mogę pomóc Twojemu biznesowi rozwinąć skrzydła w sieci."
+    "text": "Zaufaj doświadczeniu i dołącz do grona moich zadowolonych klientów! Dbam o każdy detal, by dostarczać projekty, które naprawdę działają i robią wrażenie. Dzięki pozytywnym opiniom i świetnym wynikom wiem, że mogę pomóc Twojemu biznesowi rozwinąć skrzydła w sieci.",
+    "count": "opinii",
+    "seeAll": "Zobacz wszystkie opinie",
+    "more": "Więcej",
+    "less": "Mniej"
   },
   "contact": {
     "smallTitle": "KONTAKT",
-    "bigTitle": "Nawiążmy współpracę",
-    "text": "Zapraszam do skorzystania z moich usług. Konsultacje i wyceny są darmowe, więc nie wahaj się napisać maila lub zadzwonić. Odpowiem na Twoje pytania i pomogę wybrać najlepsze rozwiązanie dla Ciebie.",
+    "bigTitle": "Zadzwoń, porozmawiajmy",
+    "text": "Najszybciej omówimy Twoje potrzeby przez telefon. Konsultacja i wycena są bezpłatne, bez zobowiązań. Odpowiem na Twoje pytania i podpowiem, jakie rozwiązanie będzie dla Ciebie najlepsze. Jeśli wolisz, napisz maila.",
     "formTitle": "Skontaktuj się ze mną",
     "formName": "Imię",
     "formTelephone": "Telefon",
     "formMessage": "Wiadomość...",
     "formText": "Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza kontaktowego, a także w celach statystycznych i analitycznych administratora. Wysyłając maila akceptujesz ",
     "formPrivacy": "politykę prywatności.",
-    "formButton": "Wyślij"
+    "formButton": "Wyślij",
+    "phoneLabel": "Telefon"
   },
   "cookies": {
-    "text1": "Ta strona używa plików Cookies. Jeśli będziesz kontynuować przeglądanie tej witryny, założymy, że akceptujesz ",
-    "text2": "politykę prywatności i cookies.",
-    "button": "Tak, akceptuję"
+    "title": "Szanujemy Twoją prywatność",
+    "text": "Używamy plików cookies niezbędnych do działania strony. Za Twoją zgodą korzystamy też z Google Analytics, aby mierzyć ruch i ulepszać witrynę. Wybór możesz zmienić w każdej chwili.",
+    "policy": "Polityka prywatności i cookies",
+    "rejectAll": "Odrzuć wszystkie",
+    "customize": "Dostosuj",
+    "save": "Zapisz wybór",
+    "acceptAll": "Akceptuję wszystkie",
+    "necessaryTitle": "Niezbędne",
+    "necessaryDesc": "Zapamiętują Twój wybór dotyczący cookies. Strona nie działa bez nich poprawnie, dlatego nie można ich wyłączyć.",
+    "alwaysOn": "Zawsze aktywne",
+    "analyticsTitle": "Analityczne (Google Analytics)",
+    "analyticsDesc": "Anonimowe statystyki odwiedzin: które podstrony są oglądane i skąd przychodzą użytkownicy. Dane przetwarza Google. Bez Twojej zgody skrypt się nie ładuje.",
+    "settingsLink": "Ustawienia cookies",
+    "close": "Zamknij ustawienia"
   },
   "aboutMe": {
     "text1": "Wzajemne zrozumienie i wspólne określenie celów to gwarancja sukcesu. Stale poszukuję najlepszych rozwiązań i nie boję się nieszablonowych pomysłów. Nie satysfakcjonuje mnie przeciętność, tego samego chcę dla moich Klientów.",
@@ -96,8 +120,8 @@
     "button2": "Skontaktuj się ze mną",
     "smallTitle2": "MOJA HISTORIA",
     "bigTitle2": "O mnie",
-    "text2": "Nazywam się Amadeusz Grzesiak, jestem front-end developerem specjalizującym się w aplikacjach webowych opartych na React JS. Po ukończeniu studiów na Politechnice Wrocławskiej w 2017 roku zdobyłem pierwsze doświadczenie w jednej z wiodących firm w polskiej branży gamblingowej — Promatic. Pracowałem tam nad platformą do prezentacji gier, stronami promującymi produkty oraz grami online, w których występowały takie osobistości jak Mariusz Pudzianowski czy Zenek Martyniuk. W latach 2020-2022 byłem związany z firmą Databout, gdzie rozwijałem narzędzie do analizy terenu Databout Tools oraz zaawansowaną aplikację do konsultacji społecznych (PPGIS). Od 2022 do 2023 roku pracowałem w największej firmie z branży IT w Polsce — Sii. W ramach współpracy z Sii miałem przyjemność pracować dla norweskiej firmy TU Media, lidera w dostarczaniu treści technologicznych dla szerokiej grupy odbiorców. Obecnie świadczę usługi dla FedEx - amerykańskiego przedsiębiorstwa zajmującego się przewozem przesyłek i logistyką, będąc częścią zespołu odpowiedzialnego za usługi takie jak strona do zwrotów, strona śledzenia przesyłek oraz powiadomienia.",
-    "text3": "Oprócz pracy w branży IT prowadzę firmę Amadeo Media, w której tworzę nowoczesne strony internetowe i aplikacje webowe. Jako freelancer realizuję różnorodne projekty, w tym praca.info - portal z ogłoszeniami o pracę, który wspiera użytkowników w poszukiwaniach zatrudnienia. Oferuję również usługi pozycjonowania SEO, marketingu internetowego oraz tworzenia sklepów e-commerce, co pozwala firmom skutecznie sprzedawać online. Dzięki doświadczeniu i wiedzy technicznej, dostarczam rozwiązania, które przynoszą realne rezultaty biznesowe, dbając o każdy detal i jakość wykonania.",
+    "text2": "Jestem Amadeusz Grzesiak, front-end developer od React JS. Po Politechnice Wrocławskiej (2017) zacząłem w Promatic, jednej z czołowych firm polskiej branży gamblingowej: platforma do prezentacji gier, strony produktowe i gry online z udziałem m.in. Mariusza Pudzianowskiego i Zenka Martyniuka. W latach 2020–2022 w Databout rozwijałem Databout Tools do analizy terenu oraz aplikację do konsultacji społecznych (PPGIS). W 2022–2023, w ramach współpracy z Sii, pracowałem dla norweskiego TU Media, lidera w treściach technologicznych. Dziś, jako część zespołu FedEx, rozwijam aplikacje webowe dla globalnej firmy logistycznej.",
+    "text3": "Równolegle prowadzę własną firmę, Amadeo Media: robię strony firmowe, sklepy internetowe i aplikacje webowe, a do tego pozycjonowanie SEO. Z moich realizacji korzystają m.in. sexshoponline.pl i seksowna-bielizna.pl (e-commerce), harasimowiczlegal.pl (kancelaria), zlotalyzeczka.pl (sala weselna i catering) oraz praca.info, portal z ogłoszeniami o pracę. Łączę doświadczenie z dużych projektów z podejściem freelancera: szybkim, bezpośrednim i nastawionym na wynik, czyli ruch, zapytania i sprzedaż.",
     "smallTitle3": "Najnowsze technologie",
     "bigTitle3": "Umiejętności",
     "text4": "Wszystkie moje projekty są tworzone w oparciu o najnowsze technologie webowe. Dzięki temu jestem w stanie zapewnić moim klientom rozwiązania na najwyższym poziomie, które są zgodne z najnowszymi standardami i wymaganiami rynku. Stale rozwijam swoje umiejętności, podejmując nowe wyzwania i uczestnicząc w różnego rodzaju kursach i szkoleniach. Dzięki temu jestem na bieżąco z najnowszymi trendami w branży oraz mogę oferować swoim klientom najlepsze i najnowocześniejsze rozwiązania."
@@ -152,5 +176,23 @@
     "ctaHeading": "Chcesz zwiększyć zyski i zamówić pozycjonowanie stron w Lubaniu?",
     "ctaText": "Nie pozwól, aby konkurencyjne firmy przejmowały Twoich klientów w wyszukiwarce. Skontaktuj się ze mną, a przygotuję dla Ciebie bezpłatną analizę i podpowiem, jak skutecznie wybić Twoją witrynę na najwyższe pozycje.",
     "ctaBtn": "Zleć darmowy audyt SEO"
+  },
+  "stickyCall": {
+    "label": "Zadzwoń teraz",
+    "aria": "Zadzwoń do Amadeo Media"
+  },
+  "footer": {
+    "tagline": "Strony internetowe, sklepy, marketing i automatyzacje AI dla firm. Realizacja w 5–14 dni, bezpłatna wycena.",
+    "services": "Usługi",
+    "links": "Na skróty",
+    "contact": "Kontakt",
+    "home": "Strona główna",
+    "offer": "Oferta",
+    "portfolio": "Portfolio",
+    "about": "O mnie",
+    "reviews": "Opinie",
+    "contactLink": "Kontakt",
+    "location": "Lubań, Dolny Śląsk",
+    "callUs": "Zadzwoń"
   }
 }

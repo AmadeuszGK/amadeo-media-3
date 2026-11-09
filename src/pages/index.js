@@ -6,7 +6,12 @@ import AboutHome from '../components/Home/AboutHome/AboutHome';
 import OfferHome from '../components/Home/OfferHome/OfferHome';
 import PortfolioWrapper from '../components/Portfolio/PortfolioWrapper';
 import 'animate.css/animate.min.css';
-import Helmet from 'react-helmet';
+import Head from 'next/head';
+import { seoTags, localBusinessJsonLd } from '../lib/seo';
+
+const TITLE = 'Strony internetowe i sklepy dla firm w 5–14 dni | Amadeo Media';
+const DESC =
+  'Strony internetowe i sklepy dla firm, gotowe w 5–14 dni. Bezpłatna wycena dopasowana do Twojej firmy, optymalizacja pod Google i opieka po wdrożeniu. Zadzwoń: 796 536 228.';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
@@ -15,24 +20,28 @@ if (typeof window !== 'undefined') {
 const Home = () => {
   return (
     <div>
-      <Helmet title="Amadeo Media - strony internetowe, sklepy e-commerce, SEO">
+      <Head>
+        <title>{TITLE}</title>
         <meta charSet="utf-8" />
         <meta
           name="keywords"
-          content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+          content="strony internetowe,sklepy internetowe,strona dla firmy,strona www dla nowej firmy,lubań,wrocław,e-commerce,pozycjonowanie"
         />
         <meta name="author" content="Amadeusz Grzesiak" />
-        <meta
-          name="description"
-          content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie!"
+        <meta name="description" content={DESC} />
+        {seoTags({ title: TITLE, description: DESC, path: '/' })}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
+          }}
         />
-        <html lang="pl-PL" />
-      </Helmet>
+      </Head>
       <Header />
       <OfferHome />
       <PortfolioWrapper />
-      <AboutHome />
       <ClientsHome />
+      <AboutHome />
       <ContactHome />
     </div>
   );

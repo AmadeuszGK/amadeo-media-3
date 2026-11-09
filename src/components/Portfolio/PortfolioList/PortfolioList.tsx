@@ -6,16 +6,18 @@ import { UilLink } from '../../Menu/Menu';
 
 type PortfolioListProps = {
   filter: portfolioItemTypes;
+  limit?: number;
 };
 
-const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
+const PortfolioList: React.FC<PortfolioListProps> = ({ filter, limit }) => {
   const filteredProjects = projects.filter(
     (project) => project.type === filter || filter === `default`,
   );
+  const shown = limit ? filteredProjects.slice(0, limit) : filteredProjects;
 
   return (
     <>
-      {filteredProjects.map((project) => (
+      {shown.map((project) => (
         <a
           key={project.id}
           className="mix prt-card inter"
@@ -23,13 +25,32 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
           rel={project.rel}
         >
           <div className="prt-image">
-            <div className="portfolio-img">
-              <Image
-                src={project.imgSrc}
-                alt={project.name}
-                layout="responsive"
-                placeholder="blur"
-              />
+            <div className="device-scene">
+              <div className="laptop">
+                <div className="laptop-screen">
+                  <Image
+                    src={project.imgSrc}
+                    alt={project.name}
+                    fill
+                    sizes="(max-width: 600px) 90vw, 330px"
+                    placeholder="blur"
+                    className="device-img"
+                  />
+                </div>
+                <div className="laptop-base" />
+              </div>
+              <div className="phone">
+                <div className="phone-screen">
+                  <Image
+                    src={project.imgMobile}
+                    alt={`${project.name} - widok mobilny`}
+                    fill
+                    sizes="90px"
+                    placeholder="blur"
+                    className="device-img"
+                  />
+                </div>
+              </div>
             </div>
             <div className="prt-overlay">
               <div className="prt-icon">

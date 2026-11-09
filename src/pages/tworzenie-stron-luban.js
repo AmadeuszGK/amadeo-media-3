@@ -1,748 +1,150 @@
 import React from 'react';
-import Helmet from 'react-helmet';
-import Link from 'next/link';
-import Image from 'next/image';
-import dynamic from 'next/dynamic';
-import { withTrans } from '../i18n/withTrans';
-import Square1Img from '../images/square1.png';
-import Circle1Img from '../images/circle1.png';
-import Dots1Img from '../images/dots.png';
-import OfferItem1Img from '../images/offer-item-img-1.png';
+import Landing from '../components/Landing/Landing';
+import HeroImg from '../images/offer-item-img-1.png';
 
-const UilLink = dynamic(
-  () => import('@iconscout/react-unicons/icons/uil-link'),
-  { ssr: false },
-);
-const UilPhoneAlt = dynamic(
-  () => import('@iconscout/react-unicons/icons/uil-phone-alt'),
-  { ssr: false },
-);
+const page = {
+  path: '/tworzenie-stron-luban',
+  showcase: {
+    filter: 'website',
+    h2: 'Strony, które zrobiłem dla firm',
+    text: 'Kilka ostatnich realizacji. Każdą możesz otworzyć i sprawdzić na żywo, także na telefonie.',
+  },
+  metaTitle:
+    'Tworzenie stron internetowych Lubań | Strony WWW dla firm | Amadeo Media',
+  metaDescription:
+    'Tworzenie stron internetowych w Lubaniu i okolicach. Nowoczesne strony firmowe i sklepy, gotowe w 5–14 dni, przygotowane pod Google. Bezpłatna wycena, zadzwoń: 796 536 228.',
+  keywords:
+    'tworzenie stron lubań, tworzenie stron internetowych lubań, strony www lubań, projektowanie stron lubań, strona dla firmy, sklep internetowy lubań',
+  serviceName: 'Tworzenie stron internetowych',
+  kicker: 'Strony internetowe dla firm',
+  h1: 'Tworzenie stron internetowych Lubań',
+  lead: 'Nowoczesna strona, która przyciąga klientów z Google i świetnie działa na telefonie. Gotowa w 5–14 dni, z bezpłatną wyceną dopasowaną do Twojej firmy.',
+  heroImage: HeroImg,
+  heroAlt: 'Tworzenie stron internetowych w Lubaniu',
+  intro: {
+    h2: 'Strona, która pracuje na Twój biznes',
+    paragraphs: [
+      'Dla większości klientów pierwszy kontakt z firmą to wyszukiwarka i strona internetowa. Dobra strona wygląda profesjonalnie, ładuje się szybko i od razu pokazuje, jak się z Tobą skontaktować.',
+      'Tworzę strony internetowe dla firm z Lubania, Dolnego Śląska i całej Polski, od prostych wizytówek po rozbudowane portale i sklepy. Pracuję bezpośrednio z Tobą, bez pośredników, więc ustalenia są szybkie, a efekt zgodny z oczekiwaniami.',
+    ],
+  },
+  features: {
+    h2: 'Co dostajesz w ramach strony',
+    items: [
+      {
+        icon: 'mobile',
+        title: 'Działa na każdym urządzeniu',
+        text: 'Strona dopasowuje się do telefonu, tabletu i komputera. Większość odwiedzających wejdzie ze smartfona, więc projektuję najpierw pod niego.',
+      },
+      {
+        icon: 'pen',
+        title: 'Projekt nastawiony na kontakt',
+        text: 'Czytelny układ, wyraźne przyciski i numer telefonu pod ręką. Odwiedzający od razu wie, co oferujesz i jak do Ciebie zadzwonić.',
+      },
+      {
+        icon: 'search',
+        title: 'Przygotowana pod Google',
+        text: 'Poprawna struktura, szybkie ładowanie i zoptymalizowane tytuły oraz opisy. Dzięki temu strona ma dobry start w wynikach wyszukiwania.',
+      },
+      {
+        icon: 'shield',
+        title: 'Bezpieczna i zgodna z prawem',
+        text: 'Certyfikat SSL, polityka prywatności i prawidłowo działający baner cookies zgodny z RODO. Bez ryzyka kar i problemów z zaufaniem klientów.',
+      },
+      {
+        icon: 'wrench',
+        title: 'Łatwa w edycji',
+        text: 'Sam zmienisz teksty, zdjęcia i ceny. Dostajesz instrukcję obsługi, a gdy czegoś nie wiesz, wystarczy zadzwonić.',
+      },
+      {
+        icon: 'cart',
+        title: 'Sklep internetowy, gdy go potrzebujesz',
+        text: 'Wdrażam sklepy z płatnościami online, dostawami i panelem do zarządzania produktami, zbudowane m.in. na WooCommerce.',
+      },
+    ],
+  },
+  steps: {
+    h2: 'Jak wygląda współpraca',
+    items: [
+      {
+        title: 'Rozmowa i wycena',
+        text: 'Krótka rozmowa o Twojej firmie i potrzebach. Wycena jest bezpłatna i dopasowana do wielkości projektu.',
+      },
+      {
+        title: 'Projekt',
+        text: 'Przygotowuję projekt strony głównej. Wprowadzamy poprawki do pełnej akceptacji.',
+      },
+      {
+        title: 'Realizacja',
+        text: 'Buduję resztę serwisu, uzupełniam treści i dbam o szybkość oraz widoczność w Google.',
+      },
+      {
+        title: 'Wdrożenie i opieka',
+        text: 'Testy, uruchomienie, instrukcja obsługi i faktura. Po starcie nadal możesz na mnie liczyć.',
+      },
+    ],
+  },
+  why: {
+    h2: 'Dlaczego Amadeo Media',
+    items: [
+      {
+        title: 'Szybko: 5–14 dni',
+        text: 'Od pierwszej rozmowy do uruchomienia zwykle mija od 5 do 14 dni, zależnie od wielkości strony i gotowości materiałów.',
+      },
+      {
+        title: 'Jedna osoba, bezpośredni kontakt',
+        text: 'Rozmawiasz z programistą, który robi Twoją stronę. Bez pośredników i przekazywania informacji.',
+      },
+      {
+        title: 'Sprawdzone realizacje',
+        text: 'Ocena 5,0 w Google z 15 opiniami oraz realizacje, które możesz zobaczyć na stronie głównej.',
+      },
+      {
+        title: 'Jasne zasady',
+        text: 'Bezpłatna wycena, bez ukrytych kosztów. Domena i hosting są płatne osobno, a ja pomagam je wybrać i skonfigurować.',
+      },
+    ],
+  },
+  faq: {
+    h2: 'Najczęstsze pytania',
+    items: [
+      {
+        q: 'Ile trwa stworzenie strony?',
+        a: 'Zwykle od 5 do 14 dni. Dokładny czas zależy od wielkości strony oraz tego, jak szybko przekażesz teksty i zdjęcia. Jeśli ich nie masz, podpowiem, jak je przygotować.',
+      },
+      {
+        q: 'Ile kosztuje strona internetowa?',
+        a: 'Wycena jest indywidualna i zależy od wielkości strony oraz potrzebnych funkcji, dlatego przygotowuję ją bezpłatnie po krótkiej rozmowie. Wystarczy zadzwonić.',
+      },
+      {
+        q: 'Czy domena i hosting są w cenie?',
+        a: 'Są płatne osobno. Pomagam wybrać odpowiednią ofertę i skonfigurować domenę oraz hosting, żebyś nie musiał się tym zajmować.',
+      },
+      {
+        q: 'Czy sam będę mógł edytować stronę?',
+        a: 'Tak. Strona jest zbudowana tak, żebyś mógł samodzielnie zmieniać teksty, zdjęcia i ceny. Dostajesz instrukcję obsługi, a przy większych zmianach chętnie pomogę.',
+      },
+      {
+        q: 'Czy strona będzie widoczna w Google?',
+        a: 'Każda strona jest technicznie przygotowana pod wyszukiwarki, więc ma dobry start. Wysokie pozycje na konkurencyjne frazy wymagają jednak dalszych działań, czyli pozycjonowania.',
+      },
+      {
+        q: 'Czy robisz też sklepy internetowe?',
+        a: 'Tak. Wdrażam sklepy z płatnościami online, dostawami i panelem do zarządzania produktami. Mogę też zająć się integracjami i automatyzacją.',
+      },
+    ],
+  },
+  related: {
+    text: 'Chcesz, żeby klienci znajdowali Cię w Google?',
+    href: '/pozycjonowanie-stron-luban',
+    label: 'Zobacz pozycjonowanie stron',
+  },
+  cta: {
+    h2: 'Porozmawiajmy o Twojej stronie',
+    text: 'Zadzwoń lub napisz. Omówimy, czego potrzebujesz, a wycenę dostaniesz bezpłatnie i bez zobowiązań.',
+  },
+};
 
-const TworzenieStronLuban = ({ t }) => (
-  <>
-    <Helmet title="Tworzenie Stron Lubań | Projektowanie Stron WWW | Amadeo Media">
-      <meta charSet="utf-8" />
-      <meta
-        name="keywords"
-        content="tworzenie stron lubań, tworzenie stron internetowych lubań, projektowanie stron lubań, strony www lubań, web design lubań, strony internetowe lubań, agencja interaktywna lubań"
-      />
-      <meta name="author" content="Amadeusz Grzesiak" />
-      <meta
-        name="description"
-        content="Oferuję profesjonalne tworzenie stron internetowych w Lubaniu. Nowoczesny design, pełna responsywność i optymalizacja SEO pod Google. Zamów bezpłatną konsultację!"
-      />
-    </Helmet>
+const TworzenieStronLuban = () => <Landing page={page} />;
 
-    <section className="showcase-area" id="home">
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-      />
-      <div className="container">
-        <div className="showcase-info">
-          <h3 className="sub-heading">Nowoczesne usługi dla biznesu</h3>
-          {/* POPRAWKA SEO: Krótki, uderzający H1 z precyzyjną frazą */}
-          <h1 className="heading">Tworzenie stron Lubań</h1>
-          <p className="text">
-            Tworzę nowoczesne, szybkie i responsywne strony internetowe dla firm
-            z Lubania i okolic. Zadbaj o profesjonalny wizerunek w sieci, który
-            realnie przekłada się na zdobywanie nowych klientów.
-          </p>
-          <div className="cta">
-            <Link href="/#oferta" className="btn">
-              Sprawdź ofertę
-            </Link>
-            <Link href="/#kontakt" className="btn secondary-btn">
-              Umów bezpłatną konsultację
-            </Link>
-          </div>
-        </div>
-        <div
-          className="showcase-imagee"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}
-        >
-          <div className="shape circle">
-            <Image
-              src={Circle1Img}
-              alt="circle shape"
-              layout="responsive"
-              placeholder="blur"
-            />
-          </div>
-          <Image
-            src={OfferItem1Img}
-            alt="Projektowanie i tworzenie stron internetowych Lubań"
-            placeholder="blur"
-            layout="responsive"
-            priority
-            style={{ objectFit: 'cover', maxWidth: '340px', marginTop: '3rem' }}
-          />
-          <div className="shape dots">
-            <Image
-              src={Dots1Img}
-              alt="dots shape"
-              layout="responsive"
-              placeholder="blur"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="section about-page" id="uslugi">
-      <div className="container">
-        <div className="about-me">
-          {/* POPRAWKA SEO: Rozszerzenie o drugą kluczową frazę w H2 */}
-          <h2 className="heading">
-            Projektowanie i tworzenie stron internetowych w Lubaniu
-          </h2>
-          <p className="text">
-            Szukasz profesjonalnego programisty i projektanta, który stworzy
-            unikalną wizytówkę dla Twojego biznesu? Dobrze trafiłeś. Oferuję
-            kompleksowe <b>tworzenie stron internetowych w Lubaniu</b>,
-            dopasowanych do potrzeb zarówno małych, lokalnych firm, jak i
-            większych przedsiębiorstw.
-          </p>
-          <p className="text">
-            Każdy projekt realizuję z zachowaniem najwyższych standardów: dbam o
-            pełną optymalizację SEO, błyskawiczne ładowanie strony oraz
-            intuicyjną nawigację. Dzięki temu Twoja nowa strona www nie tylko
-            świetnie wygląda, ale też skutecznie pozycjonuje się w wyszukiwarce
-            Google, przyciągając odbiorców z Lubania i całego regionu.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section className="section" style={{ position: 'relative' }}>
-      <Image
-        src={Dots1Img}
-        alt="dots shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          top: '100px',
-          left: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">W czym mogę pomóc Twojej firmie?</h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🌍</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                Responsywne strony WWW
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                Projektuję witryny, które dopasowują się do ekranu każdego
-                urządzenia. Twoja oferta będzie czytelna i atrakcyjna na
-                smartfonach, tabletach i laptopach.
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✏️</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                Projektowanie UX/UI
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                Tworzę intuicyjne, nowoczesne interfejsy. Układ elementów
-                planuję tak, aby ułatwić użytkownikowi kontakt z Tobą i podnieść
-                konwersję.
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔍</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                Optymalizacja SEO pod Google
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                Struktura kodu jest w pełni przygotowana do pozycjonowania, co
-                ułatwi Ci start po najwyższe pozycje na frazy związane z rynkiem
-                w Lubaniu.
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🛒</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                Dedykowane sklepy internetowe
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                Wdrażam bezpieczne i stabilne platformy e-commerce. Integruję
-                systemy szybkich płatności, moduły kurierskie i panele
-                zarządzania produktami.
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚡</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                Optymalizacja wydajności (Performance)
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                Szybkość ma znaczenie. Projektuję z myślą o zielonych
-                wskaźnikach w Core Web Vitals, co doceniają zarówno użytkownicy,
-                jak i algorytmy wyszukiwarki.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      className="section about-page"
-      style={{ backgroundColor: '#f9f9f9' }}
-    >
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">
-            Dlaczego warto podjąć współpracę właśnie ze mną?
-          </h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  Lokalne wsparcie na miejscu
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  Doskonale rozumiem specyfikę rynku w powiecie lubańskim.
-                  Mogę bez problemu omówić Twój projekt na spotkaniu osobistym
-                  lub wygodnie online.
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  Doświadczenie poparte wiedzą
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  Posiadam bogate doświadczenie w obszarze web designu oraz
-                  developmentu. Każdemu zleceniu poświęcam maksimum uwagi,
-                  dbając o unikalne detale.
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  Stała opieka i doradztwo SEO
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  Współpraca nie kończy się na wdrożeniu. Jestem dostępny
-                  również po premierze strony, pomagając w jej rozwoju,
-                  aktualizacjach oraz marketingu.
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  Nowoczesne technologie
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  Pracuję na sprawdzonych środowiskach (WordPress,
-                  React/Next.js). Wykorzystuję rozwiązania gwarantujące
-                  bezpieczeństwo, szybkość oraz pełną skalowalność.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="section" style={{ position: 'relative' }}>
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          bottom: '100px',
-          right: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">
-            Jak wygląda proces powstawania strony internetowej?
-          </h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            {[
-              {
-                step: 1,
-                title: 'Darmowa konsultacja',
-                desc: 'Analizujemy Twoje cele biznesowe, potrzeby użytkowników oraz budżet.',
-              },
-              {
-                step: 2,
-                title: 'Projekt makiety (UI/UX)',
-                desc: 'Tworzę wireframy oraz dopracowany wizualnie mockup, zbierając Twoje uwagi.',
-              },
-              {
-                step: 3,
-                title: 'Kodowanie i optymalizacja',
-                desc: 'Buduję gotową strukturę serwisu, dbając o czysty kod oraz szybkość ładowania.',
-              },
-              {
-                step: 4,
-                title: 'Testy przedwdrożeniowe',
-                desc: 'Przeprowadzam pełne testy responsywności na urządzeniach mobilnych oraz w różnych przeglądarkach.',
-              },
-              {
-                step: 5,
-                title: 'Uruchomienie i wsparcie',
-                desc: 'Przenoszę stronę na Twój serwer, konfiguruję analitykę i pomagam w dalszym rozwoju.',
-              },
-            ].map((item) => (
-              <div
-                key={item.step}
-                style={{
-                  padding: '2rem',
-                  borderRadius: '12px',
-                  backgroundColor: '#fff',
-                  border: '2px solid #e2e8f0',
-                  textAlign: 'center',
-                  transition: 'all 0.3s ease',
-                  position: 'relative',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = '#667eea';
-                  e.currentTarget.style.boxShadow =
-                    '0 8px 24px rgba(102, 126, 234, 0.15)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = '#e2e8f0';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}
-              >
-                <div
-                  style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '50%',
-                    backgroundColor: '#667eea',
-                    color: 'white',
-                    fontSize: '24px',
-                    fontWeight: 'bold',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 1rem',
-                    boxShadow: '0 4px 12px rgba(102, 126, 234, 0.3)',
-                  }}
-                >
-                  {item.step}
-                </div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.8rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {item.title}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.9rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      className="section about-page"
-      style={{ backgroundColor: '#f0f4ff', position: 'relative' }}
-    >
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          top: '50px',
-          right: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '4rem', marginBottom: '1.5rem' }}>📞</div>
-          <h2 className="heading">Zbudujmy Twoją pozycję w sieci</h2>
-          <p
-            className="text"
-            style={{
-              marginBottom: '2rem',
-              maxWidth: '600px',
-              margin: '1.5rem auto 2rem',
-            }}
-          >
-            Szukasz profesjonalisty, który bierze pełną odpowiedzialność za kod
-            i wygląd Twojej strony WWW? Skontaktuj się ze mną – omówimy projekt,
-            a ja przygotuję dla Ciebie darmową, niezobowiązującą wycenę.
-          </p>
-          <div className="container">
-            <Link href="/#kontakt" className="btn">
-              Umów bezpłatną konsultację
-            </Link>
-          </div>
-        </div>
-      </div>
-    </section>
-  </>
-);
-
-export default withTrans(TworzenieStronLuban);
+export default TworzenieStronLuban;

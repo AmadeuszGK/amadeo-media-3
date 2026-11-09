@@ -5,8 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Square1Img from '../../images/square1.png';
 import Circle1Img from '../../images/circle1.png';
-import AmadeuszGrzesiakImg from '../../images/amadeusz-grzesiak.jpg';
 import DotsImg from '../../images/dots.png';
+import AmadeuszGrzesiakImg from '../../images/amadeusz-kawiarnia.jpg';
 
 const AboutUs = ({ t }) => (
   <>
@@ -49,6 +49,7 @@ const AboutUs = ({ t }) => (
               alt="Amadeusz Grzesiak"
               placeholder="blur"
               layout="responsive"
+              sizes="(max-width: 600px) 90vw, 520px"
               priority
             />
           </div>

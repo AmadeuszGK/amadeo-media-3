@@ -9,6 +9,7 @@ import OfferItem2Img from '../../../images/offer-item-img-2.png';
 import OfferItem3Img from '../../../images/offer-item-img-3.png';
 import OfferItem4Img from '../../../images/offer-item-img-4.png';
 import OfferItem5Img from '../../../images/offer-item-img-5.png';
+import OfferItem6Img from '../../../images/offer-item-img-6.png';
 
 const OfferHome = ({ t }) => (
   <section className="services section" id="oferta">
@@ -56,7 +57,10 @@ const OfferHome = ({ t }) => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>
-              <Link href="/tworzenie-stron-luban" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Link
+                href="/tworzenie-stron-luban"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
                 {t('offer.websitesTitle')}
               </Link>
             </h2>
@@ -69,6 +73,9 @@ const OfferHome = ({ t }) => (
               />
             </div>
             <p className="text">{t('offer.websitesText')}</p>
+            <Link href="/tworzenie-stron-luban" className="srv-more">
+              {t('offer.more')} →
+            </Link>
           </div>
           {/* <a href="#" className="btn secondary-btn">
             Więcej
@@ -76,7 +83,14 @@ const OfferHome = ({ t }) => (
         </div>
         <div className="srv-card">
           <div className="card-desc">
-            <h2>{t('offer.storesTitle')}</h2>{' '}
+            <h2>
+              <Link
+                href="/sklepy-internetowe-luban"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
+                {t('offer.storesTitle')}
+              </Link>
+            </h2>{' '}
             <div className="card-img">
               <Image
                 src={OfferItem2Img}
@@ -86,6 +100,9 @@ const OfferHome = ({ t }) => (
               />
             </div>
             <p className="text">{t('offer.storesText')}</p>
+            <Link href="/sklepy-internetowe-luban" className="srv-more">
+              {t('offer.more')} →
+            </Link>
           </div>
           {/* <a href="#" className="btn secondary-btn">
             Więcej
@@ -93,7 +110,14 @@ const OfferHome = ({ t }) => (
         </div>
         <div className="srv-card">
           <div className="card-desc">
-            <h2>{t('offer.graphicTitle')}</h2>{' '}
+            <h2>
+              <Link
+                href="/marketing-internetowy-luban"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
+                {t('offer.graphicTitle')}
+              </Link>
+            </h2>{' '}
             <div className="card-img">
               <Image
                 src={OfferItem3Img}
@@ -103,6 +127,9 @@ const OfferHome = ({ t }) => (
               />
             </div>
             <p className="text">{t('offer.graphicText')}</p>
+            <Link href="/marketing-internetowy-luban" className="srv-more">
+              {t('offer.more')} →
+            </Link>
           </div>
           {/* <a href="#" className="btn secondary-btn">
             Więcej
@@ -110,7 +137,14 @@ const OfferHome = ({ t }) => (
         </div>
         <div className="srv-card">
           <div className="card-desc">
-            <h2>{t('offer.administrationTitle')}</h2>{' '}
+            <h2>
+              <Link
+                href="/administrowanie-stronami"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
+                {t('offer.administrationTitle')}
+              </Link>
+            </h2>{' '}
             <div className="card-img">
               <Image
                 src={OfferItem5Img}
@@ -120,6 +154,9 @@ const OfferHome = ({ t }) => (
               />
             </div>
             <p className="text">{t('offer.administrationText')}</p>
+            <Link href="/administrowanie-stronami" className="srv-more">
+              {t('offer.more')} →
+            </Link>
           </div>
           {/* <a href="#" className="btn secondary-btn">
             Więcej
@@ -128,7 +165,10 @@ const OfferHome = ({ t }) => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>
-              <Link href="/pozycjonowanie-stron-luban" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Link
+                href="/pozycjonowanie-stron-luban"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
                 {t('offer.seoTitle')}
               </Link>
             </h2>{' '}
@@ -141,10 +181,37 @@ const OfferHome = ({ t }) => (
               />
             </div>
             <p className="text">{t('offer.seoText')}</p>
+            <Link href="/pozycjonowanie-stron-luban" className="srv-more">
+              {t('offer.more')} →
+            </Link>
           </div>
           {/* <a href="#" className="btn secondary-btn">
             Więcej
           </a>*/}
+        </div>
+        <div className="srv-card">
+          <div className="card-desc">
+            <h2>
+              <Link
+                href="/automatyzacja-ai"
+                style={{ color: 'inherit', textDecoration: 'none' }}
+              >
+                {t('offer.aiTitle')}
+              </Link>
+            </h2>{' '}
+            <div className="card-img">
+              <Image
+                src={OfferItem6Img}
+                layout="responsive"
+                alt="ai integrations"
+                placeholder="blur"
+              />
+            </div>
+            <p className="text">{t('offer.aiText')}</p>
+            <Link href="/automatyzacja-ai" className="srv-more">
+              {t('offer.more')} →
+            </Link>
+          </div>
         </div>
         <div className="shape square">
           <Image

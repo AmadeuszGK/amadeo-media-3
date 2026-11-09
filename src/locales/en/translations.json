@@ -12,43 +12,51 @@
     "contact": "Contact"
   },
   "header": {
-    "bigTitle": "Modern websites and online stores",
-    "text": "A new quality in creating internet content. Let's do something together!",
-    "portfolio": "Portfolio",
-    "contactMe": "Contact me"
+    "bigTitle": "A website for your business in 5–14 days",
+    "text": "Modern websites and online stores that help customers find you on Google and contact you easily. The quote is free and tailored to your business. Call me and we will work out what you need.",
+    "portfolio": "See my work",
+    "contactMe": "Contact me",
+    "call": "Call: +48 796 536 228",
+    "trust1": "Delivered in 5–14 days",
+    "trust2": "Free quote",
+    "trust3": "Support after launch",
+    "rating": "on Google",
+    "reviews": "reviews"
   },
   "aboutHome": {
     "bigTitle": "Stages of Cooperation",
-    "smallTitle": "FROM IDEA TO REALIZATION",
-    "text": "We start by discussing the details of your website. I will ask questions about its theme, industry, and the sections you would like to include. It’s helpful if you send me examples of websites you like. For an online store, it's important to provide information about the types of products you will be selling and their quantities. Based on this information, I will prepare a project estimate.",
-    "text2": "I will need texts, images, and any notes from you. A domain and hosting are also necessary. If you don't have them, I can assist with the purchase. I begin by designing the homepage. After your approval, I will proceed to build the rest of the website. Finally, I will send you the login details for WordPress along with an instruction manual, and I will issue an invoice.",
+    "smallTitle": "FROM A PHONE CALL TO A FINISHED WEBSITE",
+    "text": "We start with a short conversation about your business: what you do, who your customers are and what kind of website you need. Based on that I prepare a free quote. The price depends on the size of the site and the features needed, so every quote is tailored to a specific business.",
+    "text2": "The whole process usually takes 5 to 14 days. I need texts, photos and feedback from you, and if you do not have them, I will suggest how to prepare them. The domain and hosting are paid separately, but I will help you choose and set them up. In the end you get a site ready to go, a user guide and an invoice.",
     "more": "More",
-    "imageTitle1": "1. Quotation",
+    "imageTitle1": "1. Call and quote",
     "imageTitle2": "2. Design",
-    "imageTitle3": "3. Execution",
-    "imageTitle4": "4. Testing"
+    "imageTitle3": "3. Build",
+    "imageTitle4": "4. Testing and launch"
   },
   "offer": {
     "bigTitle": "How Can I Help You?",
     "smallTitle": "MODERNITY AND USABILITY",
-    "text": "My services are characterized by a modern approach and precision. I offer assistance in design, development, testing, and administration. I will help turn your ideas into a finished product.",
+    "text": "Need a website, or maybe an online store? Since 2018 I have been building websites and stores for businesses that are meant to bring in enquiries and sales. The quote is always free, and the price depends on the size of the project and the features you need.",
     "experience": "Years in the Market",
     "projects": "Projects",
     "clients": "Clients",
     "websitesTitle": "Websites",
-    "websitesText": "My specialty is websites and web applications, all optimized for mobile devices. When creating websites, I pay special attention to SEO, which helps improve search engine rankings.",
+    "websitesText": "From a simple business card site to a large portal. Fast, good-looking websites that work well on phones and are easy to edit yourself. Google optimisation is included from day one.",
     "storesTitle": "E-commerce Stores",
-    "storesText": "I create online stores based on the world's most popular tool, WooCommerce (WordPress). I provide clients with a very intuitive store management system. E-commerce is a great business idea.",
+    "storesText": "Online stores that are fast, clear and sell 24/7. I set up payments, shipping and integrations, and managing the store is simple even for someone with no experience. I work with WooCommerce, among others.",
     "graphicTitle": "Marketing",
-    "graphicText": "In addition to websites and stores (E-commerce), I also focus on marketing. I help set up Google and Facebook ads, manage social media, create content, and set up Google My Business listings.",
+    "graphicText": "I help you be visible where your customers are looking: I set up your Google Business Profile, Google Ads and Meta Ads, run social media and create content.",
     "administrationTitle": "Website Administration",
-    "administrationText": "My clients can always count on me; I assist with the management of websites and online stores, implementing provided content or making modifications. Additionally, I ensure everything is updated, runs smoothly, and create backups.",
+    "administrationText": "You are not left alone after launch. I take care of updates, backups, fixes and new content, and if something goes wrong, just call.",
     "seoTitle": "SEO Positioning",
-    "seoText": "I take care of visibility in Google search. I effectively position websites and stores, resulting in increased reach and sales. SEO is the most effective form of online marketing."
+    "seoText": "I take care of your business's visibility on Google. I optimise websites and stores, including for local search, so customers in your area find you first. The effects are long-term, not just for as long as an ad runs.",
+    "aiTitle": "AI Integrations & Automation",
+    "aiText": "I bring AI in where it saves time and money: assistants and chatbots on your site, automatic replies to enquiries, integrations of your store and website with e-mail, calendar, CRM and databases, plus content and product description generation. Practical solutions, not gimmicks.",
+    "more": "Learn more"
   },
   "site": {
-    "Gatsby Default Starter": "Gatsby Default Starter",
-    "footer": "Built with Gatsby"
+    "rights": "All rights reserved"
   },
   "home": {
     "test": "hello",
@@ -71,24 +79,40 @@
   "clients": {
     "smallTitle": "REVIEWS",
     "bigTitle": "Happy Clients",
-    "text": "Trust my experience and join the ranks of my satisfied clients! I pay attention to every detail to deliver projects that truly work and make an impact. With positive reviews and great results, I know I can help your business soar online."
+    "text": "Trust my experience and join the ranks of my satisfied clients! I pay attention to every detail to deliver projects that truly work and make an impact. With positive reviews and great results, I know I can help your business soar online.",
+    "count": "reviews",
+    "seeAll": "See all reviews",
+    "more": "More",
+    "less": "Less"
   },
   "contact": {
     "smallTitle": "CONTACT",
-    "bigTitle": "Let's cooperate!",
-    "text": "Feel free to use my services. Consultations and quotes are always free, so don't hesitate to send an email or call. I will answer your questions and help you choose the best solution for you.",
+    "bigTitle": "Call me, let's talk",
+    "text": "The quickest way to discuss your needs is over the phone. The consultation and quote are free, with no obligation. I will answer your questions and suggest which solution is best for you. If you prefer, send me an email.",
     "formTitle": "Contact ",
     "formName": "Name",
     "formTelephone": "Telephone",
     "formMessage": "Message...",
     "formText": "The administrator of your personal data is Amadeo Media based in Lubań. Your personal data will be processed in order to handle your inquiry as part of the contact form, as well as for statistical and analytical purposes of the administrator. By sending an e-mail you accept ",
     "formPrivacy": "privacy policy.",
-    "formButton": "Send"
+    "formButton": "Send",
+    "phoneLabel": "Phone"
   },
   "cookies": {
-    "text1": "This website uses cookies. If you continue to browse this site we will assume that you accept ",
-    "text2": "privacy policy and cookies.",
-    "button": "Yes, I accept"
+    "title": "We respect your privacy",
+    "text": "We use cookies that are necessary for the site to work. With your consent we also use Google Analytics to measure traffic and improve the website. You can change your choice at any time.",
+    "policy": "Privacy and cookies policy",
+    "rejectAll": "Reject all",
+    "customize": "Customize",
+    "save": "Save choice",
+    "acceptAll": "Accept all",
+    "necessaryTitle": "Necessary",
+    "necessaryDesc": "Remember your cookie choice. The site does not work properly without them, so they cannot be turned off.",
+    "alwaysOn": "Always active",
+    "analyticsTitle": "Analytics (Google Analytics)",
+    "analyticsDesc": "Anonymous visit statistics: which pages are viewed and where visitors come from. Data is processed by Google. The script does not load without your consent.",
+    "settingsLink": "Cookie settings",
+    "close": "Close settings"
   },
   "aboutMe": {
     "text1": "Mutual understanding and a shared definition of goals are the keys to success. I constantly seek the best solutions and am not afraid of unconventional ideas. Mediocrity does not satisfy me, and I strive for the same for my clients.",
@@ -96,8 +120,8 @@
     "button2": "Contact Me",
     "smallTitle2": "MY STORY",
     "bigTitle2": "About Me",
-    "text2": "My name is Amadeusz Grzesiak, and I am a front-end developer specializing in web applications based on React JS. After graduating from Wrocław University of Technology in 2017, I gained my first experience at one of the leading companies in the Polish gambling industry—Promatic. There, I worked on a platform for game presentation, promotional websites, and online games featuring personalities such as Mariusz Pudzianowski and Zenek Martyniuk. From 2020 to 2022, I was associated with Databout, where I developed the Databout Tools land analysis tool and an advanced application for public consultations (PPGIS). From 2022 to 2023, I worked at the largest IT company in Poland—Sii. During my time with Sii, I had the pleasure of working for the Norwegian company TU Media, a leader in providing technological content for a wide audience. Currently, I provide services for FedEx, an American company specializing in parcel shipping and logistics, where I am part of a team responsible for services such as the returns page, tracking page, and notifications.",
-    "text3": "In addition to my work in the IT industry, I run **Amadeo Media**, where I create modern websites and web applications. As a freelancer, I undertake various projects, including **praca.info**, a job advertisement portal that supports users in their job searches. I also offer SEO positioning, online marketing, and e-commerce store creation services, allowing businesses to sell effectively online. With my experience and technical knowledge, I deliver solutions that yield real business results while paying attention to every detail and quality of execution.",
+    "text2": "I'm Amadeusz Grzesiak, a front-end developer focused on React JS. After graduating from Wrocław University of Technology (2017), I started at Promatic, one of the leading companies in the Polish gambling industry: a game presentation platform, product websites and online games featuring Mariusz Pudzianowski and Zenek Martyniuk, among others. From 2020 to 2022 at Databout I built Databout Tools, a land analysis tool, and a public consultation application (PPGIS). In 2022–2023, through Sii, I worked for the Norwegian company TU Media, a leader in technology content. Today, as part of the FedEx team, I develop web applications for a global logistics company.",
+    "text3": "I also run my own company, Amadeo Media: company websites, online stores and web applications, plus SEO. My work includes sexshoponline.pl and seksowna-bielizna.pl (e-commerce), harasimowiczlegal.pl (law firm), zlotalyzeczka.pl (wedding venue and catering) and praca.info, a job listings portal. I combine experience from large projects with a freelancer's approach: fast, direct and focused on results, meaning traffic, enquiries and sales.",
     "smallTitle3": "Latest Technologies",
     "bigTitle3": "Skills",
     "text4": "All my projects are built using the latest web technologies. This enables me to provide my clients with top-tier solutions that meet the latest standards and market requirements. I continuously develop my skills by taking on new challenges and participating in various courses and training. As a result, I stay updated on the latest industry trends and can offer my clients the best and most modern solutions."
@@ -152,5 +176,23 @@
     "ctaHeading": "Do you want to increase profits and order website positioning in Lubań?",
     "ctaText": "Don't let competing companies take over your clients in the search engine. Contact me, and I will prepare a free analysis for you and suggest how to effectively push your site to the top positions.",
     "ctaBtn": "Order a free SEO audit"
+  },
+  "stickyCall": {
+    "label": "Call now",
+    "aria": "Call Amadeo Media"
+  },
+  "footer": {
+    "tagline": "Websites, online stores, marketing and AI automation for businesses. Delivered in 5–14 days, free quote.",
+    "services": "Services",
+    "links": "Quick links",
+    "contact": "Contact",
+    "home": "Home",
+    "offer": "Offer",
+    "portfolio": "Portfolio",
+    "about": "About me",
+    "reviews": "Reviews",
+    "contactLink": "Contact",
+    "location": "Lubań, Lower Silesia",
+    "callUs": "Call"
   }
 }

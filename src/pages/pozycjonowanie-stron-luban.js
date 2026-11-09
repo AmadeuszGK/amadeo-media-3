@@ -1,704 +1,141 @@
 import React from 'react';
-import Helmet from 'react-helmet';
-import Link from 'next/link';
-import Image from 'next/image';
-import dynamic from 'next/dynamic';
-import { withTrans } from '../i18n/withTrans';
-import Square1Img from '../images/square1.png';
-import Circle1Img from '../images/circle1.png';
-import Dots1Img from '../images/dots.png';
-import OfferItem2Img from '../images/offer-item-img-2.png';
+import Landing from '../components/Landing/Landing';
+import HeroImg from '../images/offer-item-img-4.png';
 
-const PozycjonowanieLuban = ({ t }) => (
-  <>
-    <Helmet title={t('seoLuban.metaTitle')}>
-      <meta charSet="utf-8" />
-      <meta
-        name="keywords"
-        content="pozycjonowanie stron lubań, pozycjonowanie lubań, seo lubań, pozycjonowanie stron internetowych lubań, agencja seo lubań, optymalizacja stron lubań, audyt seo lubań"
-      />
-      <meta name="author" content="Amadeusz Grzesiak" />
-      <meta
-        name="description"
-        content={t('seoLuban.metaDescription')}
-      />
-    </Helmet>
+const page = {
+  path: '/pozycjonowanie-stron-luban',
+  metaTitle:
+    'Pozycjonowanie stron Lubań (SEO) | Lokalne SEO dla firm | Amadeo Media',
+  metaDescription:
+    'Pozycjonowanie stron w Lubaniu i okolicach. Bezpłatny audyt SEO, dobór fraz, optymalizacja i lokalne SEO w Google. Zadzwoń: 796 536 228.',
+  keywords:
+    'pozycjonowanie stron lubań, seo lubań, pozycjonowanie lokalne, audyt seo, profil firmy w google, widoczność w google',
+  serviceName: 'Pozycjonowanie stron internetowych (SEO)',
+  kicker: 'Marketing w wyszukiwarce Google',
+  h1: 'Pozycjonowanie stron Lubań',
+  lead: 'Sprawię, że klienci z Twojej okolicy znajdą Twoją firmę w Google, zanim trafią do konkurencji. Zaczynam od bezpłatnego audytu SEO.',
+  heroImage: HeroImg,
+  heroAlt: 'Pozycjonowanie stron internetowych w Lubaniu',
+  intro: {
+    h2: 'Strona, którą ktoś znajdzie, zarabia',
+    paragraphs: [
+      'Nawet najlepsza strona nie przyniesie zapytań, jeśli nikt na nią nie trafia. Osoby wpisujące w Google frazy typu „mechanik Lubań” czy „usługi budowlane Lubań” szukają usługi od razu, więc to najcenniejsi klienci.',
+      'Pozycjonowanie to praca nad tym, żeby Twoja firma pojawiała się wysoko w wynikach i w Mapach Google. Dobieram frazy, które realnie przynoszą klientów, poprawiam stronę technicznie, dbam o treści i profil firmy w Google. Efekty są długofalowe, a nie tylko na czas trwania reklamy.',
+    ],
+  },
+  features: {
+    h2: 'Co wchodzi w skład pozycjonowania',
+    items: [
+      {
+        icon: 'file',
+        title: 'Bezpłatny audyt SEO na start',
+        text: 'Sprawdzam stronę technicznie i pokazuję, co ją blokuje w wynikach wyszukiwania. Dostajesz konkretną listę poprawek i rekomendację działań.',
+      },
+      {
+        icon: 'search',
+        title: 'Dobór fraz kluczowych',
+        text: 'Wybieram frazy, które wpisują Twoi klienci i które mają realną szansę przynieść zapytania, a nie tylko wizyty.',
+      },
+      {
+        icon: 'speed',
+        title: 'Optymalizacja techniczna',
+        text: 'Przyspieszam stronę, poprawiam strukturę i meta dane oraz dbam o wskaźniki Core Web Vitals i poprawne działanie na telefonie.',
+      },
+      {
+        icon: 'pen',
+        title: 'Treści pod klientów i Google',
+        text: 'Rozbudowuję teksty tak, żeby odpowiadały na pytania klientów i jednocześnie były czytelne dla wyszukiwarki.',
+      },
+      {
+        icon: 'map',
+        title: 'Lokalne SEO i Profil Firmy w Google',
+        text: 'Konfiguruję i optymalizuję Profil Firmy w Google, żeby Twoja firma była widoczna w Mapach i wynikach lokalnych.',
+      },
+      {
+        icon: 'link',
+        title: 'Linki i wiarygodność',
+        text: 'Pozyskuję wartościowe odnośniki i wpisy, które budują zaufanie do Twojej domeny w oczach Google.',
+      },
+    ],
+  },
+  steps: {
+    h2: 'Jak pozycjonuję strony krok po kroku',
+    items: [
+      {
+        title: 'Audyt SEO',
+        text: 'Analizuję stan techniczny strony oraz lokalną konkurencję. Audyt jest bezpłatny.',
+      },
+      {
+        title: 'Frazy i plan',
+        text: 'Wybieram frazy o największym potencjale i ustalam plan działań dopasowany do Twojej branży.',
+      },
+      {
+        title: 'Optymalizacja',
+        text: 'Wdrażam poprawki techniczne, rozbudowuję treści i porządkuję Profil Firmy w Google.',
+      },
+      {
+        title: 'Monitoring i raporty',
+        text: 'Śledzę pozycje i ruch, regularnie pokazuję wyniki i na ich podstawie korygujemy działania.',
+      },
+    ],
+  },
+  why: {
+    h2: 'Dlaczego warto inwestować w lokalne SEO',
+    items: [
+      {
+        title: 'Klienci gotowi na zakup',
+        text: 'Osoby szukające usługi w Google często zamierzają skorzystać z niej od razu. Dobrze widoczna firma przejmuje takie zapytania.',
+      },
+      {
+        title: 'Przewaga nad konkurencją',
+        text: 'Wiele lokalnych firm zaniedbuje SEO, więc systematyczna praca daje wyraźną przewagę w regionie.',
+      },
+      {
+        title: 'Trwały efekt',
+        text: 'W przeciwieństwie do płatnych reklam, ruch z wyszukiwarki utrzymuje się także po zakończeniu głównych prac optymalizacyjnych.',
+      },
+      {
+        title: 'Jasne raporty',
+        text: 'Wiesz, co zostało zrobione i jak zmieniają się pozycje oraz ruch. Bez ogólników i obietnic bez pokrycia.',
+      },
+    ],
+  },
+  faq: {
+    h2: 'Najczęstsze pytania',
+    items: [
+      {
+        q: 'Po jakim czasie będą efekty pozycjonowania?',
+        a: 'Pierwsze zmiany widać zwykle po kilku tygodniach, a stabilne efekty po kilku miesiącach. Dokładny czas zależy od branży, konkurencji i obecnego stanu strony. Audyt pokazuje, czego możesz się spodziewać.',
+      },
+      {
+        q: 'Czy gwarantujesz pierwsze miejsce w Google?',
+        a: 'Nie, bo żaden uczciwy specjalista nie może tego zagwarantować. Gwarantuję natomiast konkretne, rzetelnie wykonane działania, jasne raporty i dopasowanie ich do Twoich fraz.',
+      },
+      {
+        q: 'Ile kosztuje pozycjonowanie?',
+        a: 'Koszt zależy od branży, konkurencji i zakresu działań, dlatego ustalam go indywidualnie po bezpłatnym audycie. Wystarczy zadzwonić.',
+      },
+      {
+        q: 'Czy muszę mieć stronę zrobioną przez Ciebie?',
+        a: 'Nie. Pozycjonuję także strony, które powstały gdzie indziej. Na początku sprawdzam w audycie, czy da się je skutecznie optymalizować.',
+      },
+      {
+        q: 'Czym SEO różni się od reklam Google Ads?',
+        a: 'Reklamy działają tylko tak długo, jak za nie płacisz. Pozycjonowanie buduje trwałą widoczność, która pracuje na Ciebie także po zakończeniu intensywnych działań. Często warto łączyć oba rozwiązania.',
+      },
+    ],
+  },
+  related: {
+    text: 'Nie masz jeszcze nowoczesnej strony?',
+    href: '/tworzenie-stron-luban',
+    label: 'Zobacz tworzenie stron internetowych',
+  },
+  cta: {
+    h2: 'Chcesz być widoczny w Google?',
+    text: 'Zadzwoń lub napisz. Zrobię bezpłatny audyt SEO i pokażę, co możemy poprawić w Twojej widoczności.',
+  },
+};
 
-    <section className="showcase-area" id="home">
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-      />
-      <div className="container">
-        <div className="showcase-info">
-          <h3 className="sub-heading">{t('seoLuban.heroSubHeading')}</h3>
-          <h1 className="heading">{t('seoLuban.heroHeading')}</h1>
-          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.heroText') }} />
-          <div className="cta">
-            <Link href="/#oferta" className="btn">
-              {t('seoLuban.heroBtn1')}
-            </Link>
-            <Link href="/#kontakt" className="btn secondary-btn">
-              {t('seoLuban.heroBtn2')}
-            </Link>
-          </div>
-        </div>
-        <div
-          className="showcase-imagee"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}
-        >
-          <div className="shape circle">
-            <Image
-              src={Circle1Img}
-              alt="circle shape"
-              layout="responsive"
-              placeholder="blur"
-            />
-          </div>
-          <Image
-            src={OfferItem2Img}
-            alt="Skuteczne pozycjonowanie stron Lubań i audyt SEO"
-            placeholder="blur"
-            layout="responsive"
-            priority
-            style={{ objectFit: 'cover', maxWidth: '340px', marginTop: '3rem' }}
-          />
-          <div className="shape dots">
-            <Image
-              src={Dots1Img}
-              alt="dots shape"
-              layout="responsive"
-              placeholder="blur"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+const PozycjonowanieStronLuban = () => <Landing page={page} />;
 
-    <section className="section about-page" id="uslugi">
-      <div className="container">
-        <div className="about-me">
-          {/* POPRAWKA SEO: Naturalne wplecenie frazy w H2 */}
-          <h2 className="heading">
-            {t('seoLuban.aboutHeading')}
-          </h2>
-          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.aboutText1') }} />
-          <p className="text" dangerouslySetInnerHTML={{ __html: t('seoLuban.aboutText2') }} />
-        </div>
-      </div>
-    </section>
-
-    <section className="section" style={{ position: 'relative' }}>
-      <Image
-        src={Dots1Img}
-        alt="dots shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          top: '100px',
-          left: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">
-            {t('seoLuban.featuresHeading')}
-          </h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔎</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                {t('seoLuban.feature1Title')}
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                {t('seoLuban.feature1Text')}
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔑</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                {t('seoLuban.feature2Title')}
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                {t('seoLuban.feature2Text')}
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚙️</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                {t('seoLuban.feature3Title')}
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                {t('seoLuban.feature3Text')}
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📝</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                {t('seoLuban.feature4Title')}
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                {t('seoLuban.feature4Text')}
-              </p>
-            </div>
-
-            <div
-              style={{
-                padding: '2rem',
-                borderRadius: '12px',
-                backgroundColor: '#f9f9f9',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-                transition: 'transform 0.3s ease, boxShadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
-              }}
-            >
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📍</div>
-              <h3
-                style={{
-                  fontSize: '1.2rem',
-                  marginBottom: '0.8rem',
-                  color: '#1a202c',
-                }}
-              >
-                {t('seoLuban.feature5Title')}
-              </h3>
-              <p
-                style={{
-                  color: '#4a5568',
-                  lineHeight: '1.6',
-                  fontSize: '0.95rem',
-                }}
-              >
-                {t('seoLuban.feature5Text')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      className="section about-page"
-      style={{ backgroundColor: '#f9f9f9' }}
-    >
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">
-            {t('seoLuban.whyHeading')}
-          </h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {t('seoLuban.why1Title')}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {t('seoLuban.why1Text')}
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {t('seoLuban.why2Title')}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {t('seoLuban.why2Text')}
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {t('seoLuban.why3Title')}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {t('seoLuban.why3Text')}
-                </p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                padding: '1.5rem',
-                display: 'flex',
-                gap: '1.5rem',
-                alignItems: 'flex-start',
-              }}
-            >
-              <div
-                style={{
-                  minWidth: '50px',
-                  width: '50px',
-                  height: '50px',
-                  borderRadius: '50%',
-                  backgroundColor: '#667eea',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'white',
-                  flexShrink: 0,
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                }}
-              >
-                ✓
-              </div>
-              <div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.5rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {t('seoLuban.why4Title')}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.95rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {t('seoLuban.why4Text')}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="section" style={{ position: 'relative' }}>
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          bottom: '100px',
-          right: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me">
-          <h2 className="heading">{t('seoLuban.stepsHeading')}</h2>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-            }}
-          >
-            {[
-              {
-                step: 1,
-                title: t('seoLuban.step1Title'),
-                desc: t('seoLuban.step1Text'),
-              },
-              {
-                step: 2,
-                title: t('seoLuban.step2Title'),
-                desc: t('seoLuban.step2Text'),
-              },
-              {
-                step: 3,
-                title: t('seoLuban.step3Title'),
-                desc: t('seoLuban.step3Text'),
-              },
-              {
-                step: 4,
-                title: t('seoLuban.step4Title'),
-                desc: t('seoLuban.step4Text'),
-              },
-              {
-                step: 5,
-                title: t('seoLuban.step5Title'),
-                desc: t('seoLuban.step5Text'),
-              },
-            ].map((item) => (
-              <div
-                key={item.step}
-                style={{
-                  padding: '2rem',
-                  borderRadius: '12px',
-                  backgroundColor: '#fff',
-                  border: '2px solid #e2e8f0',
-                  textAlign: 'center',
-                  transition: 'all 0.3s ease',
-                  position: 'relative',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = '#667eea';
-                  e.currentTarget.style.boxShadow =
-                    '0 8px 24px rgba(102, 126, 234, 0.15)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = '#e2e8f0';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}
-              >
-                <div
-                  style={{
-                    width: '50px',
-                    height: '50px',
-                    borderRadius: '50%',
-                    backgroundColor: '#667eea',
-                    color: 'white',
-                    fontSize: '24px',
-                    fontWeight: 'bold',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 1rem',
-                    boxShadow: '0 4px 12px rgba(102, 126, 234, 0.3)',
-                  }}
-                >
-                  {item.step}
-                </div>
-                <h3
-                  style={{
-                    fontSize: '1.1rem',
-                    marginBottom: '0.8rem',
-                    color: '#1a202c',
-                  }}
-                >
-                  {item.title}
-                </h3>
-                <p
-                  style={{
-                    color: '#4a5568',
-                    fontSize: '0.9rem',
-                    lineHeight: '1.6',
-                  }}
-                >
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      className="section about-page"
-      style={{ backgroundColor: '#f0f4ff', position: 'relative' }}
-    >
-      <Image
-        src={Square1Img}
-        alt="square shape"
-        width={70}
-        height={70}
-        className="shape square"
-        layout="raw"
-        placeholder="blur"
-        style={{
-          position: 'absolute',
-          top: '50px',
-          right: '50px',
-          opacity: 0.1,
-        }}
-      />
-      <div className="container">
-        <div className="about-me" style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '4rem', marginBottom: '1.5rem' }}>📈</div>
-          <h2 className="heading">
-            {t('seoLuban.ctaHeading')}
-          </h2>
-          <p
-            className="text"
-            style={{
-              marginBottom: '2rem',
-              maxWidth: '600px',
-              margin: '1.5rem auto 2rem',
-            }}
-          >
-            {t('seoLuban.ctaText')}
-          </p>
-          <div className="container">
-            <Link href="/#kontakt" className="btn">
-              {t('seoLuban.ctaBtn')}
-            </Link>
-          </div>
-        </div>
-      </div>
-    </section>
-  </>
-);
-
-export default withTrans(PozycjonowanieLuban);
+export default PozycjonowanieStronLuban;

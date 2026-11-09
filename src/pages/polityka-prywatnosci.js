@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import Head from 'next/head';
 
 class PrivacyPolicy extends React.Component {
   constructor() {
@@ -22,19 +22,19 @@ class PrivacyPolicy extends React.Component {
   render() {
     return (
       <>
-        <Helmet title="Polityka prywatności - Amadeo Media">
+        <Head>
+          <title>Polityka prywatności - Amadeo Media</title>
           <meta charSet="utf-8" />
           <meta
             name="keywords"
-            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika"
           />
           <meta name="author" content="Amadeusz Grzesiak" />
           <meta
             name="description"
             content="Zajmuję się tworzeniem stron internetowych, sklepów (e-commerce), marketingiem, pozycjonowaniem i nie tylko, sprawdź co jeszcze mam w ofercie!"
           />
-          <html lang="pl-PL" />
-        </Helmet>
+        </Head>
         <section className="privacy section" id="home">
           <div className="container">
             <h1 className="heading">
@@ -49,7 +49,8 @@ class PrivacyPolicy extends React.Component {
                 adresem url: www.amadeomedia.com
                 <br />
                 2. Operatorem serwisu oraz Administratorem danych osobowych
-                jest: Amadeo Media Amadeusz Grzsiak 59-800 Lubań
+                jest: Amadeo Media Amadeusz Grzesiak, NIP 613-158-39-85, 59-800
+                Lubań
                 <br />
                 3. Adres kontaktowy poczty elektronicznej operatora:
                 grzesiak.amadeusz@gmail.com
@@ -199,15 +200,18 @@ class PrivacyPolicy extends React.Component {
 
               <h2>7. Istotne techniki marketingowe</h2>
               <p className="policy__text">
-                1. Operator stosuje analizę statystyczną ruchu na stronie,
-                poprzez Google Analytics (Google Inc. z siedzibą w USA).
-                Operator nie przekazuje do operatora tej usługi danych
-                osobowych, a jedynie zanonimizowane informacje. Usługa bazuje na
-                wykorzystaniu ciasteczek w urządzeniu końcowym użytkownika. W
-                zakresie informacji o preferencjach użytkownika gromadzonych
-                przez sieć reklamową Google użytkownik może przeglądać i
-                edytować informacje wynikające z plików cookies przy pomocy
-                narzędzia: https://www.google.com/ads/preferences/
+                1. Za Twoją zgodą (art. 6 ust. 1 lit. a RODO oraz art. 173 Prawa
+                telekomunikacyjnego) Operator stosuje analizę statystyczną ruchu
+                na stronie za pomocą Google Analytics 4 (Google Ireland Limited
+                oraz Google LLC z siedzibą w USA; przekazanie danych odbywa się
+                na podstawie decyzji Komisji Europejskiej o odpowiednim stopniu
+                ochrony – EU-US Data Privacy Framework). Skrypt Google Analytics
+                nie jest ładowany ani nie zapisuje cookies, dopóki nie wyrazisz
+                na to zgody. Operator nie włącza sygnałów Google ani
+                personalizacji reklam, a usługi reklamowe nie są wykorzystywane.
+                Zgodę możesz w każdej chwili cofnąć przyciskiem „Ustawienia
+                cookies” w stopce strony – cofnięcie zgody nie wpływa na
+                zgodność z prawem przetwarzania dokonanego przed jej cofnięciem.
               </p>
 
               <h2>8. Informacja o plikach cookies</h2>
@@ -258,11 +262,19 @@ class PrivacyPolicy extends React.Component {
                 niektóre funkcjonalności dostępne na stronach internetowych
                 Serwisu.
                 <br />
-                8. Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika
-                Serwisu wykorzystywane mogą być również przez współpracujące z
-                operatorem Serwisu podmioty, w szczególności dotyczy to firm:
-                Google (Google Inc. z siedzibą w USA), Facebook (Facebook Inc. z
-                siedzibą w USA), Twitter (Twitter Inc. z siedzibą w USA).
+                8. Poniżej wykaz wykorzystywanych plików cookies i pamięci
+                przeglądarki:
+                <br />
+                - amadeo-consent (pamięć lokalna localStorage, Operator) –
+                niezbędne; zapamiętuje Twój wybór dotyczący cookies; ważne 12
+                miesięcy, potem zapytamy ponownie;
+                <br />
+                - _ga oraz _ga_JDJ12Z6J8M (Google Analytics, tylko po zgodzie) –
+                analityczne; rozróżniają użytkowników i sesje w celu tworzenia
+                statystyk; ważne do 2 lat.
+                <br />
+                Serwis nie korzysta z cookies reklamowych ani śledzących osób
+                trzecich.
               </p>
 
               <h2>
